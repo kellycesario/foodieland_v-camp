@@ -19,37 +19,42 @@ export default function Footer() {
                 <nav className="navThroughPages">
                     <ul>
                         <li>
-                            Recipes
+                            <a href="">Recipes</a>
                         </li>
                         <li>
-                            Blog
+                            <a href="">Blog</a>
                         </li>
                         <li>
-                            Contact
+                            <a href="">Contact</a>
                         </li>
                         <li>
-                            About us
+                            <a href="">About us</a>
                         </li>
                     </ul>
-                    
                     <hr />
+
                 </nav>
 
+                <p className="flowbaseCopyright">© 2020 Flowbase. Powered by <span className="highlight">Webflow</span></p>
 
 
                 <div className="socialMediaDiv">
-                    <label htmlFor="footerSocialMediaNav">© 2020 Flowbase. Powered by Webflow
-                    </label>
-                    <nav id="socialMediaNav">
+                    <nav className="socialMediaNav">
                         <ul>
                             <li>
-                                <img src={facebookLogo} alt="" />
+                                <a href="">
+                                    <img src={facebookLogo} alt="" />
+                                </a>
                             </li>
                             <li>
-                                <img src={twitterLogo} alt="" />
+                                <a href="">
+                                    <img src={twitterLogo} alt="" />
+                                </a>
                             </li>
                             <li>
-                                <img src={instagramLogo} alt="" />
+                                <a href="">
+                                    <img src={instagramLogo} alt="" />
+                                </a>
                             </li>
                         </ul>
                     </nav>
