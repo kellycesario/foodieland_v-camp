@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './NewsletterStyle.css';
-import emailBackgroundMobile from './../../assets/img/emailBackgroundMobile.png';
+import emailBackgroundMobile from '../../../public/assets/img/emailBackgroundMobile.png';
 
 const SignNewsletter = () => {
     

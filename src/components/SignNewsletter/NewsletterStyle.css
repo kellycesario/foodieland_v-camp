@@ -6,7 +6,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("../../assets/img/emailBackgroundMobile.png");
+    background-image: url("../../../public/assets/img/emailBackgroundMobile.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

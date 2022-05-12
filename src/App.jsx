@@ -1,12 +1,11 @@
-import './styles/Global.css'
-import Index from './components/form/Index.jsx'
+import './../public/styles/Global.css'
+import SignNewsletter from './components/SignNewsletter/'
 
 function App() {
 
-
   return (
     <> 
-      <Index />
+      <SignNewsletter />
     </>
   )
 }
