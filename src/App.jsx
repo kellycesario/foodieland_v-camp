@@ -1,14 +1,14 @@
-import './styles/Global.css'
-import Index from './components/form/Index.jsx'
+import "../public/styles/Global.css";
+import Header from "./components/header";
+import ContactForm from "./components/ContactForm";
 
 function App() {
-
-
   return (
     <> 
-      <Index />
+      <Header />
+      <ContactForm />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
