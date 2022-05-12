@@ -1,4 +1,4 @@
-section {
+.imgNewsletter {
     width: 388.01px;
     height: 495px;
     display: flex;
@@ -12,7 +12,7 @@ section {
     margin-bottom: 152px;
 }
 
-h1 {
+.agoraVai {
     display: flex;
     align-content: center;
     justify-content: center;

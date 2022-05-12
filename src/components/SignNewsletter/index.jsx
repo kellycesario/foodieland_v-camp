@@ -10,9 +10,9 @@ const SignNewsletter = () => {
     }
     
     return (
-        <section>
+        <section className="imgNewsletter">
             <div>
-                <h1>Deliciousness to your inbox</h1>
+                <h1 className="agoraVai">Deliciousness to your inbox</h1>
                 <p className="inviteText">Lorem ipsum dolor sit amet, consectetuipisicing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore 
                     magna aliqut enim ad minim </p>
