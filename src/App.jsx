@@ -1,14 +1,16 @@
 import "../public/styles/Global.css";
-import Header from "./components/header";
+import MainFooter from './components/footer'
+import MainHeader from "./components/header";
 import ContactForm from "./components/ContactForm";
 import SignNewsletter from "./components/SignNewsletter";
 
 function App() {
   return (
-    <> 
-      <Header />
+    <>
+      <MainHeader />
       <ContactForm />
       <SignNewsletter />
+      <MainFooter/>
     </>
   );
 }
