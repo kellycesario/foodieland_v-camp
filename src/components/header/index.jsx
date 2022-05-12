@@ -1,5 +1,5 @@
-import logo from "../../assets/icons/foodielandLogo.svg";
-import "../../styles/Header.css";
+import logo from "../../../public/assets/icons/foodielandLogo.svg";
+import "./Header.css";
 import React, { useState } from "react";
 
 const Header = () => {

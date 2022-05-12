@@ -1,5 +1,5 @@
-import "./styles/Global.css";
-import Header from "./components/header/header";
+import "../public/styles/Global.css";
+import Header from "./components/header";
 
 function App() {
   return (

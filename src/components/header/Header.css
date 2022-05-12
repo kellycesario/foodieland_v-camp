@@ -38,7 +38,7 @@ ul {
 }
 
 .burguer-btn span {
-  background: black;
+  background: var(--fontColor);
   border-radius: 5px;
   height: 8px;
   margin-top: 8px;
