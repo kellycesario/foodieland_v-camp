@@ -1,10 +1,12 @@
 import './styles/Global.css'
+import ContactForm from './components/form/ContactForm'
 
 function App() {
 
 
   return (
-    <>Hello world
+    <> 
+      <ContactForm/>
     </>
   )
 }
