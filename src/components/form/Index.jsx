@@ -7,7 +7,6 @@ const ContactForm = () => {
         console.log(event);
     }
 
-
     return (
         <form onSubmit={submitHandler}>
             <div className="formStyle">
@@ -59,4 +58,4 @@ const ContactForm = () => {
     );
 };
 
-export default ContactForm;
+export default Index;
