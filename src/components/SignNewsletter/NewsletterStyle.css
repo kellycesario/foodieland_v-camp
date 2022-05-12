@@ -9,6 +9,7 @@ section {
     background-image: url("../../../public/assets/img/emailBackgroundMobile.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 152px;
 }
 
 h1 {
