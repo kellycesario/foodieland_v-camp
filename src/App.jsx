@@ -1,12 +1,12 @@
 import './styles/Global.css'
-import ContactForm from './components/form/ContactForm'
+import Index from './components/form/Index.jsx'
 
 function App() {
 
 
   return (
     <> 
-      <ContactForm/>
+      <Index />
     </>
   )
 }
