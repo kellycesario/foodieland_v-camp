@@ -1,0 +1,26 @@
+.formStyleButton {
+    width: 372.59px;
+    height: 64px;  
+    background: #000000;
+    border-radius: 16px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background: none;
+    width: 111.78px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
