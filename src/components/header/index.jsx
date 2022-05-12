@@ -12,8 +12,8 @@ const Header = () => {
     }
   };
   return (
-    <>
-      <div className="navBar">
+    <> 
+      <nav className="navBar">
         <img src={logo} />
         <ul className={`lists ${Modal ? "active" : ""}`}>
           <li>Home</li>
@@ -27,7 +27,7 @@ const Header = () => {
           <span className="burguer2"></span>
           <span className="burguer3"></span>
         </div>
-      </div>
+      </nav>
     </>
   );
 };
