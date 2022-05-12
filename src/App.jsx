@@ -1,14 +1,18 @@
-import './styles/Global.css'
-import Footer from './components/footer'
+import "../public/styles/Global.css";
+import MainFooter from './components/footer'
+import MainHeader from "./components/header";
+import ContactForm from "./components/ContactForm";
+import SignNewsletter from "./components/SignNewsletter";
 
 function App() {
-
-
   return (
     <>
-    <Footer/>
+      <MainHeader />
+      <ContactForm />
+      <SignNewsletter />
+      <MainFooter/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

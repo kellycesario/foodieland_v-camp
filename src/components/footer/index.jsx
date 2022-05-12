@@ -1,12 +1,12 @@
 import React from "react";
 import './footer.css'
-import foodieLandLogo from './../../assets/icons/foodielandLogo.svg'
-import facebookLogo from './../../assets/icons/facebookLogo.svg'
-import twitterLogo from './../../assets/icons/twitterLogo.svg'
-import instagramLogo from './../../assets/icons/instagramLogo.svg'
+import foodieLandLogo from './../../../public/assets/icons/foodielandLogo.svg'
+import facebookLogo from './../../../public/assets/icons/facebookLogo.svg'
+import twitterLogo from './../../../public/assets/icons/twitterLogo.svg'
+import instagramLogo from './../../../public/assets/icons/instagramLogo.svg'
 
 
-export default function Footer() {
+export default function MainFooter() {
     return (
         <footer>
             <div className="containerDiv">
