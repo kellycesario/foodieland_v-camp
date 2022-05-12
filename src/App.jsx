@@ -1,12 +1,14 @@
-import './styles/Global.css'
+import "./styles/Global.css";
+import Header from "./components/header/header";
 
 function App() {
-
-
   return (
-    <>Hello world
+    <>
+      <Header>
+        
+      </Header>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
