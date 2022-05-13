@@ -1,0 +1,64 @@
+.carrossel {
+    margin: 80px auto 0 auto;
+    width: 60%;
+    height: 500px;
+    text-align: left;
+    
+} 
+/* 
+.heart {
+    background-color: #DBE2E5;
+} */
+
+.elipse {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    left: 55%;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red_heart {
+    width: 20.25px;
+    height: 18px;
+    
+}
+
+.red_heart path {
+    fill: #FF6363;
+}
+
+.prev {
+    position: absolute;
+    top: 25%;
+    left: 2.5rem;
+}
+
+.next {
+    position: absolute;
+    top: 25%;
+    right: 0.9rem;
+}
+
+.foodImg {
+    border-radius: 16px;
+}
+
+/* .descriptions {
+    
+
+} */
+
+.descriptions img {
+    margin-top: 25px;
+}
+
+.descriptions p {
+    display: inline-block;
+   
+}

@@ -1,11 +1,15 @@
+
+import CarrouselFood from './components/carrousel/Index'
 import './styles/Global.css'
 
 function App() {
 
 
   return (
-    <>Hello world
-    </>
+    <div>
+     
+      <CarrouselFood/>
+    </div>
   )
 }
 
