@@ -50,9 +50,8 @@ const ContactForm = () => {
                     </div>
                 </section>
 
-                <div>
-                    <button type="submit" className="btn"> Submit </button>
-                </div>
+                <button type="submit" className="btn"> Submit </button>
+                
             </div>
         </form>
     );
