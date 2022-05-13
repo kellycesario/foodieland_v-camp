@@ -1,5 +1,5 @@
 import React from "react";
-import './footer.css'
+import './mainFooter.css'
 import foodieLandLogo from './../../../public/assets/icons/foodielandLogo.svg'
 import facebookLogo from './../../../public/assets/icons/facebookLogo.svg'
 import twitterLogo from './../../../public/assets/icons/twitterLogo.svg'
