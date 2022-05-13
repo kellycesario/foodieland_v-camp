@@ -5,12 +5,14 @@ ul {
 }
 .lists.active {
     position: absolute;
-    
+    background-color: white;
     width: 100%;
-    top: 137px;
-    right: -35px;
+    top: 119px;
+    padding-top:27px ;
+    padding-left: 30px;
+    right: 0px;
     display: block;
-    height: calc(100vh - 137px);
+    height: calc(470px);
     z-index: 1000;
 }
 .lists.active li {
