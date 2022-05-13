@@ -1,16 +1,21 @@
 
 import CarrouselFood from './components/carrousel/Index'
-import './styles/Global.css'
+import "../public/styles/Global.css";
+import MainFooter from './components/MainFooter'
+import MainHeader from "./components/header";
+import ContactForm from "./components/ContactForm";
+import SignNewsletter from "./components/SignNewsletter";
 
 function App() {
-
-
   return (
-    <div>
-     
+    <>
+      <MainHeader />
+      <ContactForm />
+      <SignNewsletter />
       <CarrouselFood/>
-    </div>
-  )
+      <MainFooter/>
+    </>
+  );
 }
 
-export default App
+export default App;
