@@ -10,9 +10,10 @@ const SignNewsletter = () => {
     }
     
     return (
+        <section className="container">
         <section className="imgNewsletter">
             <div>
-                <h1 className="agoraVai">Deliciousness to your inbox</h1>
+                <h1 className="imgTextTitle">Deliciousness to your inbox</h1>
                 <p className="inviteText">Lorem ipsum dolor sit amet, consectetuipisicing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore 
                     magna aliqut enim ad minim </p>
@@ -26,6 +27,7 @@ const SignNewsletter = () => {
                     <button type="submit" className="btn"> Submit </button>
                 </div>
         </form>
+        </section>
         </section>
     )
 
