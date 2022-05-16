@@ -13,42 +13,32 @@ const ContactForm = () => {
             <div className="formStyle">
                 <h1 className="formStyleContact">Contact us</h1>
                 <section>
-                    <label className="title">NAME</label>
-                    <div className="formStyleName">
-                        <input type="text" id="inputForm" pattern="[A-Za-z]{2,50}" className="formPlaceholder" placeholder="Enter your name..." required />
-                    </div>
+                    <label for="inputName" className="title">NAME</label>
+                        <input type="text" id="inputName" pattern="[A-Za-z]{2,50}" placeholder="Enter your name..." required />
                 </section>
 
                 <section>
-                    <label className="title">EMAIL ADDRESS</label>
-                    <div className="formStyleEmail">
-                        <input type="email" id="inputForm" className="formPlaceholder" placeholder="Your email address..." required />
-                    </div>
+                    <label for="inputEmail" className="title">EMAIL ADDRESS</label>
+                        <input type="email" id="inputEmail" placeholder="Your email address..." required />
                 </section>
 
                 <section>
-                    <label className="title">ENQUIRY TYPE</label>
-                    <div className="formStyleEnquiry" placeholder="Advertising">
-                        <input type="" id="inputForm" placeholder="Advertising" />
-                        <select className="formPlaceholder" id="idSelect">
+                    <label for="inputEnquiry" className="title">ENQUIRY TYPE</label>
+                        <select id="inputEnquiry">
+                            <option value ="" disabled selected hidden> Advertising</option>
                             <option value="a">  </option>
                             <option value="b">  </option>
                         </select>
-                    </div>
                 </section>
 
                 <section>
-                    <label className="title">SUBJECT</label>
-                    <div className="formStyleSubject">
-                        <input type="text" id="inputForm" className="formPlaceholder" placeholder="Enter subject..." required />
-                    </div>
+                    <label for="inputSubject" className="title">SUBJECT</label>
+                        <input type="text" id="inputSubject" placeholder="Enter subject..." required />
                 </section>
 
                 <section>
-                    <label className="title">MESSAGES</label>
-                    <div className="formStyleMessages">
-                        <input type="text" id="inputForm" className="formPlaceholder" placeholder="Enter your messages..." required />
-                    </div>
+                    <label for="inputMessages" className="title">MESSAGES</label>
+                        <textarea id="inputMessages" placeholder="Enter your messages..." required />
                 </section>
 
                 <button type="submit" className="btn"> Submit </button>

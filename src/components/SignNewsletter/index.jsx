@@ -20,12 +20,8 @@ const SignNewsletter = () => {
                     magna aliqut enim ad minim </p>
             </div>
             <form onSubmit={submitNewsHandler}>
-                <div className="insertEmail">
-                    <input type="email" className="input" placeholder="Your email address..." required/>
-                </div>
-
-                 <button type="submit" className="btn"> Submit </button>
-                
+                <input type="email" className="input" placeholder="Your email address..."/>
+                <button type="submit" className="btn"> Submit </button>
             </form>
         </section>
         </section>
