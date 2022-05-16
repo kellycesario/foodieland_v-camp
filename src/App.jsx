@@ -1,3 +1,5 @@
+
+import CarrouselFood from './components/carrousel/Index'
 import "../public/styles/Global.css";
 import MainFooter from './components/MainFooter'
 import MainHeader from "./components/header";
@@ -10,6 +12,7 @@ function App() {
       <MainHeader />
       <ContactForm />
       <SignNewsletter />
+      <CarrouselFood/>
       <MainFooter/>
     </>
   );
