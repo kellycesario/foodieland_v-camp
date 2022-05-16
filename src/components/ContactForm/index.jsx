@@ -5,6 +5,7 @@ const ContactForm = () => {
     const submitHandler = (event) => {
         event.preventDefault();
         console.log(event);
+        event.target.reset();
     }
 
     return (

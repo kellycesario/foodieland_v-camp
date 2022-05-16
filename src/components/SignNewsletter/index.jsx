@@ -7,6 +7,7 @@ const SignNewsletter = () => {
     const submitNewsHandler = (event) => {
         event.preventDefault();
         console.log(event);
+        event.target.reset();
     }
     
     return (
@@ -23,10 +24,9 @@ const SignNewsletter = () => {
                     <input type="email" className="input" placeholder="Your email address..." required/>
                 </div>
 
-                <div className="styleButton">
-                    <button type="submit" className="btn"> Submit </button>
-                </div>
-        </form>
+                 <button type="submit" className="btn"> Submit </button>
+                
+            </form>
         </section>
         </section>
     )
