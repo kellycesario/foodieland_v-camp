@@ -1,0 +1,29 @@
+@media (min-width: 1024px) {
+    footer .containerDiv {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    footer .containerDiv .topContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .containerDiv .topContainer .containerHeaderDiv{
+
+    }
+
+
+    footer .containerDiv .topContainer .navThroughPages ul {
+        justify-content: space-around;
+        font-size: 16px;
+    }
+
+    footer .containerDiv .bottomContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    footer .containerDiv .bottomContainer .flowbaseCopyright {}
+}
