@@ -3,6 +3,9 @@ ul {
   text-decoration: none;
   list-style: none;
 }
+.icons {
+  display: none;
+}
 .lists.active {
     position: absolute;
     background-color: white;
@@ -61,4 +64,28 @@ ul {
     transform: rotate(-130deg);
     position: relative;
     top: -16px;
+}
+
+@media (min-width: 1440px) {
+  ul {
+    display: flex;
+  }
+  .burguer-btn{
+    display: none;
+  }
+  .lists li{
+    cursor: pointer;
+    font-weight: 500;
+    padding-right: 60px;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+  }
+  .icons svg {
+   margin-right: 40px;
+  }
 }
