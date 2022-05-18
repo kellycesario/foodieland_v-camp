@@ -75,3 +75,43 @@
     letter-spacing: -0.02em;
     color: rgba(0, 0, 0, 0.4);    
 }
+
+@media screen and (min-width: 1024px) {
+    .imgNewsletter {
+        display: flex;
+        background-image: url("../../../public/assets/img/emailBackground.png");
+        width: 1280px;
+        height: 442px;
+        border-radius: 60px;
+        margin-top: 160px;
+        margin-bottom: 160px;
+        margin-right: 0;
+        padding-top: 80px;
+    }
+    
+    .imgTextTitle {
+        width: 589px;
+        height: 58px;
+        font-size: 48px;
+        margin-bottom: 24px;
+    }
+    
+    .inviteText { 
+        width: 620px;
+        height: 56px;
+        font-weight: 400;
+        margin-bottom: 64px;
+    }
+   
+    .inputEmail {
+        width: 480px;
+        height: 80px;
+        border-radius: 24px;
+    }
+    
+    .inputEmail::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
