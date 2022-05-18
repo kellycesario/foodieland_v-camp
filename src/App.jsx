@@ -7,9 +7,9 @@ import SignNewsletter from "./components/SignNewsletter";
 function App() {
   return (
     <>
-      {/* <MainHeader /> */}
-      {/* <ContactForm /> */}
-      {/* <SignNewsletter /> */}
+      <MainHeader />
+      <ContactForm />
+      <SignNewsletter />
       <MainFooter/>
     </>
   );

@@ -42,8 +42,8 @@ export default function MainFooter() {
 
 
                 <div className="bottomContainer">
+                    
                     <p className="flowbaseCopyright">© 2020 Flowbase. Powered by <span className="highlight">Webflow</span></p>
-
 
                     <div className="socialMediaDiv">
                         <nav className="socialMediaNav">
@@ -66,6 +66,7 @@ export default function MainFooter() {
                             </ul>
                         </nav>
                     </div>
+
                 </div>
             </div>
         </footer>
