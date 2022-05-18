@@ -10,6 +10,7 @@ const SignNewsletter = () => {
     const submitNewsHandler = (event) => {
         event.preventDefault();
         console.log(event);
+        alert("Seu formulário foi enviado com sucesso!")
         event.target.reset();
     }
     

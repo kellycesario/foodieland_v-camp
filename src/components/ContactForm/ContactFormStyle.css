@@ -1,4 +1,4 @@
-.formStyle {
+   .formStyle {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 372.19px;
+    width: 272.19px;
     height: 60px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 16px;
@@ -100,6 +100,32 @@
 #cookerPicture {
     display: none;
 }
+
+@media screen and (min-width: 320px) {
+
+    #inputName,#inputEmail,#inputEnquiry,#inputSubject {
+        width: 252px;
+    }
+  
+    .formStyle {
+        width: 90%;
+    }
+
+    .formStyleContact {
+        width: 252px;
+        font-size: 44px;
+    }
+  
+    .btn {
+        width: 252px;
+    }
+  
+    #inputMessages {
+        width: 252px;
+    }
+  
+  }
+
 
  @media screen and (min-width: 1024px) {
     
