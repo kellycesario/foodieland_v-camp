@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './NewsletterStyle.css';
+import SubmitButton from "./../ContactForm/SubmitButton";
+import InputField from "./../ContactForm/InputField";
 import emailBackgroundMobile from '../../../public/assets/img/emailBackgroundMobile.png';
+import emailBackground from '../../../public/assets/img/emailBackground.png';
 
 const SignNewsletter = () => {
     
@@ -19,10 +22,12 @@ const SignNewsletter = () => {
                     sed do eiusmod tempor incididunt ut labore et dolore 
                     magna aliqut enim ad minim </p>
             </div>
+            <div className="box">
             <form onSubmit={submitNewsHandler}>
-                <input type="email" className="input" placeholder="Your email address..."/>
-                <button type="submit" className="btn"> Submit </button>
+                <InputField for="inputEmail" type="email" id="inputEmail" placeholder="Your email address...">  </InputField>
+                <SubmitButton className="btn"> Submit </SubmitButton>
             </form>
+            </div>
         </section>
         </section>
     )
