@@ -1,9 +1,9 @@
-import FruitSalad from '../../assets/img/fruitSalad.png';
-import FriedRice from '../../assets/img/friedRice.png';
-import TacoVeggie from '../../assets/img/tacoVeggie.png';
-import WagyuBeefBurguer from '../../assets/img/wagyuBeefBurguer.png';
-import Timer from '../../assets/icons/timer.svg';
-import ForkKnife from '../../assets/icons/forkKnife.svg';
+import FruitSalad from '../../../public/assets/img/fruitSalad.png';
+import FriedRice from '../../../public/assets/img/friedRice.png';
+import TacoVeggie from '../../../public/assets/img/tacoVeggie.png';
+import WagyuBeefBurguer from '../../../public/assets/img/wagyuBeefBurguer.png';
+import Timer from '../../../public/assets/icons/timer.svg';
+import ForkKnife from '../../../public/assets/icons/forkKnife.svg';
 
 export const ImgSlider = [
     {
