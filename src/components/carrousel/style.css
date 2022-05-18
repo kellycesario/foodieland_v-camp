@@ -1,9 +1,9 @@
 .carrossel {
-    margin: 80px auto 0 auto;
+    position: relative;
     width: 60%;
     height: 500px;
-    text-align: left;
-    
+    margin-left: 67px;
+    transition-delay: 5s;
 } 
 /* 
 .heart {
@@ -14,51 +14,66 @@
     border-radius: 50%;
     width: 48px;
     height: 48px;
-    background-color: #ffffff;
+    background-color: #fff;
     left: 55%;
     position: absolute;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 8px;
+    margin-left: 88px;
 }
 
-.red_heart {
+.default_heart {
+    cursor: pointer;
+    position: absolute;
     width: 20.25px;
     height: 18px;
+    margin-top: 17px;
+    margin-left: 14px;
+    filter: invert(59%) sepia(1%) saturate(2325%) hue-rotate(169deg) brightness(96%) contrast(7%);
+    
     
 }
 
-.red_heart path {
-    fill: #FF6363;
+.red_heart {
+    cursor: pointer;
+    position: absolute;
+    width: 20.25px;
+    height: 18px;
+    margin-top: 17px;
+    margin-left: 14px;
+    filter: invert(75%) sepia(65%) saturate(6589%) hue-rotate(328deg) brightness(113%) contrast(104%)
+    
 }
+
 
 .prev {
     position: absolute;
-    top: 25%;
-    left: 2.5rem;
+    top: 20%;
+    right: 275px;
 }
 
 .next {
     position: absolute;
-    top: 25%;
-    right: 0.9rem;
+    top: 20%;
+    left: 310px;
 }
 
 .foodImg {
+    
     border-radius: 16px;
 }
 
-/* .descriptions {
-    
+.descriptions {
+    display: flex;
 
-} */
+}
 
 .descriptions img {
-    margin-top: 25px;
+    padding-top: 20px;
+    
 }
 
 .descriptions p {
-    display: inline-block;
-   
+    padding-top: 22px;
+    padding-right: 30px;
 }
+
