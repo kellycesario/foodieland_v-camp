@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { ImgSlider } from './SliderImg';
-import ArrowLeft from '../../assets/icons/arrowLeft.svg';
-import ArrowRight from '../../assets/icons/arrowRight.svg';
-import Heart from '../../assets/icons/heart.svg';
+import ArrowLeft from '../../../public/assets/icons/arrowLeft.svg';
+import ArrowRight from '../../../public/assets/icons/arrowRight.svg';
+import Heart from '../../../public/assets/icons/heart.svg';
 import './style.css'
 
 const CarrouselFood = () => {
@@ -19,11 +19,7 @@ const CarrouselFood = () => {
     }
 
     const changeHeartColor = () => {
-        if (heartColor === false){
-            setHeartColor(true);
-        } else {
-            setHeartColor(false);
-        }
+        setHeartColor(!heartColor);
         
     }
 
@@ -37,7 +33,7 @@ const CarrouselFood = () => {
             <img src={ArrowLeft} onClick={previousSlide} className='prev'/>
             <img src={ArrowRight} onClick={nextSlide} className='next'/>
             <div className="elipse">
-                <img src={Heart} onClick={changeHeartColor} className={heartColor ? "red_heart" : "" }/>
+                <img src={Heart} onClick={changeHeartColor} className={heartColor ? "red_heart" : "default_heart" }/>
             </div>
             {ImgSlider.map((slide, index) => {
                 return(
