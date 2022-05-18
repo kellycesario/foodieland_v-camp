@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import './NewsletterStyle.css';
+import SubmitButton from "./../ContactForm/SubmitButton";
+import InputField from "./../ContactForm/InputField";
 import emailBackgroundMobile from '../../../public/assets/img/emailBackgroundMobile.png';
+import emailBackground from '../../../public/assets/img/emailBackground.png';
 
 const SignNewsletter = () => {
     
     const submitNewsHandler = (event) => {
         event.preventDefault();
         console.log(event);
+        event.target.reset();
     }
     
     return (
@@ -18,15 +22,12 @@ const SignNewsletter = () => {
                     sed do eiusmod tempor incididunt ut labore et dolore 
                     magna aliqut enim ad minim </p>
             </div>
+            <div className="box">
             <form onSubmit={submitNewsHandler}>
-                <div className="insertEmail">
-                    <input type="email" className="input" placeholder="Your email address..." required/>
-                </div>
-
-                <div className="styleButton">
-                    <button type="submit" className="btn"> Submit </button>
-                </div>
-        </form>
+                <InputField for="inputEmail" type="email" id="inputEmail" placeholder="Your email address...">  </InputField>
+                <SubmitButton className="btn"> Submit </SubmitButton>
+            </form>
+            </div>
         </section>
         </section>
     )

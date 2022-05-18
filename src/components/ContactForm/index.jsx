@@ -1,60 +1,58 @@
-import React, { useState } from 'react';
-import './ContactFormStyle.css';
+import React, { useState } from "react";
+import "./ContactFormStyle.css";
+import cookerBackground from "../../../public/assets/img/cookerBackground.png";
+import InputField from "./InputField";
+import SubmitButton from "./SubmitButton";
 
 const ContactForm = () => {
-    const submitHandler = (event) => {
-        event.preventDefault();
-        console.log(event);
-    }
+  const submitHandler = (event) => {
+    event.preventDefault();
+    console.log(event);
+    event.target.reset();
+  };
 
-    return (
-        <form onSubmit={submitHandler}>
-            <div className="formStyle">
-                <h1 className="formStyleContact">Contact us</h1>
-                <section>
-                    <label className="title">NAME</label>
-                    <div className="formStyleName">
-                        <input type="text" id="inputForm" pattern="[A-Za-z]{2,50}" className="formPlaceholder" placeholder="Enter your name..." required />
-                    </div>
-                </section>
+  return (
+    <form onSubmit={submitHandler}>
+        <div className="formStyle">
+        <h1 className="formStyleContact">Contact us</h1>
+        
+        <div id="temp">
+          
+        <section>
+            <img src="../../../public/assets/img/cookerBackground.png" id="cookerPicture" />
+        </section>
+          
+        <section id="containerInputs">
 
-                <section>
-                    <label className="title">EMAIL ADDRESS</label>
-                    <div className="formStyleEmail">
-                        <input type="email" id="inputForm" className="formPlaceholder" placeholder="Your email address..." required />
-                    </div>
-                </section>
-
-                <section>
-                    <label className="title">ENQUIRY TYPE</label>
-                    <div className="formStyleEnquiry" placeholder="Advertising">
-                        <input type="" id="inputForm" placeholder="Advertising" />
-                        <select className="formPlaceholder" id="idSelect">
-                            <option value="a">  </option>
-                            <option value="b">  </option>
-                        </select>
-                    </div>
-                </section>
-
-                <section>
-                    <label className="title">SUBJECT</label>
-                    <div className="formStyleSubject">
-                        <input type="text" id="inputForm" className="formPlaceholder" placeholder="Enter subject..." required />
-                    </div>
-                </section>
-
-                <section>
-                    <label className="title">MESSAGES</label>
-                    <div className="formStyleMessages">
-                        <input type="text" id="inputForm" className="formPlaceholder" placeholder="Enter your messages..." required />
-                    </div>
-                </section>
-
-                <button type="submit" className="btn"> Submit </button>
+            <InputField for="inputName" type="text" id="inputName" pattern="[A-Za-z]{2,50}" placeholder="Enter your name..." className="title"> NAME </InputField>
                 
-            </div>
-        </form>
-    );
+            <InputField for="inputEmail" type="email" id="inputEmail" placeholder="Your email address..." className="title"> EMAIL ADDRESS </InputField>
+                
+            <section>
+                <label for="inputEnquiry" className="title"> ENQUIRY TYPE </label>
+                <select id="inputEnquiry">
+                    <option value="" disabled selected hidden> {" "} Advertising </option>
+                    <option value="a"> </option>
+                    <option value="b"> </option>
+                </select>
+            </section>
+
+            <InputField for="inputSubject" type="email" id="inputSubject" placeholder="Enter subject..." className="title"> SUBJECT </InputField>
+
+            <section>
+                <label for="inputMessages" className="title"> MESSAGES </label>
+                <textarea id="inputMessages" placeholder="Enter your messages..." required />
+
+                <SubmitButton className="btn"> Submit </SubmitButton>
+                
+            </section>
+
+        </section>
+
+        </div>
+        </div>
+    </form>
+  );
 };
 
 export default ContactForm;
