@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .formStyleContact {
@@ -46,6 +47,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     margin-bottom: 13px;
+    margin-left: 0;
     padding-left: 22px;
     outline: none;
 }
@@ -94,3 +96,74 @@
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.6);
 }
+
+#cookerPicture {
+    display: none;
+}
+
+ @media screen and (min-width: 1024px) {
+    
+	.formStyleContact {
+		padding-top: 84px;
+        padding-bottom: 80px;
+		font-size: 64px;
+		line-height: 77px;
+	}
+
+    .btn {
+        width: 180px;
+        height: 64px;
+        margin: 0;
+    }
+
+    #inputName, #inputEnquiry {
+        width: 400px;
+        height: 60px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+    #inputEmail, #inputSubject {
+        width: 400px;
+        height: 60px;
+        margin-right: 0px;
+        margin-left: 0;
+    }
+
+    #inputMessages {
+        width: 840px;
+        height: 200px;
+        margin-bottom: 48px;
+        margin-right: 0;
+    }
+
+    #cookerPicture {
+        display: flex;
+        width: 400px;
+        height: 472px;
+        margin-left: 110px;
+        margin-right: 40px;
+    }
+
+    #containerInputs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        align-content: center;
+    }
+
+    #temp {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .title {
+        margin-right: 0;
+    }
+ }
