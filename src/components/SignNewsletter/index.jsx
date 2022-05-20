@@ -31,7 +31,7 @@ const SignNewsletter = () => {
               className="emailInputFix"
               placeholder="Your email address..."
             />
-            <button type="submit" className="btn">Subscribe</button>
+            <button type="submit" className="btn newsBtn">Subscribe</button>
           </form>
         </div>
       </section>
