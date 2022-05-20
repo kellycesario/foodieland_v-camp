@@ -76,11 +76,10 @@
     color: rgba(0, 0, 0, 0.4);    
 }
 
-/* Correção nos ultimos segundos */
-/* Nao mexer */
-/* Nao mexer */
-/* Nao mexer */
 
+/*  */
+/*  */
+/*  */
 .formNewsLetter{
     flex-direction: column;
     align-items: center;
@@ -106,10 +105,25 @@
     text-align: start;
 }
 
-/* Correção nos ultimos segundos */
-/* Nao mexer */
-/* Nao mexer */
-/* Nao mexer */
+
+@media screen and (min-width: 320px) {
+    .imgNewsletter {
+        width: 90%;
+        border-radius: 12%;
+        background-position: center;
+    }
+
+    .inviteText {
+        width: 100%;
+        transform: scale(0.9);
+    }
+
+    .imgTextTitle {
+        font-size: 20px;
+    }
+
+}
+
 
 @media screen and (min-width: 1024px) {
     .imgNewsletter {

@@ -8,6 +8,7 @@ const ContactForm = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     console.log(event);
+    alert("Seu formulário foi enviado com sucesso!")
     event.target.reset();
   };
 
@@ -37,7 +38,7 @@ const ContactForm = () => {
                 </select>
             </section>
 
-            <InputField for="inputSubject" type="email" id="inputSubject" placeholder="Enter subject..." className="title"> SUBJECT </InputField>
+            <InputField for="inputSubject" type="text" id="inputSubject" placeholder="Enter subject..." className="title"> SUBJECT </InputField>
 
             <section>
                 <label for="inputMessages" className="title"> MESSAGES </label>
