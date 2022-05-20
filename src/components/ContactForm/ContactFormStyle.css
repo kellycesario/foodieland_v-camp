@@ -136,6 +136,11 @@
 		line-height: 77px;
 	}
 
+    .formStyleContact {
+        font-size: 64px;
+        width: 315px;
+    }
+
     .btn {
         width: 180px;
         height: 64px;
