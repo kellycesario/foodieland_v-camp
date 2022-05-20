@@ -1,10 +1,10 @@
 a {
     color: black;
-  text-decoration: none; /* no underline */
+    text-decoration: none;
+    /* no underline */
 }
 
 footer {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,13 +12,21 @@ footer {
 
     margin-top: 70px;
 }
+
 footer .containerDiv {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 59px;
 
 }
-footer .containerDiv .containerHeaderDiv {
+
+footer .containerDiv .topContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .containerDiv .topContainer .containerHeaderDiv {
 
     width: 100%;
 
@@ -27,81 +35,103 @@ footer .containerDiv .containerHeaderDiv {
     align-items: center;
     flex-wrap: wrap;
 }
-footer .containerDiv .containerHeaderDiv img {
+
+footer .containerDiv .topContainer .containerHeaderDiv img {
     /* width: 110px; */
     /* height: 24px; */
     margin-right: auto;
     margin-bottom: 51px;
 }
 
-footer .containerDiv .containerHeaderDiv  p {
+footer .containerDiv .topContainer .containerHeaderDiv p {
+    width: 100%;
     margin-bottom: 42px;
     color: rgba(0, 0, 0, 0.6);
 }
 
 
-footer .containerDiv .navThroughPages{
+
+
+footer .containerDiv .topContainer .navThroughPages {
     width: 100%;
-    margin-bottom: 38.88px;
 }
-footer .containerDiv .navThroughPages ul{
+
+footer .containerDiv .topContainer .navThroughPages ul {
     font-size: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5.12px;
 
 }
-footer .containerDiv .navThroughPages ul li{
-    margin:0;
+
+footer .containerDiv .topContainer .navThroughPages ul li {
+    margin: 0;
     padding: 0;
 
     font-weight: 700;
 
-
     text-indent: 0;
     list-style-type: none;
-}
-footer .containerDiv .navThroughPages hr{
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 5.12px;
 }
 
-.flowbaseCopyright {
+footer .containerDiv hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 38.88px;
+
+}
+
+footer .containerDiv .bottomContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(154px, 395px),auto-fill);
+    grid-template-rows: 1fr;
+}
+
+footer .containerDiv .bottomContainer .flowbaseCopyright {
     color: rgba(0, 0, 0, 0.6);
     width: 100%;
     margin-bottom: 43px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+
 }
 
-.flowbaseCopyright span {
+footer .containerDiv .bottomContainer .flowbaseCopyright span {
     color: var(--salmon);
 }
 
 
-footer .containerDiv .socialMediaDiv {
+footer .containerDiv .bottomContainer .socialMediaDiv {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
 }
-footer .containerDiv .socialMediaDiv .socialMediaNav {}
-footer .containerDiv .socialMediaDiv .socialMediaNav ul{
+
+footer .containerDiv .bottomContainer .socialMediaDiv .socialMediaNav {
+    height: 24px;
+}
+
+footer .containerDiv .bottomContainer .socialMediaDiv .socialMediaNav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:    57px;
+    gap: 57px;
     flex-wrap: wrap;
+
+    height: 24px;
 
     margin-bottom: 58.45px;
 }
-footer .containerDiv .socialMediaDiv .socialMediaNav ul li{
-    margin:0;
+
+footer .containerDiv .bottomContainer .socialMediaDiv .socialMediaNav ul li {
+    margin: 0;
     padding: 0;
     text-indent: 0;
     list-style-type: none;
 
 
 }
-footer .containerDiv .socialMediaDiv .socialMediaNav ul li img{}
+
+footer .containerDiv .bottomContainer .socialMediaDiv .socialMediaNav ul li img {}
