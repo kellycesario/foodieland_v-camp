@@ -1,6 +1,7 @@
 .carrossel {
     display: flex;
     flex-direction: column;
+    padding: 0px 20px
     
 }
 
@@ -16,10 +17,6 @@
     overflow: hidden;
     overflow-x: auto;
     scroll-behavior: smooth;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 100px;
-    margin-left: 52px;
 }
 
 .slidesFood::-webkit-scrollbar {

@@ -130,6 +130,7 @@
         display: flex;
         background-image: url("../../../public/assets/img/emailBackground.png");
         width: 1280px;
+        max-width: 95%;
         height: 442px;
         border-radius: 60px;
         margin-top: 160px;
