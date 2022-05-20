@@ -1,21 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { ImgSlider } from './SliderImg';
 import ArrowLeft from '../../../public/assets/icons/arrowLeft.svg';
 import ArrowRight from '../../../public/assets/icons/arrowRight.svg';
 import Heart from '../../../public/assets/icons/heart.svg';
+import Ellipse from '../../../public/assets/img/Ellipse 4.png'
 import './style.css'
 
 const CarrouselFood = () => {
+    const carroussel = useRef(null);
     const [foodSlide, setFoodSlide] = useState(0);
     const [heartColor, setHeartColor] = useState(false);
     const slideLength = ImgSlider.length;
 
     const nextSlide = () => {
-        setFoodSlide(foodSlide === slideLength - 1 ? 0 : foodSlide + 1);
+        carroussel.current.scrollBy(340, 0);
+        // setFoodSlide(foodSlide === slideLength - 1 ? 0 : foodSlide + 1);
     }
 
     const previousSlide = () => {
-        setFoodSlide(foodSlide === 0 ? slideLength - 1 : foodSlide - 1);
+        carroussel.current.scrollBy(-340, 0);
+        // setFoodSlide(foodSlide === 0 ? slideLength - 1 : foodSlide - 1);
     }
 
     const changeHeartColor = () => {
@@ -29,16 +33,20 @@ const CarrouselFood = () => {
     }, [])
 
     return (
-        <div className='carrossel'>
-            <img src={ArrowLeft} onClick={previousSlide} className='prev'/>
-            <img src={ArrowRight} onClick={nextSlide} className='next'/>
-            <div className="elipse">
-                <img src={Heart} onClick={changeHeartColor} className={heartColor ? "red_heart" : "default_heart" }/>
-            </div>
-            {ImgSlider.map((slide, index) => {
+        <div className='carrossel'> 
+            <div className='carrossel_title'><h1>Checkout the delicious recipe</h1></div>
+            <div className='carrossel__container'> 
+                <div className='leftArrow'><img src={ArrowLeft} onClick={previousSlide} className='prev'/></div>
+
+                <div className='slidesFood' ref={carroussel}>
+                { ImgSlider.map((slide, index) => {
                 return(
-                    <div className={index === foodSlide ? "slide_current" : "slide" } key={index}>
-                        {index === foodSlide && (
+                    <div className='logica' key={index}>
+                        <div className="like__button">
+                            <img src={Ellipse} className='ellipse' />
+                            <img src={Heart} onClick={changeHeartColor} className={heartColor ? "red_heart" : "default_heart" }/>
+                         </div>
+                        
                             <>
                             
                             <img src={slide.image} alt="Imagens" className='foodImg' />
@@ -53,10 +61,15 @@ const CarrouselFood = () => {
                             </div>
                             
                             </>
-                        )}
+                        
                     </div>
                 )
             })}
+                </div>
+                <div className='arrowRight' onClick={nextSlide} ><img src={ArrowRight}  className='next'/></div>                
+            </div>           
+            
+           
         </div>
     );
 };
