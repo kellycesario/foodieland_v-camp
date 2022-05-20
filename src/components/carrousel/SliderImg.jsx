@@ -5,6 +5,7 @@ import WagyuBeefBurguer from '../../../public/assets/img/wagyuBeefBurguer.png';
 import Timer from '../../../public/assets/icons/timer.svg';
 import ForkKnife from '../../../public/assets/icons/forkKnife.svg';
 
+
 export const ImgSlider = [
     {
         image: FruitSalad,
