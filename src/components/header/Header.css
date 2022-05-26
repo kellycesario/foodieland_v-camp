@@ -1,4 +1,4 @@
-ul {
+.navbar__lists {
   display: none;
   text-decoration: none;
   list-style: none;
@@ -6,7 +6,7 @@ ul {
 .icons {
   display: none;
 }
-.lists.active {
+.navbar__lists--active {
     position: absolute;
     background-color: white;
     width: 100%;
@@ -18,7 +18,7 @@ ul {
     height: calc(470px);
     z-index: 1000;
 }
-.lists.active li {
+.navbar__lists--active li {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 24px;
@@ -35,7 +35,7 @@ ul {
   margin-bottom: 31px;
 }
 
-.burguer-btn {
+.navBar__burguerBtn {
   display: flex;
   flex-direction: column;
   width: 55px;
@@ -43,7 +43,7 @@ ul {
   
 }
 
-.burguer-btn span {
+.navBar__burguerBtn span {
   background: var(--fontColor);
   border-radius: 5px;
   height: 8px;
@@ -53,27 +53,27 @@ ul {
   
 }
 
-.burguer-btn.active .burguer1{
+.navBar__burguerBtn--active .navBar__burguer1{
     background-color: transparent;
 }
-.burguer-btn.active .burguer2{
+.navBar__burguerBtn--active .navBar__burguer2{
     transform: rotate(130deg);
     position: relative;
 }
-.burguer-btn.active .burguer3{
+.navBar__burguerBtn--active .navBar__burguer3{
     transform: rotate(-130deg);
     position: relative;
     top: -16px;
 }
 
 @media (min-width: 1024px) {
-  ul {
+  .navbar__lists {
     display: flex;
   }
-  .burguer-btn{
+  .navBar__burguerBtn{
     display: none;
   }
-  .lists li{
+  .navbar__lists li{
     cursor: pointer;
     font-weight: 500;
     padding-right: 60px;

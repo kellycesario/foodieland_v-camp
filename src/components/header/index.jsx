@@ -15,7 +15,7 @@ const Header = () => {
     <>
       <nav className="navBar">
         <img src={logo} />
-        <ul className={`lists ${Modal ? "active" : ""}`}>
+        <ul className={`navbar__lists ${Modal ? "navbar__lists--active" : ""}`}>
           <li>Home</li>
           <li>Recipes</li>
           <li>Blog</li>
@@ -23,12 +23,12 @@ const Header = () => {
           <li>Contact</li>
         </ul>
         <div
-          className={`burguer-btn ${Modal ? "active" : ""}`}
+          className={`navBar__burguerBtn ${Modal ? "navBar__burguerBtn--active" : ""}`}
           onClick={handleClick}
         >
-          <span className="burguer1"></span>
-          <span className="burguer2"></span>
-          <span className="burguer3"></span>
+          <span className="navBar__burguer1"></span>
+          <span className="navBar__burguer2"></span>
+          <span className="navBar__burguer3"></span>
         </div>
         <div className="icons">
           <svg
