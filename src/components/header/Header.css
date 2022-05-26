@@ -54,7 +54,7 @@
 }
 
 .navBar__burguerBtn--active .navBar__burguer1{
-    background-color: transparent;
+  
 }
 .navBar__burguerBtn--active .navBar__burguer2{
     transform: rotate(130deg);
