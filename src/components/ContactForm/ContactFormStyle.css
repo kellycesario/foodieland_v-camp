@@ -1,93 +1,75 @@
-   .formStyle {
-    display: flex;
+.form__section {
+    width: 100vw;
+    display: grid;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
-.formStyleContact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 337px;
-    height: 73px;
+.form__title {
     font-style: normal;
     font-weight: 600;
     font-size: 60px;
     line-height: 73px;
     letter-spacing: -0.04em;
-    color: #000000;
-    margin-bottom: 28px;
+    margin-bottom: 32px;
 }
 
-.btn {
-    background: #000000;
-    width: 372.59px;
-    height: 64px;
-    border-radius: 16px;
-    color: #ffffff;
-    margin-bottom: 29.5px;
-    margin-top: 36.5px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-#inputName, #inputEmail, #inputEnquiry, #inputSubject {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 272.19px;
+.input__name, .input__email, .input__enquiry, .input__subject {
+    width: 373px;
     height: 60px;
+    background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 16px;
-    margin-bottom: 13px;
-    margin-left: 0;
-    padding-left: 22px;
-    outline: none;
+    margin-bottom: 32px;
+    padding: 9px 18px 10px
+
 }
 
-#inputMessages {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 372.19px;
+.input__messages {
+    width: 373px;
     height: 200px;
+    background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 16px;
-    margin-bottom: 13px;
-    padding-top: 20px;
-    padding-left: 19px;
-    outline: none;
+    margin-bottom: 32px;
+    padding: 9px 18px 10px
+}
+
+.input__name, .input__email, .input__enquiry, .input__subject, .input__messages::-webkit-input-placeholder {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 24px;    
     letter-spacing: -0.02em;
     color: rgba(0, 0, 0, 0.6);
     opacity: 0.8;
 }
 
-#inputName, #inputEmail, #inputEnquiry, #inputSubject, #inputMessages::-webkit-input-placeholder {
+.button__submit {
+    width: 373px;
+    height: 64px;
+    background: #000000;
+    border-radius: 16px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 24px;
-    color: rgba(0, 0, 0, 0.6);
-    opacity: 0.8;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
 
-.title {
+.cooker__picture {
+    display: none;
+}
+
+#input__title {
     display: flex;
+    align-items: flex-end;
     justify-content: flex-start;
-    margin-bottom: 5px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -95,106 +77,95 @@
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.6);
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 
-#cookerPicture {
-    display: none;
-}
-
-@media screen and (min-width: 320px) {
-
-    #inputName,#inputEmail,#inputEnquiry,#inputSubject {
-        width: 252px;
+@media screen and (min-width: 768px) {
+    .input__name, .input__email, .input__enquiry, .input__subject, .input__messages {
+        width: 650px;
     }
-  
-    .formStyle {
-        width: 90%;
-    }
-
-    .formStyleContact {
-        width: 252px;
-        font-size: 44px;
-    }
-  
-    .btn {
-        width: 252px;
-    }
-  
-    #inputMessages {
-        width: 252px;
-    }
-  
-  }
-
-
- @media screen and (min-width: 1024px) {
     
-	.formStyleContact {
-		padding-top: 84px;
-        padding-bottom: 80px;
-		font-size: 64px;
-		line-height: 77px;
-	}
+    .button__submit {
+        width: 650px;
+    }
+}
 
-    .formStyleContact {
-        font-size: 64px;
+@media screen and (min-width: 1024px) {
+    .cooker__picture {
+        display: inline;
         width: 315px;
+        height: 460px;
     }
 
-    .btn {
-        width: 180px;
-        height: 64px;
+    .form__title {
+        align-self: center;
+    }
+
+    .input__name, .input__email, .input__enquiry, .input__subject {
+        width: 333px;
         margin: 0;
+        margin-bottom: 30px;
     }
 
-    #inputName, #inputEnquiry {
+    .input__messages {
+        width: 686px;
+        height: 250px;
+    }
+
+    .button__submit {
+        width: 186px;
+    }
+
+    .title__section {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    }
+
+    .form__section {
+        max-width: 100%;
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 0px;
+    }
+        
+    .image__section { grid-area: 2 / 1 / 5 / 2; }
+    .input__section__name { grid-area: 2 / 2 / 3 / 3; }
+    .input__section__email { grid-area: 2 / 3 / 3 / 4; }
+    .input__section__subject { grid-area: 3 / 2 / 4 / 3; }
+    .input__section__enquiryt { grid-area: 3 / 3 / 4 / 4; }
+    .input__section__messages { grid-area: 4 / 2 / 5 / 4; }
+    .button__submit { grid-area: 5 / 2 / 6 / 3; }
+    .title__section { grid-area: 1 / 1 / 2 / 4; }
+}
+
+@media screen and (min-width: 1280px) {
+    .cooker__picture {
+        display: inline;
         width: 400px;
-        height: 60px;
-        margin-right: 40px;
-        margin-bottom: 40px;
-        margin-left: 0;
+        height: 460px;
     }
 
-    #inputEmail, #inputSubject {
-        width: 400px;
-        height: 60px;
-        margin-right: 0px;
-        margin-left: 0;
+    .form__title {
+        align-self: center;
     }
 
-    #inputMessages {
-        width: 840px;
-        height: 200px;
-        margin-bottom: 48px;
-        margin-right: 0;
+    .input__name, .input__email, .input__enquiry, .input__subject {
+        width: 373px;
     }
 
-    #cookerPicture {
-        display: flex;
-        width: 400px;
-        height: 472px;
-        margin-left: 110px;
-        margin-right: 40px;
+    .input__messages {
+        width: 796px;
+        height: 250px;
     }
 
-    #containerInputs {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: baseline;
-        align-content: center;
+    .button__submit {
+        width: 398px;
     }
 
-    #temp {
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: space-between;
-        justify-content: space-evenly;
-        align-items: flex-start;
+    .form__section {
+        grid-column-gap: 28px;
     }
-
-    .title {
-        margin-right: 0;
-    }
- }
+}
