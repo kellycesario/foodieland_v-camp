@@ -1,10 +1,9 @@
 const InputField = (props) => {
     
     return (
-        <section>
-            <label for={props.for} className={`${props.className}`}> {props.children} </label>
-            <input type={props.type} id={props.id} pattern={props.pattern} placeholder={props.placeholder} />
-        </section>
+        <>
+            <input type={props.type} value={props.value1} className={props.className} pattern={props.pattern} placeholder={props.placeholder} onChange={props.onChange} required/>
+        </>
     )
 }
 
