@@ -1,4 +1,4 @@
-.container {
+.newsletter__container {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -6,7 +6,8 @@
     flex-direction: column;
     width: 100%;
 }
-.imgNewsletter {
+
+.newsletter__image {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -17,10 +18,11 @@
     background-image: url("../../../public/assets/img/emailBackgroundMobile.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 152px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.imgTextTitle {
+.newsletter__image--title {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -37,7 +39,7 @@
     margin-left: 10px;
 }
 
-.inviteText {
+.newsletter__invite-text {
     width: 339px;
     height: 112px;
     font-style: normal;
@@ -48,17 +50,20 @@
     margin-bottom: 20px;
 }
 
-.input {
+.input__email--newsletter {
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: flex-start;
     width: 365px;
     height: 59px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 24px;
-    padding-left: 28px;
+    border: #ffffff;
     outline: none;
+
+    margin-bottom: 32px;
+    padding-left: 28px;
+    
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -67,7 +72,7 @@
     color: rgba(0, 0, 0, 0.4);    
 }
 
-.input::-webkit-input-placeholder {
+.input__email--newsletter::-webkit-input-placeholder {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -76,11 +81,7 @@
     color: rgba(0, 0, 0, 0.4);    
 }
 
-
-/*  */
-/*  */
-/*  */
-.formNewsLetter{
+.newsletter__form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -98,93 +99,91 @@
     font-size: 1rem;
     font-size: 12px;
 }
+
 .emailInputFix:focus {
     outline: none;
 }
+
 .emailInputFix::-webkit-input-placeholder{
     text-align: start;
 }
 
-
-@media screen and (min-width: 320px) {
-    .imgNewsletter {
-        width: 90%;
-        border-radius: 12%;
-        background-position: center;
+@media screen and (min-width: 768px) {
+    .newsletter__image {
+        display: flex;
+        background-image: url("../../../public/assets/img/emailBackgroundMobile.png");
+        width: 700px;
+        height: 650px;
     }
 
-    .inviteText {
-        width: 100%;
-        transform: scale(0.9);
+    .newsletter__invite-text {
+        width: 465px;
+        font-style: normal;
+        font-size: 18px;
+        text-align: center;
     }
 
-    .imgTextTitle {
-        font-size: 20px;
+    .input__email--newsletter {
+        width: 465px;
+        height: 59px;
     }
 
+    .newsBtn {
+        width: 465px;
+    }
+    .newsletter__image--title {
+        width: 465px;
+    }
 }
 
-
 @media screen and (min-width: 1024px) {
-    .imgNewsletter {
+    .newsletter__image {
         display: flex;
         background-image: url("../../../public/assets/img/emailBackground.png");
-        width: 1280px;
-        max-width: 95%;
+        width: 1020px;
         height: 442px;
         border-radius: 60px;
-        margin-top: 160px;
-        margin-bottom: 160px;
         margin-right: 0;
         padding-top: 80px;
     }
     
-    .imgTextTitle {
+    .newsletter__image--title {
         width: 589px;
         height: 58px;
         font-size: 48px;
         margin-bottom: 24px;
     }
     
-    .inviteText { 
+    .newsletter__invite-text { 
         width: 620px;
         height: 56px;
         font-weight: 400;
         margin-bottom: 64px;
     }
-    .inputEmail {
+
+    .input__email--newsletter {
         width: 480px;
         height: 80px;
         border-radius: 24px;
     }
     
-    .inputEmail::-webkit-input-placeholder {
+    .input__email--newsletter::-webkit-input-placeholder {
         font-size: 14px;
         line-height: 17px;
     }
 
-    
-    /* Correção nos ultimos segundos */
-    /* Nao mexer */
-    /* Nao mexer */
-    /* Nao mexer */
-
-    .formNewsLetter {
+    .newsletter__form {
         padding-left: 0px;
         display: flex;
-        align-items: center;
+        align-items: baseline;
         justify-content: flex-end;
         flex-direction: row;
-    
         background-color: white;
-    
         height: 80px;
         width: 480px;
-    
         font-size: 1rem;
         border-radius: 1rem;
         text-align: start;
-    
     }
 
     .emailInputFix {
@@ -195,6 +194,7 @@
         border: none;
         font-size: 1rem;
     }
+
     .emailInputFix:focus {
         outline: none;
     }
@@ -213,8 +213,11 @@
         align-items: none;
     }
 
-    .formNewsLetter button {
+    .newsletter__form button {
         display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
         border-radius: 16px;
         height: 80%;
         width: 160px;
@@ -222,12 +225,13 @@
         background-color: black;
         cursor: pointer;
         margin-right: 10px;
-    } 
+        border: none;
+    }
+}
 
-    /* Correção nos ultimos segundos */
-    /* Nao mexer */
-    /* Nao mexer */
-    /* Nao mexer */
-
-
+@media screen and (min-width: 1280px) {
+    .newsletter__image {
+        width: 1260px;
+        height: 442px;
+    }
 }
