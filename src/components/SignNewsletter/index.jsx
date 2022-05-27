@@ -8,30 +8,25 @@ import emailBackground from "../../../public/assets/img/emailBackground.png";
 const SignNewsletter = () => {
     const submitNewsHandler = (event) => {
       event.preventDefault();
-      alert(event.target.inputNewsLetter.value)
+      alert("Now you are subscribed!")
       event.target.reset();
     };
 
   return (
-    <section className="container">
-      <section className="imgNewsletter">
+    <section className="newsletter__container">
+      <section className="newsletter__image">
         <div>
-          <h1 className="imgTextTitle">Deliciousness to your inbox</h1>
-          <p className="inviteText">
+          <h1 className="newsletter__image--title">Deliciousness to your inbox</h1>
+          <p className="newsletter__invite-text">
             Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
           </p>
         </div>
-        <div className="">
-          <form className="formNewsLetter" onSubmit={submitNewsHandler}>
-            <label for="inputEmail" />
-            <input 
-                name="inputNewsLetter"
-              type="email"
-              className="emailInputFix"
-              placeholder="Your email address..."
-            />
-            <button type="submit" className="btn newsBtn">Subscribe</button>
+        <div>
+          <form className="newsletter__form" onSubmit={submitNewsHandler}>
+            <label for="input__email" />
+            <input name="input__newsletter" type="email" className="input__email--newsletter" placeholder="Your email address..." />
+            <button type="submit" className="button__submit newsBtn">Subscribe</button>
           </form>
         </div>
       </section>
