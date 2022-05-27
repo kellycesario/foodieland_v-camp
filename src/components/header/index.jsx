@@ -1,6 +1,6 @@
 import logo from "../../../public/assets/icons/foodielandLogo.svg";
 import "./Header.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Header = () => {
   const [Modal, setModal] = useState(false);
@@ -11,9 +11,20 @@ const Header = () => {
       setModal(false);
     }
   };
+  const [windoWidth, setwindoWidth] = useState(window.innerWidth);
+  const handleResize = () => {
+    setwindoWidth(window.innerWidth);
+    if(window.innerWidth > 1023) {
+      setModal(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+  }, []);
   return (
     <>
       <nav className="navBar">
+        
         <img src={logo} className="navBar__img" />
         <ul className={`navBar__lists ${Modal ? "navBar__lists--active" : ""}`}>
           <li className="navBar__lists__item">Home</li>
