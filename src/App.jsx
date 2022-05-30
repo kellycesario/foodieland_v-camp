@@ -2,7 +2,7 @@ import { Route } from "react-router-dom";
 
 import CarrouselFood from "./components/Carrousel";
 import MainFooter from "./components/MainFooter";
-import MainHeader from "./components/Header";
+import MainHeader from "./components/MainHeader";
 import ContactForm from "./components/ContactForm";
 import SignNewsletter from "./components/SignNewsletter";
 
