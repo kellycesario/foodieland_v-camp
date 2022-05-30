@@ -1,0 +1,354 @@
+{
+    "name": "FoodWeb Database",
+    "articles": [
+      {
+        "id": 1,
+        "title": "Crochet Projects for Noodle Lovers",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "author": "Wade Warren",
+        "created_at": "12/11/2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 2,
+        "title": "10 Vegetarian Recipes To Eat This Month",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "author": "Robert Fox",
+        "created_at": "12/11/2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 3,
+        "title": "Full Guide to Becoming a Professional Chef",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "author": "John Smith",
+        "created_at": "15/04/2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 4,
+        "title": "Simple & Delicious Vegetarian Lasagna",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "author": "Leslie Alexander",
+        "created_at": "12/11/2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 5,
+        "title": "Plantain and Pinto Stew with Aji Verde",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "author": "Courtney Henry",
+        "created_at": "12/11/2021",
+        "lastUpdated": ""
+      },
+      {
+        "id": 6,
+        "title": "We`re Hiring a Communications Assistant!",
+        "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+        "author": "Albert Flores",
+        "created_at": "12/11/2021",
+        "lastUpdated": ""
+      }
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "title": "Big and Juicy Wagyu Beef Cheeseburguer",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Snack",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe01.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "219,9",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Fish",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe02.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "219,9",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Breakfast",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe03.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Healthy",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe04.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Chicken Meatballs with Cream Cheese",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Meat",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe05.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Fruity Pancake with Orange & Blueberry",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Sweet",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe06.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 7,
+        "title": "The Best Easy One Pot Chicken and Rice",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Snack",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe07.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 8,
+        "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Noodles",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe08.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 9,
+        "title": "Mixed Tropical Fruit Salad",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Healthy",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe09.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 10,
+        "title": "Healthy Japanese Fried Rice with Asparagus",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Healthy",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe10.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 11,
+        "title": "Cauliflower Walnut Vegetarian Taco Meat",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Eastern",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe11.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 12,
+        "title": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Healthy",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe12.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 13,
+        "title": "Barbeque Spicy Sandwiches with Chips",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Snack",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe13.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 14,
+        "title": "Firecracker Vegan Lettuce Wraps - Spicy",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Seafood",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe14.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      },
+      {
+        "id": 15,
+        "title": "Chicken Ramen Soup with Mushroom",
+        "prepTime": "30 Minutes",
+        "cookTime": "30 Minutes",
+        "categorie": "Japanese",
+        "liked": false,
+        "author": "",
+        "image": "./public/assets/img/recipe15.png",
+        "createdAt": "",
+        "nutrition_info": {
+          "calories": "xx",
+          "total_fat": "xx",
+          "protein": "xx",
+          "carbo": "xx",
+          "cholesterol": "xx",
+          "warning": "xx"
+        }
+      }
+    ],
+    "socialMedia": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "twitter",
+        "link": "https://www.twitter.com/"
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/"
+      }
+    ]
+  }
