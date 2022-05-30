@@ -34,30 +34,30 @@ const CarrouselFood = () => {
 
     return (
         <div className='carrossel'> 
-            <div className='carrossel_title'><h1>Checkout the delicious recipe</h1></div>
-            <div className='carrossel__container'> 
-                <div className='leftArrow'><img src={ArrowLeft} onClick={previousSlide} className='prev'/></div>
+            <div className='carrossel__Title'><h1>Checkout the delicious recipe</h1></div>
+            <div className='carrossel__Container'> 
+                <div className='left__Arrow'><img src={ArrowLeft} onClick={previousSlide} className='prev'/></div>
 
-                <div className='slidesFood' ref={carroussel}>
+                <div className='carrossel__Slides__Food' ref={carroussel}>
                 { ImgSlider.map((slide, index) => {
                 return(
                     <div className='logica' key={index}>
                         <div className="like__button">
                             <img src={Ellipse} className='ellipse' />
-                            <img src={Heart} onClick={changeHeartColor} className={heartColor ? "red_heart" : "default_heart" }/>
+                            <img src={Heart} onClick={changeHeartColor} className={heartColor ? "red__heart" : "default__heart" }/>
                          </div>
                         
                             <>
                             
-                            <img src={slide.image} alt="Imagens" className='foodImg' />
+                            <img src={slide.image} alt="Imagens" className='carrossel__Food__Img' />
                             <div className='content'>
                                 <h2>{slide.heading}</h2>
                             </div>
-                            <div className='descriptions'>
-                            <img src={slide.timer}/>
-                            <p>{slide.timing}</p>
-                            <img src={slide.fork}/>
-                            <p>{slide.prepare}</p>
+                            <div className='carrossel__Descriptions'>
+                            <img src={slide.timer} className='clock__Icon'/>
+                            <p className='clock__Descript'>{slide.timing}</p>
+                            <img src={slide.fork} className='fork__Icon'/>
+                            <p className='fork__Descript'>{slide.prepare}</p>
                             </div>
                             
                             </>
@@ -66,7 +66,7 @@ const CarrouselFood = () => {
                 )
             })}
                 </div>
-                <div className='arrowRight' onClick={nextSlide} ><img src={ArrowRight}  className='next'/></div>                
+                <div className='right__Arrow' onClick={nextSlide} ><img src={ArrowRight}  className='next'/></div>                
             </div>           
             
            

@@ -5,12 +5,12 @@
     
 }
 
-.carrossel_title {
+.carrossel__Title {
     text-align: center;
     margin-bottom: 100px;
 }
 
-.slidesFood {
+.carrossel__Slides__Food {
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -19,11 +19,15 @@
     scroll-behavior: smooth;
 }
 
-.slidesFood::-webkit-scrollbar {
+.carrossel__Food__Img {
+    border-radius: 16px;
+}
+
+.carrossel__Slides__Food::-webkit-scrollbar {
     display: none;
 }
 
-.carrossel__container {
+.carrossel__Container {
    
     display: flex;
     position: relative;
@@ -33,17 +37,17 @@
     
 }
 
-.leftArrow {
-    top: 50%;
+.left__Arrow {
+    top: 35%;
     transform: translateY(-50%);
     background-color: transparent;
     position: absolute;
-    left: 10px;
+    left: -10px;
     z-index: 2;
 }
 
-.arrowRight {
-    top: 50%;
+.right__Arrow {
+    top: 35%;
     transform: translateY(-50%);
     background-color: transparent;
     position: absolute;
@@ -64,15 +68,21 @@
     width: 290px;
 }
 
-.descriptions {
+.carrossel__Descriptions {
     display: flex;
-    padding: 8px;
-    align-items: center;
+    margin-top: 8%;
     
 }
 
-.descriptions p {
-    padding: 8px;
+.clock__Descript {
+    margin-top: 1%;
+}
+
+.fork__Icon {
+    padding-left: 8%;
+}
+.fork__Descript {
+    margin-top: 1%;
 }
 
 /* .descriptions img {
@@ -91,13 +101,13 @@
    
 }
 
-.default_heart {
+.default__heart {
     position: absolute;
     margin-top: 26px;
     margin-left: 236px;
 }
 
-.red_heart {
+.red__heart {
     position: absolute;
     margin-top: 26px;
     margin-left: 236px;
@@ -105,17 +115,24 @@
 }
 
 @media (max-width: 1024px) {
-    .carrossel_title {
+    .carrossel__Title {
         display: none;
+    }
+
+}
+
+@media (min-width: 800px) {
+    .carrossel__Slides__Food {
+        margin-left: 80px;
     }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 420px) {
     
-    .arrowRight {
+    .right__Arrow {
         display: none;
     }
-    .leftArrow {
+    .left__Arrow {
         display: none;
     }
 }
