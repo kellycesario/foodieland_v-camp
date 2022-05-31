@@ -14,22 +14,25 @@ const Header = () => {
   const [windoWidth, setwindoWidth] = useState(window.innerWidth);
   const handleResize = () => {
     setwindoWidth(window.innerWidth);
-    if(window.innerWidth > 1023) {
+    if (window.innerWidth > 1023) {
       setModal(false);
     }
   };
   useEffect(() => {
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
   }, []);
   return (
     <>
       <nav className="navBar">
-        
         <img src={logo} className="navBar__img" />
         <ul className={`navBar__lists ${Modal ? "navBar__lists--active" : ""}`}>
           <li className="navBar__lists__item">Home</li>
           <li className="navBar__lists__item">Recipes</li>
-          <li className="navBar__lists__item">Blog</li>
+          <a href="/blogListPage">
+            <li className="navBar__lists__item">
+              Blog
+            </li>
+          </a>
           <li className="navBar__lists__item">About us</li>
           <li className="navBar__lists__item">Contact</li>
         </ul>
