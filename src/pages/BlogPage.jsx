@@ -1,9 +1,8 @@
-import Pagination from "../components/Pagination";
 
 export default function BlogPage() {
   return (
     <>
-      <Pagination />
+      <Component1 />
       <Component2 />
       <Component3 />
     </>
