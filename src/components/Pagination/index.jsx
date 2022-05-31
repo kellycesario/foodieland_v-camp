@@ -18,9 +18,11 @@ const Pagination = () => {
       setItens(result);
     };
     fetchData()
+    
   }, []);
-
+  
   return (
+      
     <div className="Buttons">
       <button onClick={(e) => setCurrentPage(Number(e.target.value))}>1</button>
       <button onClick={(e) => setCurrentPage(Number(e.target.value))}>2</button>
