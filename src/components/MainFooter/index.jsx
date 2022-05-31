@@ -1,8 +1,9 @@
 import React from "react";
 import "./mainFooter.css";
 import "./mediaQuerie.css";
-import database from "./../../../database.json"
+import database from "./../../../database.json";
 import foodieLandLogo from "./../../../public/assets/icons/foodielandLogo.svg";
+import Button from "../Button";
 
 export default function MainFooter() {
   return (
@@ -32,6 +33,8 @@ export default function MainFooter() {
           </nav>
         </div>
 
+        <Button content='Teste' btnColor='light' btnSize='large' />
+
         <hr />
 
         <div className="bottomContainer">
@@ -43,9 +46,11 @@ export default function MainFooter() {
           <div className="socialMediaDiv">
             <nav className="socialMediaNav">
               <ul>
-                  {database.socialMedia.forEach(el=>{console.log('');})}
-                  
-                  {/* temp Save */}
+                {database.socialMedia.forEach((el) => {
+                  console.log("");
+                })}
+
+                {/* temp Save */}
                 <li>
                   <a href="">
                     <img src={database.socialMedia[0].image} alt="" />
@@ -61,7 +66,6 @@ export default function MainFooter() {
                     <img src={database.socialMedia[2].image} alt="" />
                   </a>
                   {/* temp Save */}
-
                 </li>
               </ul>
             </nav>
