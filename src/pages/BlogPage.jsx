@@ -1,11 +1,9 @@
-
-
 export default function BlogPage() {
   return (
     <>
-      <Component1 />
-      <Component2 />
-      <Component3 />
+      <ArticleList />
+      <TastyRecipes />
+      <Pagination />
     </>
   );
 }
