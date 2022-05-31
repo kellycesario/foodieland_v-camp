@@ -3,9 +3,7 @@
 export default function BlogPage() {
   return (
     <>
-      <Component1 />
-      <Component2 />
-      <Component3 />
+      <h1>asdsa</h1>
     </>
   );
 }
