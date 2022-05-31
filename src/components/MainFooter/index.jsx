@@ -3,7 +3,6 @@ import "./mainFooter.css";
 import "./mediaQuerie.css";
 import database from "./../../../database.json";
 import foodieLandLogo from "./../../../public/assets/icons/foodielandLogo.svg";
-import Button from "../Button";
 
 export default function MainFooter() {
   return (
@@ -32,8 +31,6 @@ export default function MainFooter() {
             </ul>
           </nav>
         </div>
-
-        <Button content='Teste' btnColor='light' btnSize='large' />
 
         <hr />
 

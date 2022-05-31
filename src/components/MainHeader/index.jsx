@@ -29,12 +29,12 @@ const Header = () => {
           <li className="navBar__lists__item">Home</li>
           <li className="navBar__lists__item">Recipes</li>
           <a href="/blogListPage">
-            <li className="navBar__lists__item">
-              Blog
-            </li>
+            <li className="navBar__lists__item">Blog</li>
           </a>
           <li className="navBar__lists__item">About us</li>
-          <li className="navBar__lists__item">Contact</li>
+          <a href="/contact">
+            <li className="navBar__lists__item">Contact</li>
+          </a>
         </ul>
         <div
           className={`navBar__burguerBtn ${
