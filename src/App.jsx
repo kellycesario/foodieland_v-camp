@@ -6,6 +6,8 @@ import MainHeader from "./components/MainHeader";
 import ContactForm from "./components/ContactForm";
 import SignNewsletter from "./components/SignNewsletter";
 
+import BlogAndArticle from "./components/BlogAndArticle";
+
 import Contact from "./pages/Contact";
 import BlogPage from "./pages/BlogPage";
 
@@ -16,13 +18,15 @@ function App() {
     <>
       <MainHeader />
 
-        <Route path="/">
-          <Contact/>
-        </Route>
+      <Route path="/contact">
+        <Contact />
+      </Route>
 
-        <Route path="/blogListPage">
-          <BlogPage/>
-        </Route>
+      <Route path="/blogListPage">
+        <BlogAndArticle/>
+        <BlogPage />
+        <SignNewsletter/>
+      </Route>
 
       <MainFooter />
     </>
