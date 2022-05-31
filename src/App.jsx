@@ -21,7 +21,9 @@ function App() {
         </Route>
 
         <Route path="/blogListPage">
+          <BlogAndArticle/>
           <BlogPage/>
+          <SignNewsletter/>
         </Route>
 
       <MainFooter />
