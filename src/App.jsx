@@ -16,7 +16,7 @@ function App() {
     <>
       <MainHeader />
 
-        <Route path="/">
+        <Route path="/contact">
           <Contact/>
         </Route>
 
