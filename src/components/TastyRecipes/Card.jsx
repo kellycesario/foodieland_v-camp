@@ -3,9 +3,9 @@ import "./Card.css";
 const Card = (props) => {
   return (
     <div className="cardContainer__card">
-      <img src={props.img} className="cardContainer__img"/>
-      <p className="cardContainer__text">{props.text}</p>
-      <p className="cardContainer__author">{props.author}</p>
+      <img src={props.img} className="cardContainer__article--img"/>
+      <p className="cardContainer__article--title">{props.text}</p>
+      <p className="cardContainer__article--author">{props.author}</p>
     </div>
   );
 };
