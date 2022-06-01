@@ -11,6 +11,10 @@ import BlogAndArticle from "./components/BlogAndArticle";
 import Contact from "./pages/Contact";
 import BlogPage from "./pages/BlogPage";
 
+// Temp
+import MainButton from "./components/MainButton";
+// Temp
+
 import "../public/styles/Global.css";
 
 function App() {
