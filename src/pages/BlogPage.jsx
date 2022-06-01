@@ -10,8 +10,10 @@ export default function BlogPage() {
     <>
       <ArticleList />
       <Pagination />
-      <Advertising />
-      <TastyRecipes />
+      <div className="tastyrecipes">
+        <Advertising />
+        <TastyRecipes />
+      </div>
     </>
   );
 }
