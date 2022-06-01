@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Ubuntu:wght@400;500&display=swap");
+
 .cardContainer {
   display: flex;
   flex-direction: column;
@@ -8,7 +10,6 @@
 
 .cardContainer__article--img{
   margin-bottom: 28.32px;
-
 }
 
 .cardContainer__title {
