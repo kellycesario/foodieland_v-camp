@@ -28,4 +28,7 @@
   .cardContainer__img  {
     padding-right: 24px
   }
+  .cardContainer__group {
+    width: 196px;
+  }
 }
