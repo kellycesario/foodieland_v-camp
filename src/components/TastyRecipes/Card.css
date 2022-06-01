@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Ubuntu:wght@400;500&display=swap");
+
 .cardContainer__card {
-    width: 221.67px;
+  width: 221.67px;
+}
+.cardContainer__img {
+  margin-bottom: 29px;
+}
+.cardContainer__text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.cardContainer__author {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 47px;
 }

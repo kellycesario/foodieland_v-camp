@@ -18,12 +18,12 @@ export default function TastyRecipes() {
       />
       <Card
         img={pasta}
-        text="Traditional Bolognaise Ragu author"
+        text="Traditional Bolognaise Ragu"
         author="By Andreas Paula"
       />
       <Card
         img={pork}
-        text="Pork and Chive Chinese Dumplings"
+        text="Pork and Chive chinese Dumplings"
         author="By Andreas Paula"
       />
     </div>

@@ -5,11 +5,16 @@ import MainFooter from "./components/MainFooter";
 import MainHeader from "./components/MainHeader";
 import ContactForm from "./components/ContactForm";
 import SignNewsletter from "./components/SignNewsletter";
+import SearchBlogAndArticle from "./components/SearchBlogAndArticle";
 
-import BlogAndArticle from "./components/BlogAndArticle";
+import ArticleSearch from "./components/ArticleSearch";
 
 import Contact from "./pages/Contact";
 import BlogPage from "./pages/BlogPage";
+
+// Temp
+import MainButton from "./components/MainButton";
+// Temp
 
 import "../public/styles/Global.css";
 
@@ -23,9 +28,9 @@ function App() {
       </Route>
 
       <Route path="/blogListPage">
-        <BlogAndArticle/>
+        <ArticleSearch />
         <BlogPage />
-        <SignNewsletter/>
+        <SignNewsletter />
       </Route>
 
       <MainFooter />
