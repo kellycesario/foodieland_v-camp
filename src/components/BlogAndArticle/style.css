@@ -1,0 +1,26 @@
+.blogContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.3125rem;
+    margin-bottom: 2.5625rem;
+}
+.blogContainer__title{
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+.blogContainer__subtitle{
+    text-align: center;
+    color: #00000096;
+    width: 80%;
+    margin-bottom: 3.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.blogContainer__img {
+    width: 20px;
+    height: 20px;
+}
