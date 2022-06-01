@@ -60,12 +60,20 @@
   background: none;
   border: none;
   cursor: pointer;
-  filter: invert(82%) sepia(3%) saturate(4339%) hue-rotate(185deg)
-    brightness(84%) contrast(92%);
-}
-
-.mainContainer__img {
+  }
+  
+  .mainContainer__img {
+  outline: none;
   width: 20px;
   height: 20px;
+  cursor: pointer;
+}
+
+.temp {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  background: none;
+  border: none;
   cursor: pointer;
 }

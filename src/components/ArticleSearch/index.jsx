@@ -5,7 +5,6 @@ import "./style.css";
 
 export default function ArticleSearch() {
   function test(e) {
-    e.preventDefault()
     alert("a");
   }
 
@@ -19,10 +18,10 @@ export default function ArticleSearch() {
         </p>
         <form className="mainContainer__form" action="">
           <input className="mainContainer__input" placeholder="Search article, news or recipe..." type="text" />
-          <button className="mainContainer__button" onSubmit={test}>
+          {/* <button className="mainContainer__button" onClick={test}>
             <img className="mainContainer__img inside" src={logo} alt="" />
-          </button>
-          {/* <MainButton Content="Search" InsideInput={true}></MainButton> */}
+          </button> */}
+          <MainButton className="temp" Content={"Search"}></MainButton>
         </form>
       </div>
     </>

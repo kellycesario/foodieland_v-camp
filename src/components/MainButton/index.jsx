@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import "./button.css";
 
-export default function MainButton({ Size, Color, InsideInput, Content }) {
+export default function MainButton({ Size, Color, InsideInput, Content, searchBar }) {
   const [btnSize, setBtnSize] = useState(Size);
   const [btnColor, setBtnColor] = useState(Color);
   const [btnInsideInput, setBtnSideInput] = useState(InsideInput);
