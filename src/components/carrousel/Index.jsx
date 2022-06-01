@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ImgSlider } from './SliderImg';
+import './style.css'
 import ArrowLeft from '../../../public/assets/icons/arrowLeft.svg';
 import ArrowRight from '../../../public/assets/icons/arrowRight.svg';
 import Heart from '../../../public/assets/icons/heart.svg';
 import Ellipse from '../../../public/assets/img/Ellipse 4.png'
-import './style.css'
 
 const CarrouselFood = () => {
     const carroussel = useRef(null);
