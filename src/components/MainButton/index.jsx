@@ -53,9 +53,10 @@ export default function MainButton({ Size, Color, InsideInput, Content }) {
 }
 
 /* 
-   btnSize          = default/large
-    btnColor        = default/light
-    btnInsideInput  = true/false
-    btnMinimal      = true/false
+
+    Size          = default/large
+    Color        = default/light
+    InsideInput  = true/false
+    Minimal      = true/false
     content         = string
 */
