@@ -19,7 +19,7 @@ const Pagination = () => {
     };
     fetchData();
   }, []);
-  console.log(itens);
+  
 
   return (
     <>
