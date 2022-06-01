@@ -1,0 +1,29 @@
+
+
+
+.articleListBox__recipeImg {
+    display: flex;
+    border-radius: 16px;
+    margin: 20px auto 0 auto;
+}
+
+.articleListBox__descriptions {
+    display: inline-flex;
+}
+
+.articleListBox__descriptions--authorImg {
+    padding-top: 4%;
+}
+
+.articleListBox__descriptions--author { 
+    font-weight: bold;
+    padding-top: 8%;
+    padding-left: 10%;
+    
+}
+
+.articleListBox__descriptions--date { 
+    
+    padding-top: 8%;
+    padding-left: 50%;
+}

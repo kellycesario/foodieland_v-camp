@@ -3,26 +3,32 @@
   "articles": [
     {
       "id": 1,
+      "image":"./public/assets/img/recipe15.png",
       "title": "Crochet Projects for Noodle Lovers",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg":"./public/assets/img/wadeWarren.png",
       "author": "Wade Warren",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
       "id": 2,
+      "image":"./public/assets/img/recipe09.png",
       "title": "10 Vegetarian Recipes To Eat This Month",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg":"./public/assets/img/robertFox.png",
       "author": "Robert Fox",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
       "id": 3,
+      "image":"./public/assets/img/cooking.png",
       "title": "Full Guide to Becoming a Professional Chef",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
-      "author": "John Smith",
-      "created_at": "15/04/2021",
+      "authorImg":"./public/assets/img/dianneRussell.png",
+      "author": "Dianne Russel",
+      "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
