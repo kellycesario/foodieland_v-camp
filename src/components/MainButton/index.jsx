@@ -2,10 +2,18 @@ import { useEffect, useState } from "react";
 
 import "./button.css";
 
-export default function MainButton({ Size, Color, InsideInput, Content, searchBar }) {
+export default function MainButton({
+  Value,
+  Size,
+  Color,
+  InsideInput,
+  Content,
+  OnClick
+}) {
   const [btnSize, setBtnSize] = useState(Size);
   const [btnColor, setBtnColor] = useState(Color);
   const [btnInsideInput, setBtnSideInput] = useState(InsideInput);
+  const [btnValue, setValue] = useState(Value);
 
   useEffect(() => {
     // setLight
@@ -39,11 +47,20 @@ export default function MainButton({ Size, Color, InsideInput, Content, searchBa
       console.log("Props inválida na props btnInsideInput");
       setBtnSideInput("");
     }
-}, []);
+
+    // setValue
+    if (Value != Number) {
+      console.log("Value só aceita numero");
+    } else {
+      return setValue(Value);
+    }
+  }, []);
 
   return (
     <>
       <button
+        onClick={OnClick}
+        value={btnValue}
         className={`btn ${btnSize} ${btnColor} ${btnInsideInput}`}
       >
         {Content}
@@ -54,9 +71,10 @@ export default function MainButton({ Size, Color, InsideInput, Content, searchBa
 
 /* 
 
-    Size          = default/large
-    Color        = default/light
-    InsideInput  = true/false
-    Minimal      = true/false
-    content         = string
+    Size          =   tiny/large
+    Color         =   default/light
+    InsideInput   =   true/false
+    content       =   string
+    Value         =   number
+    OnClick       =   f(){}
 */
