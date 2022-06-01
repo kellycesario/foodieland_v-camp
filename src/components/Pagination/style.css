@@ -1,29 +1,58 @@
 
-
-
-.articleListBox__recipeImg {
-    display: flex;
-    border-radius: 16px;
-    margin: 20px auto 0 auto;
-}
-
-.articleListBox__descriptions {
-    display: inline-flex;
-}
-
-.articleListBox__descriptions--authorImg {
-    padding-top: 4%;
-}
-
-.articleListBox__descriptions--author { 
-    font-weight: bold;
-    padding-top: 8%;
-    padding-left: 10%;
+@media (min-width: 420px) {
+    .articleListBox__recipeImg {
+        display: flex;
+        border-radius: 16px;
+        margin: 40px auto 0 auto;
+    }
+    
+    .articleListBox__title {
+        font-size: 20px;
+        width: 306px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .articleListBox__recipeDescrip {
+        font-size: 14px;
+        width: 314px;
+        margin-bottom: 12px;
+        font-weight: 300;
+    }
+    
+    .articleListBox__descriptions {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 66px;
+    }
+    
+    
+    
+    .articleListBox__publicationDescript {
+        display: flex;
+        align-items: center;
+    }
+    
+    .articleListBox__publicationDescript--authorImg {
+        align-items: flex-start;
+    }
+    
+    .articleListBox__publicationDescript--data {
+        align-items: flex-end;
+    }
+    
+    .articleListBox__namesAndDates {
+        display: inline-flex;
+    }
+    
+    .articleListBox__namesAndDates--authorName {
+        font-weight: bold;
+        padding-left: 12px;
+    }
+    
+    .articleListBox__namesAndDatest--pubDate {
+        padding-left: 50px;
+    }
     
 }
 
-.articleListBox__descriptions--date { 
-    
-    padding-top: 8%;
-    padding-left: 50%;
-}
