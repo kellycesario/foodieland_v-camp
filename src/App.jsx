@@ -11,12 +11,16 @@ import BlogAndArticle from "./components/BlogAndArticle";
 import Contact from "./pages/Contact";
 import BlogPage from "./pages/BlogPage";
 
+// Temp
+import Button from "./components/Button/Button";
+// Temp
+
 import "../public/styles/Global.css";
 
 function App() {
   return (
     <>
-      <MainHeader />
+      {/* <MainHeader />
 
       <Route path="/contact">
         <Contact />
@@ -28,7 +32,15 @@ function App() {
         <SignNewsletter/>
       </Route>
 
-      <MainFooter />
+      <MainFooter /> */}
+      <Button InsideInput='true' Content="Submit" />
+      {/* 
+    btnSize         = default/large
+    btnColor        = default/light
+    btnInsideInput  = true/false
+    btnMinimal      = true/false
+    content         = string
+    */}
     </>
   );
 }
