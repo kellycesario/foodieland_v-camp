@@ -26,12 +26,20 @@ const Pagination = () => {
       {currentItens.map((itens) => (
           <div className="articleListBox">
               <img className="articleListBox__recipeImg" src={itens.image} />
-              <h2 className="articleListBox__title" >{itens.title}</h2>
-              <p>{itens.summary}</p>
               <div className="articleListBox__descriptions">
-              <img className="articleListBox__descriptions--authorImg" src={itens.authorImg} />
-              <p className="articleListBox__descriptions--author">{itens.author}</p>
-              <p className="articleListBox__descriptions--date">{itens.created_at}</p>    
+              <h2 className="articleListBox__title" >{itens.title}</h2>
+              <p className="articleListBox__recipeDescrip">{itens.summary}</p>
+
+              <div className="articleListBox__publicationDescript">
+              <img className="articleListBox__publicationDescript--authorImg" src={itens.authorImg} />
+              
+              <div className="articleListBox__namesAndDates">
+              <p className="articleListBox__namesAndDates--authorName">{itens.author}</p>
+              <p className="articleListBox__namesAndDatest--pubDate">{itens.created_at}</p>
+              </div>  
+                  
+              </div>              
+
               </div>
                 
           </div>

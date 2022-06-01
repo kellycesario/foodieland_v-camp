@@ -1,0 +1,10 @@
+.tastyrecipes {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+    .tastyrecipes {
+        flex-direction: column-reverse;
+    }
+}
