@@ -34,3 +34,8 @@
   background-color: black;
   color: #fff;
 } 
+
+.btn--light:hover {
+  background-color: black;
+  color: #fff;
+}
