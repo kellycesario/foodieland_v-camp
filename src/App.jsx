@@ -26,6 +26,14 @@ function App() {
         <SignNewsletter />
       </Route>
 
+      <Route path="/">
+        <CarrouselFood />
+        <SignNewsletter />
+      </Route>
+
+      <Route path="/recipes"></Route>
+      <Route path="/aboutUs"></Route>
+
       <MainFooter />
     </>
   );
