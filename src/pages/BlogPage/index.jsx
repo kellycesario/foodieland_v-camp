@@ -5,6 +5,7 @@ import Pagination from "../../components/Pagination";
 import RecipeList from "../../components/RecipeList";
 import ArticleSearch from "./../../components/ArticleSearch";
 
+import "./style.css"
 
 export default function BlogPage() {
   const [itens, setItens] = useState([]);
@@ -37,8 +38,8 @@ export default function BlogPage() {
 
       <div className="blogPageWrapper">
         <ArticleList dataPagination={currentItens} />
-        <Pagination sendPage={handlePageChange} />
         <RecipeList />
+        <Pagination sendPage={handlePageChange} />
       </div>
     </>
   );
