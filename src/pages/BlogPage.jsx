@@ -4,8 +4,8 @@ import ArticleList from "../components/ArticleList";
 import Pagination from "../components/Pagination";
 import Advertising from "../components/Advertising";
 import TastyRecipes from "../components/TastyRecipes";
+import RecipeList from "../components/RecipeList";
 
-import "./BlogPage.css";
 
 export default function BlogPage() {
   const [itens, setItens] = useState([]);
@@ -38,10 +38,8 @@ export default function BlogPage() {
     <>
       <ArticleList dataPagination={currentItens}/>
       <Pagination sendPage={handlePageChange}/>
-      <div className="tastyrecipes">
-        <Advertising />
-        <TastyRecipes />
-      </div>
+      <RecipeList />
+     
     </>
   );
 }
