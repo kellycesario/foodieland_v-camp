@@ -19,3 +19,16 @@
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 47px;
 }
+
+@media (min-width: 1024px) {
+  .cardContainer__card{
+    display: flex;
+    width: 400px;
+  }
+  .cardContainer__img  {
+    padding-right: 24px
+  }
+  .cardContainer__group {
+    width: 196px;
+  }
+}
