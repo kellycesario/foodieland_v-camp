@@ -34,11 +34,14 @@ export default function BlogPage() {
   }
 
   return (
-    <>'
+
+    <>
       <ArticleList dataPagination={currentItens}/>
       <Pagination sendPage={handlePageChange}/>
-      <Advertising />
-      <TastyRecipes />
+      <div className="tastyrecipes">
+        <Advertising />
+        <TastyRecipes />
+      </div>
     </>
   );
 }
