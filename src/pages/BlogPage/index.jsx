@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 
 import ArticleList from "../../components/ArticleList";
 import Pagination from "../../components/Pagination";
-import Advertising from "../../components/Advertising";
-import TastyRecipes from "../../components/TastyRecipes";
 import RecipeList from "../../components/RecipeList";
+import ArticleSearch from "./../../components/ArticleSearch";
+
 
 export default function BlogPage() {
   const [itens, setItens] = useState([]);
@@ -33,6 +33,8 @@ export default function BlogPage() {
 
   return (
     <>
+      <ArticleSearch />
+
       <div className="blogPageWrapper">
         <ArticleList dataPagination={currentItens} />
         <Pagination sendPage={handlePageChange} />
