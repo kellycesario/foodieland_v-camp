@@ -12,9 +12,10 @@ const Pagination = ({ sendPage }) => {
 
   return (
     <>
-      <div className="buttonArea">
-        <div className="buttonList">
+      <div className="paginationContainer">
+        <div className="paginationContainer__buttonList">
           {/* Mapear MainButton pra renderizar o suficiente pra qtd de pagina */}
+          {/* Mais as condicionais pra caso nao caiba na tela */}
           <MainButton
             Content={1}
             Value={0}
@@ -50,20 +51,14 @@ const Pagination = ({ sendPage }) => {
             Color="light"
             handleClick={handleClick}
           />
-          <MainButton
-            Content={"..."}
-            Value={2}
-            Size="tiny"
-            Color="light"
-            handleClick={handleClick}
-          />
-          <MainButton
-            Content={">"}
-            value={2}
-            Size="large"
-            Color="light"
-            handleClick={handleClick}
-          />
+          {/* Definir quais botões que vao ficar */}
+          {/* Criar funcao para caso tenha mais paginas mostrar num mini modal */}
+
+          {/* <MainButton Content={"..."} Value={""} Size="tiny" Color="light" /> */}
+
+          {/* Transformar em carousel para ao clicar na seta trocar as opcoes de pagina */}
+
+          {/* <MainButton Content={">"} value={""} Size="tiny" Color="light" /> */}
         </div>
       </div>
     </>
