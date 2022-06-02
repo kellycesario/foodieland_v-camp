@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import './style.css'
 
+import MainButton from "../MainButton";
+
 const Pagination = () => {
   const [itens, setItens] = useState([]);
   const [intensPerPage] = useState(3);
@@ -20,7 +22,6 @@ const Pagination = () => {
     fetchData();
   }, []);
   
-
   return (
     <>
       {currentItens.map((itens) => (
@@ -45,26 +46,67 @@ const Pagination = () => {
           </div>
         
       ))}
-      <div className="Buttons">
-        <button
-          value="0"
-          onClick={(e) => setCurrentPage(Number(e.target.value))}
-        >
-          1
-        </button>
-        <button
-          value="1"
-          onClick={(e) => setCurrentPage(Number(e.target.value))}
-        >
-          2
-        </button>
-        <button
-          value="2"
-          onClick={(e) => setCurrentPage(Number(e.target.value))}
-        >
-          3
-        </button>
-      </div>
+      <section className="buttonArea">
+        <div className="buttons__mobile">
+          <MainButton
+          Content={1} 
+          value={0} 
+          Size = "tiny" 
+          Color="light" 
+          className="btn--tiny btn--light" 
+          onClick={(e) => setCurrentPage(Number(e.target.value))}/>
+
+          <MainButton 
+          Content={2} 
+          value={1} 
+          Size = "tiny" 
+          Color="light" 
+          className="btn--tiny btn--light"
+          onClick={(e) => setCurrentPage(Number(e.target.value))}/>
+
+          <MainButton 
+          Content={3} 
+          value={2} 
+          Size = "tiny" 
+          Color="light" 
+          className="btn--tiny btn--light" 
+          onClick={(e) => setCurrentPage(Number(e.target.value))}/>
+        </div>
+
+        <div className="buttons__desktop">
+          <MainButton
+          Content={4} 
+          value={3} 
+          Size = "tiny" 
+          Color="light" 
+          className="btn--tiny btn--light" 
+          onClick={(e) => setCurrentPage(Number(e.target.value))}/>
+
+          <MainButton 
+          Content={5} 
+          value={4} 
+          Size = "tiny" 
+          Color="light" 
+          className="btn--tiny btn--light"
+          onClick={(e) => setCurrentPage(Number(e.target.value))}/>
+
+          <MainButton 
+          Content="..." 
+          value={5} 
+          Size = "tiny" 
+          Color="light" 
+          className="btn--tiny btn--light" 
+          onClick={(e) => setCurrentPage(Number(e.target.value))}/>
+
+          <MainButton 
+          Content=">"
+          value={6} 
+          Size = "tiny" 
+          Color="light" 
+          className="btn--tiny btn--light" 
+          onClick={(e) => setCurrentPage(Number(e.target.value))}/>
+        </div>
+      </section>
     </>
   );
 };
