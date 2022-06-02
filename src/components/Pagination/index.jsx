@@ -1,35 +1,27 @@
 import { useEffect, useState } from "react";
-// import './style.css'
+import MainButton from "../MainButton";
+import './style.css'
 
-const Pagination = ({sendPage}) => {
+const Pagination = ({ sendPage }) => {
   const [currentPage, setCurrentPage] = useState(0);
 
-  function handleClick(e){
-    setCurrentPage(Number(e.target.value))
-    sendPage(Number(e.target.value))
+  function handleClick(e) {
+    setCurrentPage(Number(e.target.value));
+    sendPage(Number(e.target.value));
   }
-  
+
   return (
     <>
-      <div className="Buttons">
-        <button
-          value="0"
-          onClick={handleClick}
-        >
-          1
-        </button>
-        <button
-          value="1"
-          onClick={handleClick}
-        >
-          2
-        </button>
-        <button
-          value="2"
-          onClick={handleClick}
-        >
-          3
-        </button>
+      <div className="buttonArea">
+        <div className="buttonList">
+          <MainButton Content={1} value={0} Size="tiny" Color="light" />
+          <MainButton Content={2} value={1} Size="tiny" Color="light" />
+          <MainButton Content={3} value={2} Size="tiny" Color="light" />
+          <MainButton Content={4} value={2} Size="tiny" Color="light" />
+          <MainButton Content={5} value={2} Size="tiny" Color="light" />
+          <MainButton Content={'...'} value={2} Size="tiny" Color="light" />
+          <MainButton Content={'>'} value={2} Size="tiny" Color="light" />
+        </div>
       </div>
     </>
   );
