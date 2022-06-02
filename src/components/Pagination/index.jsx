@@ -53,7 +53,6 @@ const Pagination = () => {
           Value={0} 
           Size = "tiny" 
           Color="light" 
-          className="btn--tiny btn--light" 
           onClick={(e) => setCurrentPage(Number(e.target.value))}/>
 
           <MainButton 
@@ -61,7 +60,6 @@ const Pagination = () => {
           Value={1} 
           Size = "tiny" 
           Color="light" 
-          className="btn--tiny btn--light"
           onClick={(e) => setCurrentPage(Number(e.target.value))}/>
 
           <MainButton 
@@ -69,7 +67,6 @@ const Pagination = () => {
           Value={2} 
           Size = "tiny" 
           Color="light" 
-          className="btn--tiny btn--light" 
           onClick={(e) => setCurrentPage(Number(e.target.value))}/>
 
           <MainButton
@@ -77,7 +74,6 @@ const Pagination = () => {
           Value={3} 
           Size = "tiny" 
           Color="light" 
-          className="btn--tiny btn--light" 
           onClick={(e) => setCurrentPage(Number(e.target.value))}/>
 
           <MainButton 
@@ -85,7 +81,6 @@ const Pagination = () => {
           Value={4} 
           Size = "tiny" 
           Color="light" 
-          className="btn--tiny btn--light"
           onClick={(e) => setCurrentPage(Number(e.target.value))}/>
 
           <MainButton 
@@ -93,7 +88,6 @@ const Pagination = () => {
           Value={5} 
           Size = "tiny" 
           Color="light" 
-          className="btn--tiny btn--light" 
           onClick={(e) => setCurrentPage(Number(e.target.value))}/>
 
           <MainButton 

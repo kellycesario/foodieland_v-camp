@@ -1,73 +1,20 @@
-    .articleListBox__recipeImg {
-        display: flex;
-        border-radius: 16px;
-        margin: 40px auto 0 auto;
-    }
-    
-    .articleListBox__title {
-        font-size: 20px;
-        width: 306px;
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-    
-    .articleListBox__recipeDescrip {
-        font-size: 14px;
-        width: 314px;
-        margin-bottom: 12px;
-        font-weight: 300;
-    }
-    
-    .articleListBox__descriptions {
-        display: flex;
-        flex-wrap: wrap;
-        padding-left: 66px;
-    }
-    
-    .articleListBox__publicationDescript {
-        display: flex;
-        align-items: center;
-    }
-    
-    .articleListBox__publicationDescript--authorImg {
-        align-items: flex-start;
-    }
-    
-    .articleListBox__publicationDescript--data {
-        align-items: flex-end;
-    }
-    
-    .articleListBox__namesAndDates {
-        display: inline-flex;
-    }
-    
-    .articleListBox__namesAndDates--authorName {
-        font-weight: bold;
-        padding-left: 12px;
-    }
-    
-    .articleListBox__namesAndDatest--pubDate {
-        padding-left: 50px;
-    }
-
     .buttonArea {
         display: flex;
-        flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        align-content: center;
         width: 100%;
         margin-top: 44px;
         margin-bottom: 55px;
-        gap: 16px;
     }
-
+    
     .buttonList {
-        width: clamp(100%, 30%, 544px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        width: clamp(544px, 100%, 544px);
+        padding: 0px 17px;
     }
-
-    .btn--light:active {
-        background-color: black;
-        color: #fff;
-    } 
+ 
