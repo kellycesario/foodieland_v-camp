@@ -47,10 +47,10 @@ const Pagination = () => {
         
       ))}
       <section className="buttonArea">
-        <div className="buttons__mobile">
+        <div className="buttonList">
           <MainButton
           Content={1} 
-          value={0} 
+          Value={0} 
           Size = "tiny" 
           Color="light" 
           className="btn--tiny btn--light" 
@@ -58,7 +58,7 @@ const Pagination = () => {
 
           <MainButton 
           Content={2} 
-          value={1} 
+          Value={1} 
           Size = "tiny" 
           Color="light" 
           className="btn--tiny btn--light"
@@ -66,17 +66,15 @@ const Pagination = () => {
 
           <MainButton 
           Content={3} 
-          value={2} 
+          Value={2} 
           Size = "tiny" 
           Color="light" 
           className="btn--tiny btn--light" 
           onClick={(e) => setCurrentPage(Number(e.target.value))}/>
-        </div>
 
-        <div className="buttons__desktop">
           <MainButton
           Content={4} 
-          value={3} 
+          Value={3} 
           Size = "tiny" 
           Color="light" 
           className="btn--tiny btn--light" 
@@ -84,7 +82,7 @@ const Pagination = () => {
 
           <MainButton 
           Content={5} 
-          value={4} 
+          Value={4} 
           Size = "tiny" 
           Color="light" 
           className="btn--tiny btn--light"
@@ -92,7 +90,7 @@ const Pagination = () => {
 
           <MainButton 
           Content="..." 
-          value={5} 
+          Value={5} 
           Size = "tiny" 
           Color="light" 
           className="btn--tiny btn--light" 
@@ -100,12 +98,12 @@ const Pagination = () => {
 
           <MainButton 
           Content=">"
-          value={6} 
+          Value={6} 
           Size = "tiny" 
           Color="light" 
           className="btn--tiny btn--light" 
           onClick={(e) => setCurrentPage(Number(e.target.value))}/>
-        </div>
+          </div>
       </section>
     </>
   );
