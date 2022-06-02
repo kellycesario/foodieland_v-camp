@@ -1,0 +1,13 @@
+.blogPageWrapper {
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+    grid-template-columns: 60% 40%;
+}
+
+.blogPageWrapper:nth-child(0){
+    color: red;
+}
+
+.articleCard {
+    color: red;
+}
