@@ -5,7 +5,6 @@ import MainFooter from "./components/MainFooter";
 import MainHeader from "./components/MainHeader";
 import ContactForm from "./components/ContactForm";
 import SignNewsletter from "./components/SignNewsletter";
-import SearchBlogAndArticle from "./components/SearchBlogAndArticle";
 
 import ArticleSearch from "./components/ArticleSearch";
 
