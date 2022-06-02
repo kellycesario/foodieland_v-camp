@@ -1,0 +1,90 @@
+.articleListBox__recipeImg {
+    display: flex;
+    border-radius: 16px;
+    margin: 40px auto 0 auto;
+}
+
+.articleListBox__title {
+    font-size: 20px;
+    width: 306px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.articleListBox__descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 66px;
+}
+
+.articleListBox__recipeDescrip {
+    font-size: 14px;
+    width: 314px;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+.articleListBox__publicationDescript {
+    display: flex;
+    align-items: center;
+}
+
+    
+    
+.articleListBox__publicationDescript--authorImg {
+        align-items: flex-start;
+}
+    
+.articleListBox__publicationDescript--data {
+        align-items: flex-end;
+}
+    
+.articleListBox__namesAndDates {
+        display: inline-flex;
+}
+    
+.articleListBox__namesAndDates--authorName {
+        font-weight: bold;
+        padding-left: 12px;
+}
+    
+.articleListBox__namesAndDatest--pubDate {
+        padding-left: 50px;
+}
+   
+
+@media (min-width: 780px) {
+    .articleListBox {
+        display: flex;
+        width: 60%;
+          
+    }
+
+    .articleListBox__title {
+        width: 450px;
+    }
+
+    .articleListBox__recipeDescrip {
+        width: 450px;
+    }
+
+    .articleListBox__recipeImg {
+        margin-left: 5%;
+    }
+
+    .articleListBox__descriptions {
+        margin-top: 4%;
+        padding-top: 2.5%;
+        margin-left: -5%;
+    }
+    
+    .articleListBox__publicationDescript {
+        margin-top: 4%;
+    }
+    /* .articleListBox__publicationDescript {
+        margin-top: 10%;
+    }
+     */
+    
+}

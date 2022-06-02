@@ -1,66 +1,33 @@
 import { useEffect, useState } from "react";
-import './style.css'
+// import './style.css'
 
-const Pagination = () => {
-  const [itens, setItens] = useState([]);
-  const [intensPerPage] = useState(3);
+const Pagination = ({sendPage}) => {
   const [currentPage, setCurrentPage] = useState(0);
 
-  const startIndex = currentPage * intensPerPage;
-  const endIndex = startIndex + intensPerPage;
-  const currentItens = itens.slice(startIndex, endIndex);
-  useEffect(() => {
-    const fetchData = async () => {
-      const result = await fetch("../../../database.json")
-        .then((resp) => resp.json())
-        .then((data) => data.articles);
-
-      setItens(result);
-    };
-    fetchData();
-  }, []);
+  function handleClick(e){
+    setCurrentPage(Number(e.target.value))
+    sendPage(Number(e.target.value))
+  }
   
 
   return (
     <>
-      {currentItens.map((itens) => (
-          <div className="articleListBox">
-              <img className="articleListBox__recipeImg" src={itens.image} />
-              <div className="articleListBox__descriptions">
-              <h2 className="articleListBox__title" >{itens.title}</h2>
-              <p className="articleListBox__recipeDescrip">{itens.summary}</p>
-
-              <div className="articleListBox__publicationDescript">
-              <img className="articleListBox__publicationDescript--authorImg" src={itens.authorImg} />
-              
-              <div className="articleListBox__namesAndDates">
-              <p className="articleListBox__namesAndDates--authorName">{itens.author}</p>
-              <p className="articleListBox__namesAndDatest--pubDate">{itens.created_at}</p>
-              </div>  
-                  
-              </div>              
-
-              </div>
-                
-          </div>
-        
-      ))}
       <div className="Buttons">
         <button
           value="0"
-          onClick={(e) => setCurrentPage(Number(e.target.value))}
+          onClick={handleClick}
         >
           1
         </button>
         <button
           value="1"
-          onClick={(e) => setCurrentPage(Number(e.target.value))}
+          onClick={handleClick}
         >
           2
         </button>
         <button
           value="2"
-          onClick={(e) => setCurrentPage(Number(e.target.value))}
+          onClick={handleClick}
         >
           3
         </button>

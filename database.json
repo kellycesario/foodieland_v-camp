@@ -33,24 +33,30 @@
     },
     {
       "id": 4,
+      "image":"./public/assets/img/recipe16.png",
       "title": "Simple & Delicious Vegetarian Lasagna",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg":"./public/assets/img/leslieAlexander.png",
       "author": "Leslie Alexander",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
       "id": 5,
+      "image":"./public/assets/img/recipe17.png",
       "title": "Plantain and Pinto Stew with Aji Verde",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg":"./public/assets/img/courtneyHenry.png",
       "author": "Courtney Henry",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
       "id": 6,
+      "image":"./public/assets/img/recipe18.png",
       "title": "We`re Hiring a Communications Assistant!",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg":"./public/assets/img/albertFlores.png",
       "author": "Albert Flores",
       "created_at": "12/11/2021",
       "lastUpdated": ""
