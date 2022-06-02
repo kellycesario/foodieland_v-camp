@@ -54,11 +54,19 @@
 }
    
 
-
 @media (min-width: 780px) {
     .articleListBox {
         display: flex;
+        width: 60%;
           
+    }
+
+    .articleListBox__title {
+        width: 450px;
+    }
+
+    .articleListBox__recipeDescrip {
+        width: 450px;
     }
 
     .articleListBox__recipeImg {
@@ -66,8 +74,17 @@
     }
 
     .articleListBox__descriptions {
-        margin-top: 2%;
+        margin-top: 4%;
+        padding-top: 2.5%;
+        margin-left: -5%;
     }
     
+    .articleListBox__publicationDescript {
+        margin-top: 4%;
+    }
+    /* .articleListBox__publicationDescript {
+        margin-top: 10%;
+    }
+     */
     
 }

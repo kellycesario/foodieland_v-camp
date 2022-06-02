@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import './style.css'
+// import './style.css'
 
 const Pagination = () => {
   const [itens, setItens] = useState([]);
@@ -23,28 +23,10 @@ const Pagination = () => {
 
   return (
     <>
-      {currentItens.map((itens) => (
-          <div className="articleListBox">
-              <img className="articleListBox__recipeImg" src={itens.image} />
-              <div className="articleListBox__descriptions">
-              <h2 className="articleListBox__title" >{itens.title}</h2>
-              <p className="articleListBox__recipeDescrip">{itens.summary}</p>
-
-              <div className="articleListBox__publicationDescript">
-              <img className="articleListBox__publicationDescript--authorImg" src={itens.authorImg} />
-              
-              <div className="articleListBox__namesAndDates">
-              <p className="articleListBox__namesAndDates--authorName">{itens.author}</p>
-              <p className="articleListBox__namesAndDatest--pubDate">{itens.created_at}</p>
-              </div>  
-                  
-              </div>              
-
-              </div>
-                
-          </div>
+      {/* {currentItens.map((itens) => (
+          
         
-      ))}
+      ))} */}
       <div className="Buttons">
         <button
           value="0"
