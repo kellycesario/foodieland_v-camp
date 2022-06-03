@@ -39,8 +39,8 @@ export default function BlogPage() {
 
       <div className="blogPageWrapper">
         <ArticleList dataPagination={currentItens} />
-        <RecipeList />
         <Pagination sendPage={handlePageChange} />
+        <RecipeList />
       </div>
 
       <SignNewsletter />
