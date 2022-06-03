@@ -6,7 +6,7 @@
   width: 70%;
   max-width: 840px;
   height: 445px;
-  margin: 32px auto;
+  margin: 0px auto 32px;
 }
 
 .articleCard__image {
@@ -92,7 +92,7 @@
 
 @media (min-width: 1024px) {
   .articleCard {
-    width: 67%;
+    width: 100%;
     margin-bottom: 32px;
     flex-direction: row;
     justify-content: space-between;

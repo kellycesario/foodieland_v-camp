@@ -1,16 +1,19 @@
+.blogPageWrapper{
+  margin: 0px 60px;
+}
+
 @media (min-width: 1024px) {
   .blogPageWrapper {
     display: grid;
     grid-template-rows: 80% 20%;
     /* grid-template-columns: 60% 40%; */
     grid-template-columns: 1fr 1fr;
+    gap: 40px
   }
 
   .blogPageWrapper:nth-child(0) {
-    color: red;
   }
 
   .articleCard {
-    color: red;
   }
 }
