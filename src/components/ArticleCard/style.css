@@ -90,9 +90,9 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .articleCard {
-    width: 100%;
+    width: 840px;
     margin-bottom: 32px;
     flex-direction: row;
     justify-content: space-between;

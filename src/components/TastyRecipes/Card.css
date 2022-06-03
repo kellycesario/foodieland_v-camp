@@ -5,6 +5,7 @@
 }
 .cardContainer__img {
   margin-bottom: 29px;
+  width: 180px;
 }
 .cardContainer__text {
   font-family: "Inter", sans-serif;
