@@ -4,6 +4,7 @@ import ArticleList from "../../components/ArticleList";
 import Pagination from "../../components/Pagination";
 import RecipeList from "../../components/RecipeList";
 import ArticleSearch from "./../../components/ArticleSearch";
+import SignNewsletter from "./../../components/SignNewsletter"
 
 import "./style.css"
 
@@ -41,6 +42,8 @@ export default function BlogPage() {
         <RecipeList />
         <Pagination sendPage={handlePageChange} />
       </div>
+
+      <SignNewsletter />
     </>
   );
 }
