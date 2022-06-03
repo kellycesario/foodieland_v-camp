@@ -17,16 +17,16 @@ export default function MainFooter() {
           <nav className="navThroughPages">
             <ul>
               <li>
-                <a href="">Recipes</a>
+                <a href="/recipes">Recipes</a>
               </li>
               <li>
-                <a href="">Blog</a>
+                <a href="/blogListPage">Blog</a>
               </li>
               <li>
-                <a href="">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
               <li>
-                <a href="">About us</a>
+                <a href="/aboutUs">About us</a>
               </li>
             </ul>
           </nav>

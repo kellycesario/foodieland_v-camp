@@ -3,61 +3,151 @@
   "articles": [
     {
       "id": 1,
-      "image":"./public/assets/img/recipe15.png",
+      "image": "./public/assets/img/article01.png",
       "title": "Crochet Projects for Noodle Lovers",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
-      "authorImg":"./public/assets/img/wadeWarren.png",
+      "authorImg": "./public/assets/img/wadeWarren.png",
       "author": "Wade Warren",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
       "id": 2,
-      "image":"./public/assets/img/recipe09.png",
+      "image": "./public/assets/img/article02.png",
       "title": "10 Vegetarian Recipes To Eat This Month",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
-      "authorImg":"./public/assets/img/robertFox.png",
+      "authorImg": "./public/assets/img/robertFox.png",
       "author": "Robert Fox",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
       "id": 3,
-      "image":"./public/assets/img/cooking.png",
+      "image": "./public/assets/img/article03.png",
       "title": "Full Guide to Becoming a Professional Chef",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
-      "authorImg":"./public/assets/img/dianneRussell.png",
+      "authorImg": "./public/assets/img/dianneRussell.png",
       "author": "Dianne Russel",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
       "id": 4,
-      "image":"./public/assets/img/recipe16.png",
+      "image": "./public/assets/img/article04.png",
       "title": "Simple & Delicious Vegetarian Lasagna",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
-      "authorImg":"./public/assets/img/leslieAlexander.png",
+      "authorImg": "./public/assets/img/leslieAlexander.png",
       "author": "Leslie Alexander",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
       "id": 5,
-      "image":"./public/assets/img/recipe17.png",
+      "image": "./public/assets/img/article05.png",
       "title": "Plantain and Pinto Stew with Aji Verde",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
-      "authorImg":"./public/assets/img/courtneyHenry.png",
+      "authorImg": "./public/assets/img/courtneyHenry.png",
       "author": "Courtney Henry",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     },
     {
       "id": 6,
-      "image":"./public/assets/img/recipe18.png",
+      "image": "./public/assets/img/article06.png",
       "title": "We`re Hiring a Communications Assistant!",
       "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
-      "authorImg":"./public/assets/img/albertFlores.png",
+      "authorImg": "./public/assets/img/albertFlores.png",
       "author": "Albert Flores",
+      "created_at": "12/11/2021",
+      "lastUpdated": ""
+    },
+    {
+      "id": 7,
+      "image": "./public/assets/img/article01.png",
+      "title": "Crochet Projects for Noodle Lovers",
+      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg": "./public/assets/img/wadeWarren.png",
+      "author": "Wade Warren",
+      "created_at": "12/11/2021",
+      "lastUpdated": ""
+    },
+    {
+      "id": 9,
+      "image": "./public/assets/img/article02.png",
+      "title": "10 Vegetarian Recipes To Eat This Month",
+      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg": "./public/assets/img/robertFox.png",
+      "author": "Robert Fox",
+      "created_at": "12/11/2021",
+      "lastUpdated": ""
+    },
+    {
+      "id": 10,
+      "image": "./public/assets/img/article03.png",
+      "title": "Full Guide to Becoming a Professional Chef",
+      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg": "./public/assets/img/dianneRussell.png",
+      "author": "Dianne Russel",
+      "created_at": "12/11/2021",
+      "lastUpdated": ""
+    },
+    {
+      "id": 11,
+      "image": "./public/assets/img/article04.png",
+      "title": "Simple & Delicious Vegetarian Lasagna",
+      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg": "./public/assets/img/leslieAlexander.png",
+      "author": "Leslie Alexander",
+      "created_at": "12/11/2021",
+      "lastUpdated": ""
+    },
+    {
+      "id": 12,
+      "image": "./public/assets/img/article05.png",
+      "title": "Plantain and Pinto Stew with Aji Verde",
+      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg": "./public/assets/img/courtneyHenry.png",
+      "author": "Courtney Henry",
+      "created_at": "12/11/2021",
+      "lastUpdated": ""
+    },
+    {
+      "id": 13,
+      "image": "./public/assets/img/article01.png",
+      "title": "We`re Hiring a Communications Assistant!",
+      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg": "./public/assets/img/albertFlores.png",
+      "author": "Albert Flores",
+      "created_at": "12/11/2021",
+      "lastUpdated": ""
+    },
+    {
+      "id": 14,
+      "image": "./public/assets/img/article02.png",
+      "title": "Simple & Delicious Vegetarian Lasagna",
+      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg": "./public/assets/img/leslieAlexander.png",
+      "author": "Leslie Alexander",
+      "created_at": "12/11/2021",
+      "lastUpdated": ""
+    },
+    {
+      "id": 15,
+      "image": "./public/assets/img/article03.png",
+      "title": "Plantain and Pinto Stew with Aji Verde",
+      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg": "./public/assets/img/courtneyHenry.png",
+      "author": "Courtney Henry",
+      "created_at": "12/11/2021",
+      "lastUpdated": ""
+    },
+    {
+      "id": 16,
+      "image": "./public/assets/img/article04.png",
+      "title": "Plantain and Pinto Stew with Aji Verde",
+      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!",
+      "authorImg": "./public/assets/img/courtneyHenry.png",
+      "author": "Courtney Henry",
       "created_at": "12/11/2021",
       "lastUpdated": ""
     }
@@ -223,7 +313,7 @@
       "categorie": "Healthy",
       "liked": false,
       "author": "",
-      "image": "./public/assets/img/recipe09.png",
+      "image": "./public/assets/img/article02.png",
       "createdAt": "",
       "nutrition_info": {
         "calories": "xx",
@@ -337,7 +427,7 @@
       "categorie": "Japanese",
       "liked": false,
       "author": "",
-      "image": "./public/assets/img/recipe15.png",
+      "image": "./public/assets/img/article01.png",
       "createdAt": "",
       "nutrition_info": {
         "calories": "xx",
@@ -364,7 +454,6 @@
       "name": "instagram",
       "link": "https://www.instagram.com/",
       "image": "./public/assets/icons/instagramLogo.svg"
-
     }
   ]
 }

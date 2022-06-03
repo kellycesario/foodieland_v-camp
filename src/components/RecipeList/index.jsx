@@ -1,11 +1,11 @@
 import Advertising from "../Advertising";
 import TastyRecipes from "../TastyRecipes";
 
-import "../../pages/BlogPage.css";
+import "./style.css";
 
 const RecipeList = () => {
   return (
-    <div className="tastyrecipes">
+    <div className="recipeList">
       <Advertising />
       <TastyRecipes />
     </div>
