@@ -3,8 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
-  max-width: 840px;
   height: 445px;
   margin: 0px auto 32px;
 }
@@ -90,9 +88,9 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .articleCard {
-    width: 840px;
+    width: 67%;
     margin-bottom: 32px;
     flex-direction: row;
     justify-content: space-between;
