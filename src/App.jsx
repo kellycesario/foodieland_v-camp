@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import BlogPage from "./pages/BlogPage";
 
 import "../public/styles/Global.css";
+import MessageErrorFood from "./components/MessageErrorFood";
 
 function App() {
   return (
@@ -27,12 +28,15 @@ function App() {
       </Route>
 
       <Route path="/home">
-        <CarrouselFood />
-        <SignNewsletter />
+        <MessageErrorFood/>
       </Route>
 
-      <Route path="/recipes"></Route>
-      <Route path="/aboutUs"></Route>
+      <Route path="/recipes">
+        <MessageErrorFood/>
+      </Route>
+      <Route path="/aboutUs">
+        <MessageErrorFood/>
+      </Route>
 
       <MainFooter />
     </>
