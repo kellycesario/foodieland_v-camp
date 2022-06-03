@@ -3,8 +3,10 @@ import "./style.css";
 const ArticleCards = (props) => {
   return (
     <div className="articleCard">
-      <img className="articleCard__recipeImg" src={props.image} />
-      <div className="articleCard__descriptions">
+      <div className="articleCard__image">
+        <img className="articleCard__recipeImg" src={props.image} />
+      </div>
+      <div className="articleCard__info">
         <h2 className="articleCard__title">{props.title}</h2>
         <p className="articleCard__recipeDescrip">{props.summary}</p>
 
@@ -14,14 +16,13 @@ const ArticleCards = (props) => {
             src={props.authorImg}
           />
 
-          <div className="articleCard__namesAndDates">
-            <p className="articleCard__namesAndDates--authorName">
-              {props.author}
-            </p>
-            <p className="articleCard__namesAndDatest--pubDate">
-              {props.created_at}
-            </p>
-          </div>
+          <p className="articleCard__namesAndDates--authorName">
+            {props.author}
+          </p>
+          <hr width="1" size="33" />
+          <p className="articleCard__namesAndDatest--pubDate">
+            {props.created_at}
+          </p>
         </div>
       </div>
     </div>

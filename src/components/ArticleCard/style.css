@@ -1,85 +1,112 @@
-.articleCard__recipeImg {
+.articleCard {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  max-width: 840px;
+  height: 445px;
+  margin: 32px auto;
+}
+
+.articleCard__image {
   border-radius: 16px;
-  margin: 40px auto 0 auto;
+  width: 290px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articleCard__recipeImg {
+  width: 100%;
+  border-radius: 20px;
 }
 
 .articleCard__title {
-  font-size: 20px;
-  width: 306px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
-.articleCard__descriptions {
+.articleCard__info {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   flex-direction: column;
-  padding-left: 66px;
+  justify-content: center;
 }
 
 .articleCard__recipeDescrip {
-  font-size: 14px;
-  width: 314px;
-  margin-bottom: 12px;
-  font-weight: 300;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .articleCard__publicationDescript {
   display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 11px;
   align-items: center;
 }
 
 .articleCard__publicationDescript--authorImg {
-  align-items: flex-start;
-}
-
-.articleCard__publicationDescript--data {
-  align-items: flex-end;
 }
 
 .articleCard__namesAndDates {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-around;
 }
 
 .articleCard__namesAndDates--authorName {
   font-weight: bold;
-  padding-left: 12px;
+  line-height: 15px;
 }
 
 .articleCard__namesAndDatest--pubDate {
-  padding-left: 50px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
   .articleCard {
-    display: flex;
-    width: 60%;
+    width: 90%;
+    margin-bottom: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    gap: 40px;
   }
-
+  .articleCard__image {
+  }
+  .articleCard__info {
+  }
   .articleCard__title {
-    width: 450px;
+    width: 80%;
   }
-
-  .articleCard__recipeDescrip {
-    width: 450px;
-  }
-
-  .articleCard__recipeImg {
-    margin-left: 5%;
-  }
-
-  .articleCard__descriptions {
-    margin-top: 4%;
-    padding-top: 2.5%;
-    margin-left: -5%;
-  }
-
-  .articleCard__publicationDescript {
-    margin-top: 4%;
-  }
-  /* .articleListBox__publicationDescript {
-        margin-top: 10%;
-    }
-     */
 }
+
+@media (min-width: 1024px) {
+  .articleCard {
+    width: 67%;
+    margin-bottom: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    gap: 40px;
+  }
+  .articleCard__image {
+  }
+  .articleCard__info {
+  }
+  .articleCard__title {
+    width: 80%;
+  }
+}
+
+/* List   - 67%
+Ad        - 33% */
