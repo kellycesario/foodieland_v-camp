@@ -1,0 +1,110 @@
+.articleCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.articleCard__image {
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articleCard__recipeImg {
+  width: 100%;
+  width: fit-content;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.articleCard__title {
+  font-size: 1.25rem;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.articleCard__info {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.articleCard__recipeDescrip {
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.articleCard__publicationDescript {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 11px;
+  align-items: center;
+}
+
+.articleCard__publicationDescript--authorImg {
+}
+
+.articleCard__namesAndDates {
+  display: flex;
+  justify-content: space-around;
+}
+
+.articleCard__namesAndDates--authorName {
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.articleCard__namesAndDatest--pubDate {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .articleCard {
+    width: 100%;
+    margin-bottom: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .articleCard__image {
+  }
+  .articleCard__info {
+  }
+  .articleCard__title {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .articleCard {
+    margin-bottom: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    height: 200;
+    width: 100%;
+  }
+  .articleCard__image {
+  }
+  .articleCard__info {
+    justify-content: space-around;
+    height: 100%;
+  }
+  .articleCard__title {
+    width: 80%;
+  }
+}
+
+/* List   - 67%
+Ad        - 33% */

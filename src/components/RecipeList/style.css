@@ -1,12 +1,15 @@
-.tastyrecipes {
+.recipeList {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  grid-area: b;
 }
 
 @media (min-width: 1024px) {
-  .tastyrecipes {
+  .recipeList {
     flex-direction: column-reverse;
+    justify-content: flex-start;
   }
 }

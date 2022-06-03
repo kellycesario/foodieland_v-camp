@@ -5,12 +5,13 @@
 }
 .cardContainer__img {
   margin-bottom: 29px;
+  width: 180px;
 }
 .cardContainer__text {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 .cardContainer__author {
   font-family: "Inter", sans-serif;

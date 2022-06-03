@@ -1,20 +1,12 @@
 import { Route } from "react-router-dom";
 
-import CarrouselFood from "./components/Carrousel";
 import MainFooter from "./components/MainFooter";
 import MainHeader from "./components/MainHeader";
-import ContactForm from "./components/ContactForm";
 import SignNewsletter from "./components/SignNewsletter";
-import SearchBlogAndArticle from "./components/SearchBlogAndArticle";
-
-import ArticleSearch from "./components/ArticleSearch";
+import CarrouselFood from "./components/Carrousel";
 
 import Contact from "./pages/Contact";
 import BlogPage from "./pages/BlogPage";
-
-// Temp
-import MainButton from "./components/MainButton";
-// Temp
 
 import "../public/styles/Global.css";
 
@@ -25,13 +17,22 @@ function App() {
 
       <Route path="/contact">
         <Contact />
+        <SignNewsletter />
+        <CarrouselFood />
       </Route>
 
       <Route path="/blogListPage">
-        <ArticleSearch />
         <BlogPage />
+        {/* <SignNewsletter /> */}
+      </Route>
+
+      <Route path="/home">
+        <CarrouselFood />
         <SignNewsletter />
       </Route>
+
+      <Route path="/recipes"></Route>
+      <Route path="/aboutUs"></Route>
 
       <MainFooter />
     </>

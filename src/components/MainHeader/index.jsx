@@ -26,12 +26,18 @@ const Header = () => {
       <nav className="navBar">
         <img src={logo} className="navBar__img" />
         <ul className={`navBar__lists ${Modal ? "navBar__lists--active" : ""}`}>
-          <li className="navBar__lists__item">Home</li>
-          <li className="navBar__lists__item">Recipes</li>
+          <a href="/">
+            <li className="navBar__lists__item">Home</li>
+          </a>
+          <a href="/recipes">
+            <li className="navBar__lists__item">Recipes</li>
+          </a>
           <a href="/blogListPage">
             <li className="navBar__lists__item">Blog</li>
           </a>
-          <li className="navBar__lists__item">About us</li>
+          <a href="/aboutUs">
+            <li className="navBar__lists__item">About us</li>
+          </a>
           <a href="/contact">
             <li className="navBar__lists__item">Contact</li>
           </a>

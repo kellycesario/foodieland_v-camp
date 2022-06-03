@@ -1,21 +1,22 @@
-import ArticleCards from "./ArticleCard";
-import Noodles from "../../../public/assets/img/recipe15.png";
-import Wade from "../../../public/assets/img/wadeWarren.png"
+import { useEffect } from "react";
+import ArticleCards from "../ArticleCard";
+import "./style.css";
 
-export default function ArticleList() {
-    return (
-        <>
-        <h1>ArticleList</h1>
-        <ArticleCards 
-        image={Noodles}
-        title="Crochet Projects for Noodle Lovers"
-        summary="Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Ipsum pariatur recusandae debitis culpa, temporibus repellendus tempore vel itaque laborum omnis!"
-        authorImg={Wade}
-        author="Wade Warren"
-        created_at="12 November 2021"
-        />
-        
-        </>
-    )
+export default function ArticleList({ dataPagination }) {
+  return (
+    <>
+      <div className="articleListContainer">
+        {dataPagination.map((article) => (
+          <ArticleCards
+            image={article.image}
+            title={article.title}
+            summary={article.summary}
+            authorImg={article.authorImg}
+            author={article.author}
+            created_at={article.created_at}
+          />
+        ))}
+      </div>
+    </>
+  );
 }

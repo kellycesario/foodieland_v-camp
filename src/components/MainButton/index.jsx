@@ -8,7 +8,7 @@ export default function MainButton({
   Color,
   InsideInput,
   Content,
-  OnClick
+  handleClick,
 }) {
   const [btnSize, setBtnSize] = useState(Size);
   const [btnColor, setBtnColor] = useState(Color);
@@ -59,7 +59,7 @@ export default function MainButton({
   return (
     <>
       <button
-        onClick={OnClick}
+        onClick={handleClick}
         value={btnValue}
         className={`btn ${btnSize} ${btnColor} ${btnInsideInput}`}
       >

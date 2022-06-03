@@ -12,9 +12,13 @@
   width: 100%;
   text-align: center;
   margin-bottom: 40px;
+  font-weight: 600;
 }
 
 @media (min-width: 1024px) {
+  .cardContainer {
+    margin-top: 0px;
+  }
   .cardContainer__title{
     text-align: left;
   }
