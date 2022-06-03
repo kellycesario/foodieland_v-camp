@@ -25,6 +25,7 @@
   font-size: 1.25rem;
   width: 100%;
   margin-bottom: 0.75rem;
+  margin-top: 12px;
 }
 
 .articleCard__info {
@@ -33,6 +34,8 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  padding-left: 24px;
+  
 }
 
 .articleCard__recipeDescrip {
@@ -51,8 +54,8 @@
   align-items: center;
 }
 
-.articleCard__publicationDescript--authorImg {
-}
+/* .articleCard__publicationDescript--authorImg {
+} */
 
 .articleCard__namesAndDates {
   display: flex;
@@ -80,6 +83,7 @@
   .articleCard__image {
   }
   .articleCard__info {
+    padding-left: 0;
   }
   .articleCard__title {
     width: 80%;
@@ -101,6 +105,7 @@
   .articleCard__info {
     justify-content: space-around;
     height: 100%;
+    padding-left: 0;
   }
   .articleCard__title {
     width: 80%;
