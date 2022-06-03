@@ -1,11 +1,13 @@
-
+a.blogPageWrapper {
+  width: 100%;
+}
 @media (min-width: 1024px) {
   .blogPageWrapper {
     display: grid;
     grid-template-rows: 80% 20%;
-    /* grid-template-columns: 60% 40%; */
-    grid-template-columns: 1fr 1fr;
-    gap: 40px
+    grid-template-columns: 60% 40%;
+    gap: 40px;
+    width: 100%;
   }
 
   .blogPageWrapper:nth-child(0) {

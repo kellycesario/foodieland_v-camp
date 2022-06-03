@@ -16,6 +16,8 @@
 }
 
 @media (min-width: 1024px) {
+  .cardContainer {
+  }
   .cardContainer__title{
     text-align: left;
   }

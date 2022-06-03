@@ -1,7 +1,15 @@
-.articleContainer {
+.articleListContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 80%;
     flex-direction: column;
+    margin: 0 auto;
 }
+
+@media (min-width: 1024px) {
+    .articleListContainer {
+
+    }
+  }
+  

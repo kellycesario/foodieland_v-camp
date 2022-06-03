@@ -23,10 +23,10 @@ function App() {
 
       <Route path="/blogListPage">
         <BlogPage />
-        <SignNewsletter />
+        {/* <SignNewsletter /> */}
       </Route>
 
-      <Route path="/">
+      <Route path="/home">
         <CarrouselFood />
         <SignNewsletter />
       </Route>
