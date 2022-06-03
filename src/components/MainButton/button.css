@@ -7,6 +7,7 @@
   font-weight: 600;
   font-family: Inter, sans-serif;
   font-size: 1rem;
+  cursor: pointer;
 }
 .btn--large {
   width: 372px;

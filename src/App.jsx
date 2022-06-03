@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 
 import MainFooter from "./components/MainFooter";
 import MainHeader from "./components/MainHeader";
@@ -9,7 +9,6 @@ import Contact from "./pages/Contact";
 import BlogPage from "./pages/BlogPage";
 
 import "../public/styles/Global.css";
-import { Redirect } from "react-router-dom";
 
 function App() {
   return (

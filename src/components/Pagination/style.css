@@ -14,8 +14,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 44px;
 }
 
 .paginationContainer {
   grid-area: c;
+}
+
+@media (max-width: 1024px) {
+  .paginationContainer__buttonList {
+    padding-top: 44px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .paginationContainer__buttonList {
+    padding-top: 44px;
+  }
+  
 }
