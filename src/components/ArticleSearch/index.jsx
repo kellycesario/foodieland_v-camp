@@ -5,10 +5,19 @@ import logo from "./../../../public/assets/icons/searchIcon.png";
 import "./style.css";
 
 export default function ArticleSearch() {
-  function test(e) {
-    alert("a");
+  const [userSearch, setUserSearch] = useState("");
+
+  function onChangeHandler(e) {
+    setUserSearch(e.target.value);
   }
 
+  function clickHandler(e) {
+    e.preventDefault();
+    alert(userSearch);
+  }
+
+  // Fix bug on resizing the screen
+  /*
   const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
     width: window.innerWidth,
@@ -25,6 +34,13 @@ export default function ArticleSearch() {
     window.addEventListener("resize", handleResize);
   });
 
+
+// Oq era renderizado antes:
+   {dimensions.width > 768 && (
+            <MainButton InsideInput={true} Content={"Search"}></MainButton>
+          )}
+   */
+
   return (
     <>
       <div className="articleSearch">
@@ -35,16 +51,25 @@ export default function ArticleSearch() {
         </p>
         <form className="articleSearch__form" action="">
           <input
+            onChange={onChangeHandler}
             className="articleSearch__input"
             placeholder="Search article, news or recipe..."
             type="text"
           />
-          <button className="articleSearch__button" onClick={test}>
+          <button
+            type="submit"
+            className="articleSearch__button"
+            onClick={clickHandler}
+          >
             <img className="articleSearch__img inside" src={logo} alt="" />
           </button>
-          {dimensions.width > 768 && (
-            <MainButton InsideInput={true} Content={"Search"}></MainButton>
-          )}
+          <button
+            type="submit"
+            className="tempArticleBtn btn btn--insideInput"
+            onClick={clickHandler}
+          >
+            Search
+          </button>
         </form>
       </div>
     </>

@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 
 import MainFooter from "./components/MainFooter";
 import MainHeader from "./components/MainHeader";
@@ -7,14 +7,20 @@ import CarrouselFood from "./components/Carrousel";
 
 import Contact from "./pages/Contact";
 import BlogPage from "./pages/BlogPage";
+import MessageErrorFood from "./components/MessageErrorFood";
 
 import "../public/styles/Global.css";
-import MessageErrorFood from "./components/MessageErrorFood";
+
+
 
 function App() {
   return (
     <>
       <MainHeader />
+
+      <Route exact path={"/"}>
+        <Redirect to={"/home"} />
+      </Route>
 
       <Route path="/contact">
         <Contact />

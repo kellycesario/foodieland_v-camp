@@ -54,11 +54,11 @@ const Pagination = ({ sendPage }) => {
           {/* Definir quais botões que vao ficar */}
           {/* Criar funcao para caso tenha mais paginas mostrar num mini modal */}
 
-          <MainButton Content={"..."} Value={""} Size="tiny" Color="light" />
+          {/* <MainButton Content={"..."} Value={""} Size="tiny" Color="light" /> */}
 
           {/* Transformar em carousel para ao clicar na seta trocar as opcoes de pagina */}
 
-          <MainButton Content={">"} value={""} Size="tiny" Color="light" />
+          {/* <MainButton Content={">"} value={""} Size="tiny" Color="light" /> */}
         </div>
       </div>
     </>
