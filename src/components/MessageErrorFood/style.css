@@ -1,0 +1,19 @@
+.MessageErrorBox {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.MessageErrorBox_Text--color{
+    color: red;
+    margin-top: 20px;
+}
+
+.MessageErrorBox_Text--bold{
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.MessageErrorBox__Image {
+    margin-top: 50px;
+}
