@@ -23,7 +23,7 @@ function App() {
 
       <Route path="/blogListPage">
         <BlogPage />
-        {/* <SignNewsletter /> */}
+        <SignNewsletter />
       </Route>
 
       <Route path="/home">
