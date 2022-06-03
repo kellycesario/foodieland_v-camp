@@ -1,7 +1,17 @@
-.articleContainer {
+.articleListContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 80%;
     flex-direction: column;
+    margin: 0 auto;
+    grid-area: a;
 }
+
+@media (min-width: 1024px) {
+    .articleListContainer {
+        width: 100%;
+        justify-content: flex-start;
+    }
+  }
+  

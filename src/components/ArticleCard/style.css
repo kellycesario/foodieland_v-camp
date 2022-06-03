@@ -3,16 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
-  max-width: 840px;
-  height: 445px;
-  margin: 0px auto 32px;
+  width: 100%;
+  margin-bottom: 32px;
 }
 
 .articleCard__image {
   border-radius: 16px;
-  width: 290px;
-  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,13 +16,14 @@
 
 .articleCard__recipeImg {
   width: 100%;
+  width: fit-content;
+  height: 200px;
   border-radius: 20px;
 }
 
 .articleCard__title {
   font-size: 1.25rem;
   width: 100%;
-  margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
 
@@ -74,11 +71,10 @@
 
 @media (min-width: 768px) {
   .articleCard {
-    width: 90%;
-    margin-bottom: 32px;
+    width: 100%;
+    margin-bottom: 60px;
     flex-direction: row;
     justify-content: space-between;
-    height: 200px;
     gap: 40px;
   }
   .articleCard__image {
@@ -90,18 +86,20 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .articleCard {
-    width: 840px;
     margin-bottom: 32px;
     flex-direction: row;
     justify-content: space-between;
-    height: 200px;
     gap: 40px;
+    height: 200;
+    width: 100%;
   }
   .articleCard__image {
   }
   .articleCard__info {
+    justify-content: space-around;
+    height: 100%;
   }
   .articleCard__title {
     width: 80%;

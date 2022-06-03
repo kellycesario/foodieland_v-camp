@@ -1,25 +1,21 @@
-    .paginationContainer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin-top: 44px;
-        margin-bottom: 55px;
-    }
-    
-    .paginationContainer__buttonList {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: nowrap;
-        gap: 1rem;
-        width: clamp(544px, 100%, 544px);
-        padding: 0px 17px;
-    }
- 
+.paginationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 44px;
+  margin-bottom: 55px;
+}
 
-    
-    @media (min-width:1024px){
+.paginationContainer__buttonList {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    }
+.paginationContainer {
+  grid-area: c;
+}

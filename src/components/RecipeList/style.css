@@ -3,10 +3,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  grid-area: b;
 }
 
 @media (min-width: 1024px) {
   .recipeList {
     flex-direction: column-reverse;
+    justify-content: flex-start;
   }
 }
