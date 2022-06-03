@@ -8,6 +8,7 @@ a.blogPageWrapper {
     grid-template-columns: 60% 40%;
     gap: 40px;
     width: 100%;
+    margin: 0px 40px;
   }
 
   .blogPageWrapper:nth-child(0) {

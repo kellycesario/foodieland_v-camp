@@ -3,11 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
   .recipeList {
-    width: 34%;
     flex-direction: column-reverse;
+    justify-content: flex-start;
   }
 }

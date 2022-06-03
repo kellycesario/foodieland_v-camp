@@ -9,7 +9,8 @@
 
 @media (min-width: 1024px) {
     .articleListContainer {
-
+        width: 100%;
+        justify-content: flex-start;
     }
   }
   
