@@ -9,11 +9,16 @@ import Contact from "./pages/Contact";
 import BlogPage from "./pages/BlogPage";
 
 import "../public/styles/Global.css";
+import { Redirect } from "react-router-dom";
 
 function App() {
   return (
     <>
       <MainHeader />
+
+      <Route exact path={"/"}>
+        <Redirect to={"/home"} />
+      </Route>
 
       <Route path="/contact">
         <Contact />
