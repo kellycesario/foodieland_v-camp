@@ -9,6 +9,8 @@ export default function ArticleSearch() {
     alert("a");
   }
 
+  // Fix bug on resizing the screen
+  /*
   const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
     width: window.innerWidth,
@@ -24,6 +26,13 @@ export default function ArticleSearch() {
 
     window.addEventListener("resize", handleResize);
   });
+
+
+// Oq era renderizado antes:
+   {dimensions.width > 768 && (
+            <MainButton InsideInput={true} Content={"Search"}></MainButton>
+          )}
+   */
 
   return (
     <>
@@ -42,9 +51,7 @@ export default function ArticleSearch() {
           <button className="articleSearch__button" onClick={test}>
             <img className="articleSearch__img inside" src={logo} alt="" />
           </button>
-          {dimensions.width > 768 && (
-            <MainButton InsideInput={true} Content={"Search"}></MainButton>
-          )}
+          <button className="tempArticleBtn btn btn--insideInput">Search</button>
         </form>
       </div>
     </>
