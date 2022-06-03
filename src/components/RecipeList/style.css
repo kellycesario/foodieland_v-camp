@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  grid-area: b;
 }
 
 @media (min-width: 1024px) {

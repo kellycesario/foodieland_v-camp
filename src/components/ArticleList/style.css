@@ -5,6 +5,7 @@
     width: 80%;
     flex-direction: column;
     margin: 0 auto;
+    grid-area: a;
 }
 
 @media (min-width: 1024px) {

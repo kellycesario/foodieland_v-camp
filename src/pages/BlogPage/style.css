@@ -4,6 +4,9 @@ a.blogPageWrapper {
 @media (min-width: 1024px) {
   .blogPageWrapper {
     display: grid;
+    grid-template-areas:
+      "a b"
+      "c c";
     grid-template-rows: 80% 20%;
     grid-template-columns: 60% 40%;
     gap: 40px;

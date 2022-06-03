@@ -15,3 +15,7 @@
   justify-content: center;
   align-items: center;
 }
+
+.paginationContainer {
+  grid-area: c;
+}
