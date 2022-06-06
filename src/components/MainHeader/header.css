@@ -6,19 +6,19 @@
 .navBar__icons {
   display: none;
 }
-.navBar__lists--active {
-    position: absolute;
-    background-color: white;
-    width: 100%;
-    top: 119px;
-    padding-top:27px ;
-    padding-left: 30px;
-    right: 0px;
-    display: block;
-    height: calc(470px);
-    z-index: 1000;
+.navBar__lists--active  {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  top: 119px;
+  padding-top:27px ;
+  padding-left: 30px;
+  right: 0px;
+  display: block;
+  height: calc(470px);
+  z-index: 1000;
 }
-.navBar__lists--active .navBar__lists__item {
+.navBar__lists--active .navBar__item {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 24px;
@@ -75,7 +75,7 @@
   .navBar__burguerBtn{
     display: none;
   }
-  .navBar__lists__item{
+  .navBar__item{
     cursor: pointer;
     font-weight: 500;
     padding-right: 60px;
@@ -87,7 +87,7 @@
     cursor: pointer;
     
   }
-  .navBar__icons__svg {
+  .navBar__svg {
    margin-right: 40px;
   }
 }

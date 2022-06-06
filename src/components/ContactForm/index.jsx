@@ -44,14 +44,26 @@ const ContactForm = () => {
       <section className="title__section">
         <h1 className="form__title">Contact us</h1>
       </section>
-
       <section className="image__section">
         <img
           src="../../../public/assets/img/cookerBackground.png"
           className="cooker__picture"
-        />
+          />
       </section>
 
+          {/* 
+            Notes para kelly
+            
+            classePadraoContainer {
+              estilizacoes
+            }
+
+            ex de variacoes:
+
+            classePadraoContainer--email
+            classePadraoInput--select
+          
+          */}
       <section className="input__section__name">
         <LabelField for="input__name" id="input__title">
           {" "}
