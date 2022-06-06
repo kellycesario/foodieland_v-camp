@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.MessageErrorBox_Text--color{
+.MessageErrorBox_Text--red{
     color: red;
     margin-top: 20px;
 }
