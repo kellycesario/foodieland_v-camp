@@ -11,6 +11,8 @@
 }
 .btn--large {
   width: 372px;
+  width: clamp(100%, 100%, 372px);
+  max-width: 372px;
 }
 .btn--insideInput {
   width: 10rem;
