@@ -5,10 +5,10 @@ import './style.css'
 const MessageErrorFood = () => {
   return (
     <>
-    <div className="MessageErrorBox">       
-            <h1 className="MessageErrorBox_Text--red">Error 404</h1>
-            <p className="MessageErrorBox_Text--bold">Desculpe! Ainda estamos trabalhando nesta página!</p>        
-      <div className="MessageErrorBox__Image">
+    <div className="messageErrorBox">       
+            <h1 className="messageErrorBox_text--red">Error 404</h1>
+            <p className="messageErrorBox_text--bold">Desculpe! Ainda estamos trabalhando nesta página!</p>        
+      <div className="messageErrorBox__image">
             <img src={errorFood} />
       </div>
     </div>
