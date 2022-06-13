@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ImgSlider } from '@temp/SliderImg';
+import { ImgSlider } from './SliderImg';
 import './style.css'
 import ArrowLeft from '@icons/arrowLeft.svg';
 import ArrowRight from '@icons/arrowRight.svg';
