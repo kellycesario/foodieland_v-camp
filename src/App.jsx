@@ -1,13 +1,13 @@
 import { Route, Redirect } from "react-router-dom";
 
-import MainFooter from "./components/MainFooter";
-import MainHeader from "./components/MainHeader";
-import SignNewsletter from "./components/SignNewsletter";
-import CarrouselFood from "./components/Carrousel";
+import MainFooter from "@temp/MainFooter";
+import MainHeader from "@temp/MainHeader";
+import SignNewsletter from "@temp/SignNewsletter";
+import CarrouselFood from "@temp/Carrousel";
 
-import Contact from "./pages/Contact";
-import BlogPage from "./pages/BlogPage";
-import MessageErrorFood from "./components/MessageErrorFood";
+import Contact from "@pages/Contact";
+import BlogPage from "@pages/BlogPage";
+import MessageErrorFood from "@temp/MessageErrorFood";
 
 import "../public/styles/Global.css";
 

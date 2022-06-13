@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
-import ArticleList from "../../components/ArticleList";
-import Pagination from "../../components/Pagination";
-import RecipeList from "../../components/RecipeList";
-import ArticleSearch from "./../../components/ArticleSearch";
+import ArticleList from "@temp/ArticleList";
+import Pagination from "@temp/Pagination";
+import RecipeList from "@temp/RecipeList";
+import ArticleSearch from "@temp/ArticleSearch";
 
 import "./style.css"
 

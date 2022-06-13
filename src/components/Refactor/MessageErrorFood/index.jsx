@@ -1,5 +1,5 @@
 import React from "react";
-import errorFood from "../../../public/assets/img/errorFood.png";
+import errorFood from "@img/errorFood.png";
 import './style.css'
 
 const MessageErrorFood = () => {
