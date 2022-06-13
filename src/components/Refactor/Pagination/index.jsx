@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import MainButton from "../MainButton";
+import MainButton from "@temp/MainButton";
 import "./style.css";
 
 const Pagination = ({ sendPage }) => {

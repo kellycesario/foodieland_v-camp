@@ -1,5 +1,5 @@
-import Advertising from "../Advertising";
-import TastyRecipes from "../TastyRecipes";
+import Advertising from "@temp/Advertising";
+import TastyRecipes from "@temp/TastyRecipes";
 
 import "./style.css";
 
