@@ -9,7 +9,8 @@
       "authorImg": "./public/assets/img/wadeWarren.png",
       "author": "Wade Warren",
       "created_at": "12 November 2021",
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "liked": false
     },
     {
       "id": 2,
@@ -159,7 +160,7 @@
       "prepTime": "30 Minutes",
       "cookTime": "30 Minutes",
       "categorie": "Snack",
-      "liked": false,
+      "liked": true,
       "author": "",
       "image": "./public/assets/img/recipe01.png",
       "createdAt": "",
@@ -457,3 +458,6 @@
     }
   ]
 }
+
+
+<SocialMediaPubli twitter={true} />
