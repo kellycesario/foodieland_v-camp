@@ -1,0 +1,30 @@
+.learnMore {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.learnMore__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+}
+
+.learnMore__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px; 
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.learnMore__img {
+    width: 388px;
+    max-width: 100%;
+}
+
+.btn {
+    margin: 20px 0;
+}
