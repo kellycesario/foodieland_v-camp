@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import MainButton from "../MainButton";
-import logo from "./../../../public/assets/icons/searchIcon.png";
+import MainButton from "@temp/MainButton";
+import logo from "@img/searchIcon.png";
 
 import "./style.css";
 

@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 
-import SubmitButton from "../../ContactForm/SubmitButton";
-import InputField from "../../ContactForm/InputField";
-import MainButton from "../../MainButton";
-
-import emailBackground from "../../../public/assets/img/emailBackground.png";
-import emailBackgroundMobile from "../../../public/assets/img/emailBackgroundMobile.png";
+import MainButton from "@temp/MainButton";
 
 import "./NewsletterStyle.css";
 

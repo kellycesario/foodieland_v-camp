@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ArticleCards from "../ArticleCard";
+import ArticleCards from "@temp/ArticleCard";
 import "./style.css";
 
 export default function ArticleList({ dataPagination }) {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
-import logo from "../../../public/assets/icons/foodielandLogo.svg";
+import logo from "@icons/foodielandLogo.svg";
 
 const Header = () => {
   const [Modal, setModal] = useState(false);

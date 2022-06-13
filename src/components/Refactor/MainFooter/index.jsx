@@ -1,8 +1,8 @@
 import React from "react";
 import "./mainFooter.css";
 import "./mediaQuerie.css";
-import database from "./../../../database.json";
-import foodieLandLogo from "./../../../public/assets/icons/foodielandLogo.svg";
+import database from "./../../../../database.json";
+import foodieLandLogo from "@icons/foodielandLogo.svg";
 
 export default function MainFooter() {
   return (
