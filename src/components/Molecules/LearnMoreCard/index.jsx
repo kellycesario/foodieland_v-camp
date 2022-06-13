@@ -3,7 +3,7 @@ import MainButton from "../../Refactor/MainButton"
 import "./style.css";
 import imgLearnMore from "@img/imgLearnMore.png";
 
-const LearnMore = () => {
+const LearnMoreCard = () => {
 
     return (
         <section className="learnMore">
@@ -17,4 +17,4 @@ const LearnMore = () => {
     );
 }
 
-export default LearnMore;
+export default LearnMoreCard;
