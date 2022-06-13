@@ -1,4 +1,4 @@
-import Card from "@temp/Card";
+import Card from "./Card";
 
 import "./index.css";
 
