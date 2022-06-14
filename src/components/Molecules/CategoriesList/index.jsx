@@ -1,5 +1,5 @@
 import React from "react";
-import CardsProps from "./cardsProps";
+import CardsProps from "../../Atoms/CategoriesCards/cardsProps";
 
 // importando as imagens dos alimentos
 import sushiRice from "../../../../public/assets/img/sushiRice.png";

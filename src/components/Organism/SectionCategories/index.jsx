@@ -1,4 +1,4 @@
-import CategoriesCards from "../../Molecules/CategoriesCards"
+import CategoriesCards from "../../Molecules/CategoriesList"
 
 const CategoriesSection = () => {
     return (
