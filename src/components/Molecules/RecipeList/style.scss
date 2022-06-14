@@ -1,0 +1,9 @@
+.moreRecipesImgList {
+  max-width: 87%;
+  align-items: center;
+  justify-content: center;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-column-gap: 2.5rem;
+}
