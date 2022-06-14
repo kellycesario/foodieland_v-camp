@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Lobster&display=swap");
+
 :root {
   --background: #ffffff;
   --fontColor: #000000;
@@ -18,8 +19,7 @@ body {
 ::after {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline-color: black;
 }
 
@@ -33,40 +33,37 @@ body {
   font-family: Inter, sans-serif;
   font-size: 1rem;
   cursor: pointer;
-}
 
-.btn--large {
-  width: 372px;
-  width: clamp(100%, 100%, 372px);
-  max-width: 372px;
-}
+  &--large {
+    width: 372px;
+    width: clamp(100%, 100%, 372px);
+    max-width: 372px;
+  }
+  &--insideInput {
+    width: 10rem;
+    font-size: 14px;
+    height: 3.75rem;
+    margin-right: 10px;
+  }
+  &--tiny {
+    width: clamp(4rem, 4rem, 100%);
+    height: 4rem;
+    border-radius: 1rem;
+    font-weight: 700;
+  }
+  &--rounded {
+    border-radius: 50%;
+  }
+  &--carrousel {    
+  }
 
-.btn--insideInput {
-  width: 10rem;
-  font-size: 14px;
-  height: 3.75rem;
-  margin-right: 10px;
+  &--light {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000;
+    background-color: #fff;
+    &:active {
+      background-color: #fff;
+      color: #000;
+    }
+  }
 }
-
-.btn--tiny {
-  width: clamp(4rem, 4rem, 100%);
-  height: 4rem;
-  border-radius: 1rem;
-  font-weight: 700;
-}
-
-.btn--rounded {
-  border-radius: 50%;
-}
-
-.btn--light {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  color: #000;
-  background-color: #fff;
-}
-
-.btn--light:active {
-  background-color: #fff;
-  color: #000;
-}
-/*# sourceMappingURL=Global.css.map */
