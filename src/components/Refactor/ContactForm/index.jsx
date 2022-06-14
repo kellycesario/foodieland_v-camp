@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./ContactFormStyle.css";
-import cookerBackground from "../../../public/assets/img/cookerBackground.png";
+import cookerBackground from "@img/cookerBackground.png";
 import InputField from "./InputField";
 import LabelField from "./ContactLabel";
 import SubmitButton from "./SubmitButton";

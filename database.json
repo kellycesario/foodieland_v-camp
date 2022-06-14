@@ -440,6 +440,44 @@
       }
     }
   ],
+  "categoriesList": [
+    {
+      "id": 1,
+      "title": "Breakfest",
+      "foodSymbol": "@img/sushiRice.png",
+      "foodBackground": "@img/sushiRiceBackground.png"
+    },
+    {
+      "id": 2,
+      "title": "Vegan",
+      "foodSymbol": "@img/lettuce.png",
+      "foodBackground": "@img/lettuceBackground.png"
+    },
+    {
+      "id": 3,
+      "title": "Meat",
+      "foodSymbol": "@img/steakRaw.png",
+      "foodBackground": "@img/steakRawBackground.png"
+    },
+    {
+      "id": 4,
+      "title": "Dessert",
+      "foodSymbol": "@img/cakePiece.png",
+      "foodBackground": "@img/cakePieceBackground.png"
+    },
+    {
+      "id": 5,
+      "title": "Lunch",
+      "foodSymbol": "@img/sanduich.png",
+      "foodBackground": "@img/sanduichBackground.png"
+    },
+    {
+      "id": 6,
+      "title": "Chocolate",
+      "foodSymbol": "@img/chocolateBar.png",
+      "foodBackground": "@img/chocolateBarBackground.png"
+    }
+  ],
   "socialMedia": [
     {
       "name": "facebook",
@@ -458,6 +496,3 @@
     }
   ]
 }
-
-
-<SocialMediaPubli twitter={true} />

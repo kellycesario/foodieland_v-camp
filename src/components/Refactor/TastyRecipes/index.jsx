@@ -2,9 +2,9 @@ import Card from "./Card";
 
 import "./index.css";
 
-import meat from "../../../public/assets/img/tastyrecipes(1).png";
-import pasta from "../../../public/assets/img/tastyrecipes(2).png";
-import pork from "../../../public/assets/img/tastyrecipes(3).png";
+import meat from "@img/tastyrecipes(1).png";
+import pasta from "@img/tastyrecipes(2).png";
+import pork from "@img/tastyrecipes(3).png";
 
 export default function TastyRecipes() {
   return (

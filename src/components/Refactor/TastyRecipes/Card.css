@@ -1,33 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Ubuntu:wght@400;500&display=swap");
 
 .cardContainer__card {
-  width: 221.67px;
+  width: 52%;
 }
 .cardContainer__img {
-  margin-bottom: 29px;
+  margin-bottom: 1.813rem;
   width: 100%;
 }
 .cardContainer__text {
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .cardContainer__author {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 47px;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 1024px) {
-  .cardContainer__card{
+  .cardContainer__card {
     display: flex;
-    width: 400px;
+    align-items: center;
+    width: 100%;
   }
-  .cardContainer__img  {
-    padding-right: 24px
+  .cardContainer__img {
+    max-width: 45%;
+    padding-right: 1.5rem;
   }
   .cardContainer__group {
     width: 196px;
