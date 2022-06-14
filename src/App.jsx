@@ -8,10 +8,9 @@ import CarrouselFood from "@temp/Carrousel";
 import Contact from "@pages/Contact";
 import BlogPage from "@pages/BlogPage";
 import MessageErrorFood from "@temp/MessageErrorFood";
+import Home from "@pages/Home";
 
 import "../public/styles/Global.css";
-
-
 
 function App() {
   return (
@@ -34,14 +33,14 @@ function App() {
       </Route>
 
       <Route path="/home">
-        <MessageErrorFood/>
+        <Home />
       </Route>
 
       <Route path="/recipes">
-        <MessageErrorFood/>
+        <MessageErrorFood />
       </Route>
       <Route path="/aboutUs">
-        <MessageErrorFood/>
+        <MessageErrorFood />
       </Route>
 
       <MainFooter />
