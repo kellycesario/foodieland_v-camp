@@ -1,5 +1,6 @@
 import React from "react";
 import CardsProps from "../../Atoms/CategoriesCards/cardsProps";
+import MainCarrousel from "../../Context/MainCarrousel";
 
 // importando as imagens dos alimentos
 import sushiRice from "../../../../public/assets/img/sushiRice.png";
@@ -18,43 +19,13 @@ import sanduichBackground from "../../../../public/assets/img/sanduichBackground
 import chocolateBarBackground from "../../../../public/assets/img/chocolateBarBackground.png";
 
 
+
 const CategoriesCards = () => {
     return (
         <>
-            <CardsProps
-                foodSymbol = {sushiRice}
-                foodBackground = {sushiRiceBackground} 
-                symbolDescript = "Breakfest"
-            />
-
-            <CardsProps
-                foodSymbol = {lettuce}
-                foodBackground = {lettuceBackground} 
-                symbolDescript = "Vegan"
-            />
-
-            <CardsProps
-                foodSymbol = {steakRaw}
-                foodBackground = {steakRawBackground} 
-                symbolDescript = "Meat"
-            />
-
-            <CardsProps
-                foodSymbol = {cakePiece}
-                foodBackground = {cakePieceBackground} 
-                symbolDescript = "Dessert"
-            />
-
-            <CardsProps
-                foodSymbol = {sanduich}
-                foodBackground = {sanduichBackground} 
-                symbolDescript = "Lunch"
-            />
-
-            <CardsProps
-                foodSymbol = {chocolateBar}
-                foodBackground = {chocolateBarBackground} 
-                symbolDescript = "Chocolate"
+            <MainCarrousel 
+                mainImage={sushiRice}
+                secondaryImage={sushiRiceBackground}
             />
 
         </>
