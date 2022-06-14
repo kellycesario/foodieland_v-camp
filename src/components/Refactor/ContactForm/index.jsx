@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./ContactFormStyle.css";
 import cookerBackground from "@img/cookerBackground.png";
-import InputField from "@temp/InputField";
-import LabelField from "@temp/ContactLabel";
-import SubmitButton from "@temp/SubmitButton";
+import InputField from "./InputField";
+import LabelField from "./ContactLabel";
+import SubmitButton from "./SubmitButton";
 
 const ContactForm = () => {
   const [enteredName, setEnteredName] = useState("");
