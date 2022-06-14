@@ -1,0 +1,13 @@
+.mainContainer {
+  width: 100%;
+  max-height: 640px;
+  display: flex;
+  justify-content: space-around;
+
+  .mainContainer__list {
+    display: flex;
+    width: 80%;
+  }
+  .mainContainer__item {
+  }
+}
