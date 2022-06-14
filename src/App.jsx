@@ -10,7 +10,7 @@ import BlogPage from "@pages/BlogPage";
 import MessageErrorFood from "@temp/MessageErrorFood";
 
 import "../public/styles/Global.css";
-import CategoriesSection from "./components/Organism/SectionCategories";
+import CategoriesSection from "./components/Organism/CategoriesSection";
 
 
 function App() {
