@@ -1,5 +1,4 @@
 import React from "react";
-import MainButton from "@atoms/MainButton"
 import "./style.scss";
 import imgLearnMore from "@img/imgLearnMore.png";
 
@@ -12,7 +11,7 @@ const LearnMoreCard = () => {
                 sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqut enim ad minim</p>
             <img src={imgLearnMore} className="learnMore__img" aria-label="Chef pointing to a plate and some ingredients are displayed on screen" />
-            <MainButton />
+            <button></button>
         </section>
     );
 }

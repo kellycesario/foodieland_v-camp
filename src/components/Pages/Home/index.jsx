@@ -1,12 +1,12 @@
 import MoreRecipes from "@organisms/MoreRecipes";
 import CategoriesSection from "@organisms/CategoriesSection";
-import FeaturedRecipeCard from "../../Molecules/FeaturedRecipeCard";
-import LearnMore from "../../Organisms/LearnMore";
+import FeaturedRecipe from "@organisms/FeaturedRecipe";
+import LearnMore from "@organisms/LearnMore";
 
 const Home = () => {
   return (
     <>
-      <FeaturedRecipeCard />
+      <FeaturedRecipe />
       <CategoriesSection />
       <LearnMore />
       <MoreRecipes />;
