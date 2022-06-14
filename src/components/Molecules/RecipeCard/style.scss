@@ -1,0 +1,25 @@
+.moreRecipesCard {
+  width: 290px;
+  margin-bottom: 48px;
+
+  &__img {
+    border-radius: 20px;
+    margin-bottom: 1rem;
+  }
+  &__txt {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  &__footer {
+    display: flex;
+  }
+  &__clock {
+    margin-right: 0.5rem;
+  }
+  &__time {
+    margin-right: 1.7rem;
+  }
+  &__fork {
+    margin-right: 0.5rem;
+  }
+}

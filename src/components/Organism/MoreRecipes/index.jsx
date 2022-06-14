@@ -1,5 +1,14 @@
+import RecipeList from "@molecule/RecipeList";
+import MoreRecipesTxt from "@molecule/MoreRecipesTxt";
+import "./index.scss"
+
 const MoreRecipes = () => {
-  return <h1>Monday is the best day</h1>;
+  return (
+    <sction className="MoreRecipes">
+      <MoreRecipesTxt />
+      <RecipeList />
+    </sction>
+  );
 };
 
 export default MoreRecipes;
