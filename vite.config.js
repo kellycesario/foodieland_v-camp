@@ -7,9 +7,9 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@atom': path.resolve(__dirname, 'src/components/Atoms'),
-      '@molecule': path.resolve(__dirname, 'src/components/Molecules'),
-      '@organism': path.resolve(__dirname, 'src/components/Organism'),
+      '@atoms': path.resolve(__dirname, 'src/components/Atoms'),
+      '@molecules': path.resolve(__dirname, 'src/components/Molecules'),
+      '@organisms': path.resolve(__dirname, 'src/components/Organism'),
       '@pages': path.resolve(__dirname, 'src/components/Pages'),
       '@icons': path.resolve(__dirname, 'public/assets/icons'),
       '@img': path.resolve(__dirname, 'public/assets/img'),
