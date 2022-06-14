@@ -1,4 +1,4 @@
-export default function FeaturedRecipeCard(props) {
+export default function FeaturedRecipeCard() {
   return (
     <>
       <div className="featuredRecipeCard">

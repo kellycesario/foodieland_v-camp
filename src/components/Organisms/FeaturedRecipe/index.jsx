@@ -1,4 +1,4 @@
-import FeaturedRecipeCard from "../../Molecules/FeaturedRecipeCard";
+import FeaturedRecipeCard from "@molecules/FeaturedRecipeCard";
 
 export default function FeaturedRecipe() {
   return (

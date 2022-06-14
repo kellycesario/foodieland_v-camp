@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import MainButton from "@temp/MainButton";
+import MainButton from "@atoms/MainButton";
 
 import "./NewsletterStyle.css";
 

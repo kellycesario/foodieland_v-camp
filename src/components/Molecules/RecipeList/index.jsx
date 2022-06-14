@@ -1,4 +1,4 @@
-import RecipeCard from "@molecule/RecipeCard";
+import RecipeCard from "@molecules/RecipeCard";
 import img1 from "@img/article02.png";
 import img2 from "@img/recipe01.png";
 import img3 from "@img/friedRice.png";

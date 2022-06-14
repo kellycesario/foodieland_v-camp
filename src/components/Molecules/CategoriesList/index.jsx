@@ -1,5 +1,5 @@
 import React from "react";
-import CategoriesCards from "../../Atoms/CategoriesCards";
+import CategoriesCards from "@atoms/CategoriesCards";
 
 
 

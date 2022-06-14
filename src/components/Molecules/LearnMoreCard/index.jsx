@@ -1,5 +1,5 @@
 import React from "react";
-import MainButton from "../../Refactor/MainButton"
+import MainButton from "@atoms/MainButton"
 import "./style.scss";
 import imgLearnMore from "@img/imgLearnMore.png";
 
