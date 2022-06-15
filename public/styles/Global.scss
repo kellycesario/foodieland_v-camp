@@ -33,6 +33,8 @@ body {
   font-family: Inter, sans-serif;
   font-size: 1rem;
   cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
 
   &--large {
     width: 372px;
