@@ -1,24 +1,17 @@
 .moreRecipesLikeButton__elipse {
-  position: absolute;
-  margin-top: 16px;
-  margin-left: 223px;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 223px;
+   
 }
 
-.moreRecipesLikeButton__heart {
-  position: absolute;
-  margin-top: 31px;
-  margin-left: 236px;
-  
- 
-  &:hover {
-    cursor: pointer;
-    filter: invert(46%) sepia(77%) saturate(2172%) hue-rotate(329deg)
-      brightness(112%) contrast(104%);
-  }
-}
+.moreRecipesLikeButton__heart{
+    position: absolute;
+    margin-top: 31px;
+    margin-left: 236px;
 
-.moreRecipesLikeButton__heart--active {
-    cursor: pointer;
-    filter: invert(46%) sepia(77%) saturate(2172%) hue-rotate(329deg)
-      brightness(112%) contrast(104%);
+    &:hover {
+        cursor: pointer;
+        filter: invert(46%) sepia(77%) saturate(2172%) hue-rotate(329deg) brightness(112%) contrast(104%);
+    }
 }
