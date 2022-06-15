@@ -1,5 +1,5 @@
 import React from "react";
-import LearnMoreCard from "../../Molecules/LearnMoreCard";
+import LearnMoreCard from "@molecules/LearnMoreCard";
 
 import "./style.scss"
 

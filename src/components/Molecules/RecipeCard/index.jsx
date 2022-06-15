@@ -1,5 +1,5 @@
 import "./style.scss"
-import LikeButton from "@atom/LikeButton";
+import LikeButton from "@atoms/LikeButton";
 import fork from "@icons/forkknife.svg";
 import clock from "@icons/timer.svg";
 
