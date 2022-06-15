@@ -3,11 +3,26 @@
   max-height: 640px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
   .mainContainer__list {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
+    height: 250px;
+    overflow-y: scroll;
+    scroll-snap-type: x mandatory;
+    width: 400px;
+    gap: 2%;
     width: 80%;
+    list-style-type: none;
   }
   .mainContainer__item {
+    background-color: gray;
+    flex-grow: 1;
+    height: 250px;
+    scroll-snap-align: center;
+    width: 100%;
   }
 }

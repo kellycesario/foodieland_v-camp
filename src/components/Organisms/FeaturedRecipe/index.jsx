@@ -15,10 +15,10 @@ export default function FeaturedRecipe() {
           <li className={styles.mainContainer__item}>
             <FeaturedRecipeCard />
           </li>
-          <li>
+          <li className={styles.mainContainer__item}>
             <FeaturedRecipeCard />
           </li>
-          <li>
+          <li className={styles.mainContainer__item}>
             <FeaturedRecipeCard />
           </li>
         </ul>
