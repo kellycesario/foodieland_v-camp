@@ -444,38 +444,32 @@
     {
       "id": 1,
       "title": "Breakfest",
-      "foodSymbol": "@img/sushiRice.png",
-      "foodBackground": "@img/sushiRiceBackground.png"
+      "foodSymbol": "./public/assets/img/sushiRice.png"
     },
     {
       "id": 2,
       "title": "Vegan",
-      "foodSymbol": "@img/lettuce.png",
-      "foodBackground": "@img/lettuceBackground.png"
+      "foodSymbol": "./public/assets/img/lettuce.png"
     },
     {
       "id": 3,
       "title": "Meat",
-      "foodSymbol": "@img/steakRaw.png",
-      "foodBackground": "@img/steakRawBackground.png"
+      "foodSymbol": "./public/assets/img/steakRaw.png"
     },
     {
       "id": 4,
       "title": "Dessert",
-      "foodSymbol": "@img/cakePiece.png",
-      "foodBackground": "@img/cakePieceBackground.png"
+      "foodSymbol": "./public/assets/img/cakePiece.png"
     },
     {
       "id": 5,
       "title": "Lunch",
-      "foodSymbol": "@img/sanduich.png",
-      "foodBackground": "@img/sanduichBackground.png"
+      "foodSymbol": "./public/assets/img/sanduich.png"
     },
     {
       "id": 6,
       "title": "Chocolate",
-      "foodSymbol": "@img/chocolateBar.png",
-      "foodBackground": "@img/chocolateBarBackground.png"
+      "foodSymbol": "./public/assets/img/chocolateBar.png"
     }
   ],
   "socialMedia": [

@@ -1,15 +1,15 @@
 import React from "react";
+import database from "../../../../database.json";
 import "./style.scss";
 
-
-const CategoriesCards = (props) => {
+const CategoriesFoodImage = () => {
     return (
-        <div className="cardsProps">
-            <img className="cardsProps__foodSymbol" src={props.foodSymbol} />
-            <img className="cardsProps__foodBackground" src={props.foodBackground} />
-            <p className="cardsProps__foodTitle">{props.title}</p>
-        </div>
+        <>
+            {database.categoriesList.map((props) => {
+                <img className="foodSymbol" src={props.foodSymbol} />
+            })}
+        </>
     )
-}
+} 
 
-export default CategoriesCards
+export default CategoriesFoodImage;
