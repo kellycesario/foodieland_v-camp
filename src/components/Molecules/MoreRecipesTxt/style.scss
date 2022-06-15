@@ -1,13 +1,23 @@
+@media (max-width: 1092px) {
+  .moreRecipesTxt {
+    
+    flex-direction: column;
+    &__title{
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
 .moreRecipesTxt {
   display: flex;
-  width: 85%;
+  width: clamp(290px, 85%, 100%);
   align-items: center;
   justify-content: center;
   margin-bottom: 3.75rem;
 
   &__title {
     font-weight: 600;
-    font-size: 3rem;
+    font-size: max(1.7rem, 3rem);
     padding-right: 7rem;
   }
   &__description {
@@ -16,19 +26,17 @@
   }
 }
 
+
 @media (max-width: 712px) {
   .moreRecipesTxt {
     flex-direction: column;
-    
 
     &__title {
-      font-size: 1.5rem;
+      font-size: 2.5rem;
       margin-bottom: 1.5rem;
-     
     }
     &__description {
-      font-size: .75rem;
+      font-size: 0.75rem;
     }
   }
-
 }

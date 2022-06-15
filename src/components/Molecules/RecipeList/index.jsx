@@ -7,7 +7,7 @@ import img5 from "@img/recipe12.png";
 import img6 from "@img/recipe13.png";
 import img7 from "@img/recipe14.png";
 import img8 from "@img/article01.png";
-import "./style.scss"
+import "./style.scss";
 
 const RecipeList = () => {
   return (
