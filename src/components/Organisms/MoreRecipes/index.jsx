@@ -1,5 +1,5 @@
-import RecipeList from "@molecule/RecipeList";
-import MoreRecipesTxt from "@molecule/MoreRecipesTxt";
+import RecipeList from "@molecules/RecipeList";
+import MoreRecipesTxt from "@molecules/MoreRecipesTxt";
 
 import "./index.scss";
 
