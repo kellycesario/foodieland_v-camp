@@ -1,7 +1,8 @@
-import MoreRecipes from "@organisms/MoreRecipes";
+import FeaturedRecipeCard from "@molecules/FeaturedRecipeCard";
 import CategoriesSection from "@organisms/CategoriesSection";
-import FeaturedRecipe from "@organisms/FeaturedRecipe";
 import LearnMore from "@organisms/LearnMore";
+import SocialMediaPubli from "@organisms/SocialMediaPubli";
+import MoreRecipes from "@organisms/MoreRecipes";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <FeaturedRecipe />
       <CategoriesSection />
       <LearnMore />
+      <SocialMediaPubli />
       <MoreRecipes />;
     </>
   );
