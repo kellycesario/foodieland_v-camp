@@ -7,7 +7,7 @@ import MoreRecipes from "@organisms/MoreRecipes";
 const Home = () => {
   return (
     <>
-      <FeaturedRecipe />
+      <FeaturedRecipeCard />
       <CategoriesSection />
       <LearnMore />
       <SocialMediaPubli />
