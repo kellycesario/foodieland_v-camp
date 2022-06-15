@@ -4,11 +4,10 @@ import LearnMore from "@organisms/LearnMore";
 import SocialMediaPubli from "@organisms/SocialMediaPubli";
 import MoreRecipes from "@organisms/MoreRecipes";
 
-
 const Home = () => {
   return (
     <>
-      <FeaturedRecipeCard />
+      <FeaturedRecipe />
       <CategoriesSection />
       <LearnMore />
       <SocialMediaPubli />
