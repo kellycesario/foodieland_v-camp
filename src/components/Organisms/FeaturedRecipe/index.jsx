@@ -8,7 +8,7 @@ export default function FeaturedRecipe() {
   return (
     <>
       <div className={styles.mainContainer}>
-        <button className="btn btn--light btn--rounded btn--tiny">
+        <button className={styles.mainContainer__btnLeft + " btn btn--light btn--rounded btn--tiny"}>
           <img src={ArrowLeft} alt="" />
         </button>
         <ul className={styles.mainContainer__list}>
@@ -22,7 +22,7 @@ export default function FeaturedRecipe() {
             <FeaturedRecipeCard />
           </li>
         </ul>
-        <button className="btn btn--light btn--rounded btn--tiny">
+        <button className={styles.mainContainer__btnRight + " btn btn--light btn--rounded btn--tiny"}>
           <img src={ArrowRight} alt="" />
         </button>
       </div>
