@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import styles from "./button.module.css";
+import styles from "./style.module.css";
 
 export default function MainButton({
   Value,
@@ -20,8 +20,6 @@ export default function MainButton({
     if (btnColor == "light") {
       setBtnColor("btn--light");
     } else if (!btnColor) {
-      setBtnColor("");
-    } else {
       console.log("Props inválida na props btnColor");
       setBtnColor("");
     }
@@ -61,7 +59,7 @@ export default function MainButton({
       <button
         onClick={handleClick}
         value={btnValue}
-        className={`btn ${btnSize} ${btnColor} ${btnInsideInput}`}
+        className={`${styles.btn} ${`styles.${btnSize}`} ${`styles.${btnColor}`} ${`styles.${btnInsideInput}`}`}
       >
         {Content}
       </button>
