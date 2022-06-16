@@ -9,10 +9,7 @@
   margin-top: 31px;
   margin-left: 236px;
 }
-
 .moreRecipesLikeButton__heart:hover {
   cursor: pointer;
-  -webkit-filter: invert(46%) sepia(77%) saturate(2172%) hue-rotate(329deg) brightness(112%) contrast(104%);
-          filter: invert(46%) sepia(77%) saturate(2172%) hue-rotate(329deg) brightness(112%) contrast(104%);
-}
-/*# sourceMappingURL=style.css.map */
+  filter: invert(46%) sepia(77%) saturate(2172%) hue-rotate(329deg) brightness(112%) contrast(104%);
+}/*# sourceMappingURL=style.css.map */
