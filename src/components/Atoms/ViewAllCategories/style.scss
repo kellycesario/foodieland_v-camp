@@ -1,0 +1,18 @@
+.viewAllCategories {
+    display: flex;
+     background-color: #E7FAFE;
+     border-radius: 16px;
+     padding-top: 3%;
+     padding-right: 3%;
+     padding-bottom: 3%;
+     padding-left: 3%;
+     border-style: none;
+     font-weight: bold;
+     font-size: 13px;
+ }
+
+ @media (min-width: 1024px) {
+     .viewAllCategories {
+         font-size: 18px;
+     }
+ }
