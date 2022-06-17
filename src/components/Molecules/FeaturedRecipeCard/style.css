@@ -37,6 +37,12 @@
   gap: 16px;
   
 }
+.featuredRecipeCard__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
 .featuredRecipeCard__badge {
   position: absolute;
   top: 50px;

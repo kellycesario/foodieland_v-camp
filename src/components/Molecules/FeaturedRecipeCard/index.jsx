@@ -3,9 +3,10 @@ import MainButton from "@atoms/MainButton";
 import RecipeTime from "../../Atoms/RecipeTime";
 import RecipeCategorie from "../../Atoms/RecipeCategorie";
 
-import stamp from '@img/featuredCardStamp.png'
+import stamp from "@img/featuredCardStamp.png";
 
 import "./style.css";
+import RecipeAuthor from "../../Atoms/RecipeAuthor";
 
 export default function FeaturedRecipeCard() {
   return (
@@ -26,8 +27,10 @@ export default function FeaturedRecipeCard() {
             <RecipeTime time={30} />
             <RecipeCategorie />
           </div>
-          <span className="recipeAuthor"></span>
-          <MainButton Content={'View Recipes'}/>
+          <footer className="featuredRecipeCard__footer">
+            <RecipeAuthor date={'15 March 2022'} author={"John Smith"} />
+            <MainButton Content={"View Recipes"} />
+          </footer>
         </div>
         <div className="featuredRecipeCard__badge">
           <img
