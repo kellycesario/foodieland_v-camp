@@ -1,17 +1,17 @@
 import MainButton from "@atoms/MainButton";
 
-import style from "./style.module.css";
+import featuredCardRecipe from '@img/featuredCardRecipe.png';
+
+import "./style.css";
 
 export default function FeaturedRecipeCard() {
   return (
     <>
-      <div className={style.featuredRecipeCard}>
-        <div className={style.featuredRecipeCard__leftContainer}>
-          <div className={style.featuredRecipecard__categoriesStamp}></div>
-          <h1 className={style.featuredRecipeCard__title}>
-            Spicy Delicious Wings
-          </h1>
-          <p className={style.featuredRecipeCard__subTitle}>
+      <div className="featuredRecipeCard">
+        <div className="featuredRecipeCard__leftContainer">
+          <div className="featuredRecipecard__categoriesStamp"></div>
+          <h1 className="featuredRecipeCard__title">Spicy Delicious Chicken Wings</h1>
+          <p className="featuredRecipeCard__subTitle">
             Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
           </p>
@@ -20,8 +20,12 @@ export default function FeaturedRecipeCard() {
           <span className="recipeAuthor"></span>
           <MainButton></MainButton>
         </div>
-        <div className={style.featuredRecipeCard__badge}></div>
-        <div className={style.featuredRecipeCard__rightContainer}></div>
+        <div className="featuredRecipeCard__badge">
+          <img src="../../../../public/assets/img/featuredRecipeBadge.png" alt="" />
+        </div>
+        <div className="featuredRecipeCard__rightContainer">
+          {/* <img src={featuredCardRecipe} alt="" /> */}
+        </div>
       </div>
     </>
   );
