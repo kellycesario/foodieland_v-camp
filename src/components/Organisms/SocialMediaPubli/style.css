@@ -1,25 +1,14 @@
 .socialMediaPubli {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(231, 249, 253, 0)), to(#E7F9FD));
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.01));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.01));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.01));
   width: 100%;
   height: 100%;
+  margin-bottom: 20px;
 }
 
 .socialMediaPubli__title {
@@ -44,39 +33,28 @@
   width: 100%;
 }
 
-.socialMediaItems {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.socialMediaList {
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 80px;
   width: 100%;
   gap: 40px;
+  list-style-type: none;
+}
+
+.socialMediaItem:hover {
+  transform: scale(1.05);
+  transition: 2s;
 }
 
 .socialMediaPubli__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
   width: 229px;
   height: 60px;
   background: #000000;
@@ -92,69 +70,40 @@
 
 @media screen and (min-width: 768px) {
   .socialMediaPubli {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
+
   .socialMediaPubli__title {
     font-size: 48px;
     line-height: 58px;
   }
+
   .socialMediaPubli__text {
     font-size: 16px;
   }
-  .socialMediaItems {
-    display: -webkit-box;
-    display: -ms-flexbox;
+
+  .socialMediaList {
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     gap: 40px;
   }
 }
-
 @media screen and (min-width: 1280px) {
-  .socialMediaItems {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  .socialMediaList {
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     gap: 40px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

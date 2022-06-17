@@ -18,57 +18,6 @@ body {
 ::after {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline-color: black;
-}
-
-.btn {
-  width: 11.25rem;
-  height: 4rem;
-  color: white;
-  background-color: #000;
-  border-radius: 0.75rem;
-  font-weight: 600;
-  font-family: Inter, sans-serif;
-  font-size: 1rem;
-  cursor: pointer;
-  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.btn--large {
-  width: 372px;
-  width: clamp(100%, 100%, 372px);
-  max-width: 372px;
-}
-
-.btn--insideInput {
-  width: 10rem;
-  font-size: 14px;
-  height: 3.75rem;
-  margin-right: 10px;
-}
-
-.btn--tiny {
-  width: clamp(4rem, 4rem, 100%);
-  height: 4rem;
-  border-radius: 1rem;
-  font-weight: 700;
-}
-
-.btn--rounded {
-  border-radius: 50%;
-}
-
-.btn--light {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  color: #000;
-  background-color: #fff;
-}
-
-.btn--light:active {
-  background-color: #fff;
-  color: #000;
-}
-/*# sourceMappingURL=Global.css.map */
+}/*# sourceMappingURL=Global.css.map */

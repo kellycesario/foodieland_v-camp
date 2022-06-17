@@ -1,0 +1,18 @@
+.cardsProps {
+  display: inline-block;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.cardsProps__foodSymbol {
+  display: flex;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -5%;
+}
+
+.cardsProps__foodTitle {
+  text-align: center;
+  margin-top: -38px;
+}/*# sourceMappingURL=style.css.map */

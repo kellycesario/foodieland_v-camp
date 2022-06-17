@@ -4,32 +4,23 @@
   width: 290px;
   margin-bottom: 48px;
 }
-
 .moreRecipesCard__img {
   border-radius: 20px;
   margin-bottom: 1rem;
 }
-
 .moreRecipesCard__txt {
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
-
 .moreRecipesCard__footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .moreRecipesCard__clock {
   margin-right: 0.5rem;
 }
-
 .moreRecipesCard__time {
   margin-right: 1.7rem;
 }
-
 .moreRecipesCard__fork {
   margin-right: 0.5rem;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
