@@ -5,17 +5,10 @@
   justify-content: space-around;
   align-items: center;
 }
-.mainContainer .mainContainer__btnLeft {
-  position: absolute;
-  left: 0;
-  top: 45%;
+.mainContainer__btnContainer {
+  background-color: red;
 }
-.mainContainer .mainContainer__btnRight {
-  position: absolute;
-  right: 0;
-  top: 45%;
-}
-.mainContainer .mainContainer__list {
+.mainContainer__list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -27,15 +20,15 @@
       scroll-snap-type: x mandatory;
   list-style-type: none;
 }
-.mainContainer .mainContainer__item {
+.mainContainer__item {
   flex-grow: 1;
   height: 640px;
   width: 90%;
   scroll-snap-align: center;
 }
-.mainContainer .mainContainer__item:first-child {
+.mainContainer__item:first-child {
   margin-left: 70px;
 }
-.mainContainer .mainContainer__item:last-child {
+.mainContainer__item:last-child {
   margin-right: 70px;
 }/*# sourceMappingURL=style.module.css.map */

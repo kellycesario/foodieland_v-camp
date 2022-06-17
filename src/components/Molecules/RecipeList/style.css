@@ -5,4 +5,22 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   grid-column-gap: 2.5rem;
+}
+
+@media (min-width: 1440px) {
+  .moreRecipesImgList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 712px) {
+  .moreRecipesImgList {
+    width: 89%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+  }
 }/*# sourceMappingURL=style.css.map */
