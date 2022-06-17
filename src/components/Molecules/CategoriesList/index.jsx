@@ -3,26 +3,6 @@ import database from "../../../../database.json";
 import smallLeftArrow from "@img/smallLeftArrow.png";
 import smallRightArrow from "@img/smallRightArrow.png";    
 import "./style.scss";
-// import CategoriesCards from "../../Atoms/CategoriesCards";
-
-
-
-// importando as imagens dos alimentos
-// import sushiRice from "@img/sushiRice.png";
-// import lettuce from "@img/lettuce.png";
-// import steakRaw from "@img/steakRaw.png";
-// import cakePiece from "@img/cakePiece.png";
-// import sanduich from "@img/sanduich.png";
-// import chocolateBar from "@img/chocolateBar.png";
-
-// importando o fundo das imagens
-// import sushiRiceBackground from "@img/sushiRiceBackground.png";
-// import lettuceBackground from "@img/lettuceBackground.png";
-// import steakRawBackground from "@img/steakRawBackground.png";
-// import cakePieceBackground from "@img/cakePieceBackground.png";
-// import sanduichBackground from "@img/sanduichBackground.png";
-// import chocolateBarBackground from "@img/chocolateBarBackground.png";
-
 
 
 const CategoriesList = () => {
@@ -46,7 +26,7 @@ const CategoriesList = () => {
                     return (
                         <>
                         <div className="sliderLogic" key={index}>                           
-                            <div className="foodBackground">
+                            <div className= {`foodBackground ${props.backgroundStyle}`}>
                                 <img className="foodSymbol" src={props.foodSymbol} />
                                 <h3 className="foodName">{props.title}</h3>
                             </div>         

@@ -449,27 +449,32 @@
     {
       "id": 2,
       "title": "Vegan",
-      "foodSymbol": "./public/assets/img/lettuce.png"
+      "foodSymbol": "./public/assets/img/lettuce.png",
+      "backgroundStyle": "foodBackground--green"
     },
     {
       "id": 3,
       "title": "Meat",
-      "foodSymbol": "./public/assets/img/steakRaw.png"
+      "foodSymbol": "./public/assets/img/steakRaw.png",
+      "backgroundStyle": "foodBackground--red"
     },
     {
       "id": 4,
       "title": "Dessert",
-      "foodSymbol": "./public/assets/img/cakePiece.png"
+      "foodSymbol": "./public/assets/img/cakePiece.png",
+      "backgroundStyle": "foodBackground--yellow"
     },
     {
       "id": 5,
       "title": "Lunch",
-      "foodSymbol": "./public/assets/img/sanduich.png"
+      "foodSymbol": "./public/assets/img/sanduich.png",
+      "backgroundStyle": "foodBackground--white"
     },
     {
       "id": 6,
       "title": "Chocolate",
-      "foodSymbol": "./public/assets/img/chocolateBar.png"
+      "foodSymbol": "./public/assets/img/chocolateBar.png",
+      "backgroundStyle": "foodBackground--white"
     }
   ],
   "socialMedia": [
