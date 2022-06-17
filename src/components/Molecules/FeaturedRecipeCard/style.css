@@ -28,6 +28,12 @@
   font-size: 16px;
   line-height: 28px;
 }
+
+.featuredRecipeCard__recipeInfo {
+  display: flex;
+  gap: 16px;
+  
+}
 .featuredRecipeCard__badge {
   position: absolute;
   top: 50px;
