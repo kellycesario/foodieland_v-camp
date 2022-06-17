@@ -9,12 +9,12 @@ const CategoriesList = () => {
     const slide = useRef(null);
 
     const nextSlide = () => {
-        slide.current.scrollBy(340, 0);
+        slide.current.scrollBy(400, 0);
         
     }
 
     const previousSlide = () => {
-        slide.current.scrollBy(-340, 0);
+        slide.current.scrollBy(-400, 0);
         
     }
 

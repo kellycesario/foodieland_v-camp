@@ -68,3 +68,29 @@
     right: 10px;
     z-index: 2;
 }
+
+@media (min-width: 1024px) {
+    .slider__categoriesList {
+        width: 100%;
+    }
+
+    .sliderLogic {
+        display: inline-block;
+        width: 100%;
+        padding: 2%;
+    }
+
+    .leftArrow {
+        display: none;
+    }
+
+    .rightArrow {
+        display: none;
+    }
+}
+
+@media (min-width: 780px) {
+    .sliderLogic {
+        padding-right: 8%;
+    }
+}
