@@ -1,7 +1,12 @@
 import React from "react";
+import "./style.scss";
 
-const ViewAllCategories = () => {
-    <button>View All Categories</button>
+
+const ViewAllCategoriesButton = () => {
+    return (
+        <button className="viewAllCategories">View All Categories</button>
+    )
+    
 }
 
-export default ViewAllCategories
+export default ViewAllCategoriesButton

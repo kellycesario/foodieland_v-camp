@@ -99,6 +99,9 @@
 
 @media (min-width: 1024px) {
   .slider__categoriesList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     max-width: 100%;
   }
   .sliderLogic {
