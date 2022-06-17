@@ -1,5 +1,5 @@
 .categoriesSection {
-  margin-top: 20%;
+  margin-top: 180px;
   margin-bottom: 20%;
 }
 
@@ -7,11 +7,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .categoriesSection__title {
-  margin-left: 2.5rem;
+  margin-left: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
