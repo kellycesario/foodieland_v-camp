@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import MainButton from "@atoms/MainButton"
+
 import "./style.css";
 
 const SignNewsletter = () => {
@@ -18,14 +20,14 @@ const SignNewsletter = () => {
           tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
         </p>
         <form className="newsletter__form" onSubmit={submitNewsHandler}>
-          <label for="input__email" />
+          <label for="input__email InsideInput" />
           <input
             name="input__newsletter"
             type="email"
             className="newsletter__input"
             placeholder="Your email address..."
           />
-          <button className="newsletter__button btn btn--large btn--insideInput">Subscribe</button>
+          <button className="newsletter__button">Subscribe</button>
         </form>
       </section>
     </section>
