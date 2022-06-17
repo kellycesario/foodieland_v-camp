@@ -9,7 +9,15 @@ export default function FeaturedRecipe() {
   return (
     <>
       <div className={styles.mainContainer}>
-        <MainButton className={styles.mainContainer__btnLeft} Size={'tiny'} Color={'light'} Type={'rounded'} Content={'<'} />
+        <div className={styles.mainContainer__btnContainer}>
+          <p className={styles.btn}>teste</p>
+          {/* <MainButton
+            Size={"tiny"}
+            Color={"light"}
+            Type={"rounded"}
+            Content={"<"}
+          /> */}
+        </div>
         <ul className={styles.mainContainer__list}>
           <li className={styles.mainContainer__item}>
             <FeaturedRecipeCard />
@@ -21,7 +29,13 @@ export default function FeaturedRecipe() {
             <FeaturedRecipeCard />
           </li>
         </ul>
-        <MainButton className={styles.mainContainer__btnLeft} Size={'tiny'} Color={'light'} Type={'rounded'} Content={'>'} />
+        <MainButton
+          className={styles.mainContainer__btnLeft}
+          Size={"tiny"}
+          Color={"light"}
+          Type={"rounded"}
+          Content={">"}
+        />
       </div>
     </>
   );

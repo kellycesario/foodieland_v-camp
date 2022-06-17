@@ -9,13 +9,13 @@ export default function MainButton({
   InsideInput,
   Content,
   handleClick,
-  Type
+  Type,
 }) {
   const [btnSize, setBtnSize] = useState(Size);
   const [btnColor, setBtnColor] = useState(Color);
   const [btnInsideInput, setBtnSideInput] = useState(InsideInput);
   const [btnValue, setValue] = useState(Value);
-  const [btnType, setType] = useState(Type);
+  const [btnType, setBtnType] = useState(Type);
 
   useEffect(() => {
     // setLight
@@ -49,9 +49,9 @@ export default function MainButton({
     }
 
     if (btnType === "rounded") {
-      setType("btn--rounded");
+      setBtnType("btn--rounded");
     } else if (!btnType) {
-      setType("");
+      setBtnType("");
     }
 
     // setValue
@@ -67,7 +67,13 @@ export default function MainButton({
       <button
         onClick={handleClick}
         value={btnValue}
-        className={`${styles.btn} ${styles[`${btnSize}`]} ${styles[`${btnColor}`]} ${styles[`${btnInsideInput} ${styles.btn}`]} ${styles[`${btnType}`]}`}
+        className={`
+        ${styles.btn} 
+        ${styles[`${btnSize}`]} 
+        ${styles[`${btnColor}`]}
+        ${styles[`${btnType}`]}
+        ${styles[`${btnInsideInput}`]}
+        `}
       >
         {Content}
       </button>
