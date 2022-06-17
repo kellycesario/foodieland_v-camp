@@ -21,6 +21,12 @@
 .featuredRecipeCard__categoriesStamp {
 
 }
+
+.featuredRecipeCard__cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 .featuredRecipeCard__title {
   font-weight: 600;
   font-size: 64px;

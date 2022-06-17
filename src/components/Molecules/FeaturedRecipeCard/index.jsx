@@ -16,22 +16,30 @@ export default function FeaturedRecipeCard() {
           <div className="featuredRecipecard__categoriesStamp">
             <img src={stamp} alt="" />
           </div>
-          <h1 className="featuredRecipeCard__title">
-            Spicy Delicious Chicken Wings
-          </h1>
-          <p className="featuredRecipeCard__subTitle">
-            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqut enim ad minim{" "}
-          </p>
-          <div className="featuredRecipeCard__recipeInfo">
-            <RecipeTime time={30} />
-            <RecipeCategorie />
+
+          <div className="featuredRecipeCard__cardInfo">
+            <h1 className="featuredRecipeCard__title">
+              Spicy Delicious Chicken Wings
+            </h1>
+
+            <p className="featuredRecipeCard__subTitle">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim{" "}
+            </p>
+
+            <div className="featuredRecipeCard__recipeInfo">
+              <RecipeTime time={30} />
+              <RecipeCategorie />
+            </div>
           </div>
+
           <footer className="featuredRecipeCard__footer">
-            <RecipeAuthor date={'15 March 2022'} author={"John Smith"} />
+            <RecipeAuthor date={"15 March 2022"} author={"John Smith"} />
             <MainButton Content={"View Recipes"} />
           </footer>
         </div>
+
         <div className="featuredRecipeCard__badge">
           <img
             src="../../../../public/assets/img/featuredRecipeBadge.png"
