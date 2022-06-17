@@ -8,7 +8,6 @@
   font-family: Inter, sans-serif;
   font-size: 1rem;
   cursor: pointer;
-  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .btn--large {
   width: 372px;
