@@ -36,7 +36,7 @@ export default function FeaturedRecipeCard() {
 
           <footer className="featuredRecipeCard__footer">
             <RecipeAuthor date={"15 March 2022"} author={"John Smith"} />
-            <MainButton Content={"View Recipes"} />
+            <MainButton Content={"View Recipe"} />
           </footer>
         </div>
 
