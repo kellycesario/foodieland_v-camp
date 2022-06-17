@@ -5,7 +5,7 @@ import "./style.scss"
 
 const LearnMore = () => {
     return (
-        <section className="learnMoreContainer">
+        <section>
             <LearnMoreCard />
         </section>
     )

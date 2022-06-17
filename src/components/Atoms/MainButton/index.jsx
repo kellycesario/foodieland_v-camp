@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import "./button.css";
+import styles from "./style.module.css";
 
 export default function MainButton({
   Value,
@@ -9,19 +9,19 @@ export default function MainButton({
   InsideInput,
   Content,
   handleClick,
+  Type,
 }) {
   const [btnSize, setBtnSize] = useState(Size);
   const [btnColor, setBtnColor] = useState(Color);
   const [btnInsideInput, setBtnSideInput] = useState(InsideInput);
   const [btnValue, setValue] = useState(Value);
+  const [btnType, setBtnType] = useState(Type);
 
   useEffect(() => {
     // setLight
     if (btnColor == "light") {
       setBtnColor("btn--light");
     } else if (!btnColor) {
-      setBtnColor("");
-    } else {
       console.log("Props inválida na props btnColor");
       setBtnColor("");
     }
@@ -48,6 +48,12 @@ export default function MainButton({
       setBtnSideInput("");
     }
 
+    if (btnType === "rounded") {
+      setBtnType("btn--rounded");
+    } else if (!btnType) {
+      setBtnType("");
+    }
+
     // setValue
     if (Value != Number) {
       console.log("Value só aceita numero");
@@ -61,7 +67,13 @@ export default function MainButton({
       <button
         onClick={handleClick}
         value={btnValue}
-        className={`btn ${btnSize} ${btnColor} ${btnInsideInput}`}
+        className={`
+        ${styles.btn} 
+        ${styles[`${btnSize}`]} 
+        ${styles[`${btnColor}`]}
+        ${styles[`${btnType}`]}
+        ${styles[`${btnInsideInput}`]}
+        `}
       >
         {Content}
       </button>

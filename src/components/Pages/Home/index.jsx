@@ -1,15 +1,19 @@
-import MoreRecipes from "@organisms/MoreRecipes";
+import FeaturedRecipe from "@organisms/FeaturedRecipe";
 import CategoriesSection from "@organisms/CategoriesSection";
-import FeaturedRecipeCard from "../../Molecules/FeaturedRecipeCard";
-import LearnMore from "../../Organisms/LearnMore";
+import LearnMore from "@organisms/LearnMore";
+import SocialMediaPubli from "@organisms/SocialMediaPubli";
+import MoreRecipes from "@organisms/MoreRecipes";
+import Newsletter from "@organisms/Newsletter"
 
 const Home = () => {
   return (
     <>
-      <FeaturedRecipeCard />
+      <FeaturedRecipe />
       <CategoriesSection />
       <LearnMore />
-      <MoreRecipes />;
+      <SocialMediaPubli />
+      <MoreRecipes />
+      <Newsletter />;
     </>
   );
 };

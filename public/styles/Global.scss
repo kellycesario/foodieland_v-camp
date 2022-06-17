@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Lobster&display=swap");
+
+:root {
+  --background: #ffffff;
+  --fontColor: #000000;
+  --primaryButton: #000000;
+  --salmon: rgba(255, 121, 103, 1);
+  --heart: #ff6363;
+}
+
+body {
+  background: var(--background);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-color: black;
+}

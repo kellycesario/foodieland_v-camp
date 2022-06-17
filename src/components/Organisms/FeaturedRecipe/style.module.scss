@@ -1,0 +1,46 @@
+.mainContainer {
+  width: 100%;
+  max-height: 690px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__btnContainer {
+    background-color: red;
+  }
+
+  // .mainContainer__btnRight {
+  //   position: absolute;
+  //   right: 0;
+  //   top: 45%;
+  // }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 35px;
+
+    max-height: 670px;
+    width: 100%;
+
+    overflow-y: scroll;
+    scroll-snap-type: x mandatory;
+    list-style-type: none;
+  }
+  &__item {
+    flex-grow: 1;
+
+    height: 640px;
+    width: 90%;
+
+    scroll-snap-align: center;
+
+    &:first-child {
+      margin-left: 70px;
+    }
+    &:last-child {
+      margin-right: 70px;
+    }
+  }
+}

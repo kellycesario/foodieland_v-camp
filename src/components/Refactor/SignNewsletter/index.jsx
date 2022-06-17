@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-import MainButton from "@atoms/MainButton";
-
 import "./NewsletterStyle.css";
 
 const SignNewsletter = () => {
@@ -28,7 +26,7 @@ const SignNewsletter = () => {
             placeholder="Your email address..."
           />
           {/* <MainInput InsideInput={true}></MainInput> */}
-          <MainButton InsideInput={true} Content={"Submit"} Size={"large"}></MainButton>
+          <button className="btn btn--large btn--insideInput" >Submit</button>
         </form>
       </section>
     </section>

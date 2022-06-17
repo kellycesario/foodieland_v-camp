@@ -12,6 +12,8 @@
     font-size: 28px;
     line-height: 38px;
     letter-spacing: -0.04em;
+    text-align: center;
+    margin-bottom: 12px
 }
 
 .learnMore__text {
@@ -19,6 +21,8 @@
     font-size: 12px;
     line-height: 28px; 
     color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-bottom: 12px
 }
 
 .learnMore__img {
@@ -26,9 +30,22 @@
     max-width: 100%;
 }
 
-.btn {
+.learnMore__button {
+    width: 150px;
+    height: 60px;
+    background: #000000;
+    border-radius: 16px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    
     margin: 20px 0;
-}
+  }
+  
 
 @media screen and (min-width: 768px) {
     .learnMore {
@@ -44,6 +61,9 @@
         font-size: 35px;
         line-height: 58px;
         align-self: flex-end;
+        margin: 0;
+        padding-left: 9px;
+        text-align: inherit;
     }
 
     .learnMore__text { 
@@ -51,12 +71,9 @@
         font-size: 16px;
         line-height: 28px;
         align-self: center;
-    }
-
-    .btn { 
-        grid-area: 3 / 1 / 4 / 2; 
         margin: 0;
-        align-self: flex-start;
+        padding-left: 9px;
+        text-align: inherit;
     }
 
     .learnMore__img { 
@@ -64,6 +81,14 @@
         margin: 40px 0;
         width: 665px;
         width: 100%;
+    }
+
+    .learnMore__button {
+        grid-area: 3 / 1 / 4 / 2; 
+        margin: 0;
+        align-self: flex-start;
+        padding-left: 9px;
+        width: 180px;
     }
 }
 
