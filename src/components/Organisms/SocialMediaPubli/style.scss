@@ -43,8 +43,24 @@
     gap: 40px;
 }
 
-.btn {
+.socialMediaPubli__button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 229px;
+    height: 60px;
+    background: #000000;
+    border-radius: 16px;
     margin-bottom: 83px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) {

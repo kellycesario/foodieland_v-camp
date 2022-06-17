@@ -1,14 +1,16 @@
-import MoreRecipes from "@organisms/MoreRecipes";
+import FeaturedRecipe from "@organisms/FeaturedRecipe";
 import CategoriesSection from "@organisms/CategoriesSection";
-import FeaturedRecipeCard from "../../Molecules/FeaturedRecipeCard";
-import LearnMore from "../../Organisms/LearnMore";
+import LearnMore from "@organisms/LearnMore";
+import SocialMediaPubli from "@organisms/SocialMediaPubli";
+import MoreRecipes from "@organisms/MoreRecipes";
 
 const Home = () => {
   return (
     <>
-      <FeaturedRecipeCard />
+      <FeaturedRecipe />
       <CategoriesSection />
       <LearnMore />
+      <SocialMediaPubli />
       <MoreRecipes />;
     </>
   );

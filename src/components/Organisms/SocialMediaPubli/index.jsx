@@ -1,6 +1,5 @@
 import React from "react";
 import PubliCard from "../../Molecules/PubliCard";
-import MainButton from "@temp/MainButton";
 
 import "./style.scss"
 
@@ -9,6 +8,7 @@ import post2 from "@img/post2.png";
 import post3 from "@img/post3.png";
 import post4 from "@img/post4.png";
 
+import instagramIcon from "@img/instagramIcon.png";
 
 const SocialMediaPubli = () => {
 
@@ -44,10 +44,13 @@ const SocialMediaPubli = () => {
                 />
             </a>
 
-
         </section>
-
-        <MainButton />
+        
+        <a href="https://www.instagram.com/foodieland_te/">
+            <button className="socialMediaPubli__button"> Visit Our Instagram
+                <img src={instagramIcon} /> 
+            </button>
+        </a>
 
         </section>
     );

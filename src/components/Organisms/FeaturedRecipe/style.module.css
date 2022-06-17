@@ -1,0 +1,61 @@
+.mainContainer {
+  width: 100%;
+  max-height: 690px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainContainer .mainContainer__btnLeft {
+  position: absolute;
+  left: 0;
+  top: 45%;
+}
+
+.mainContainer .mainContainer__btnRight {
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+
+.mainContainer .mainContainer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 35px;
+  max-height: 670px;
+  width: 100%;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  list-style-type: none;
+}
+
+.mainContainer .mainContainer__item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 640px;
+  width: 90%;
+  scroll-snap-align: center;
+}
+
+.mainContainer .mainContainer__item:first-child {
+  margin-left: 70px;
+}
+
+.mainContainer .mainContainer__item:last-child {
+  margin-right: 70px;
+}
+/*# sourceMappingURL=style.module.css.map */

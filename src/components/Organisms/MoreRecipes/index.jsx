@@ -1,6 +1,7 @@
 import RecipeList from "@molecules/RecipeList";
 import MoreRecipesTxt from "@molecules/MoreRecipesTxt";
-import "./index.scss"
+
+import "./index.scss";
 
 const MoreRecipes = () => {
   return (
