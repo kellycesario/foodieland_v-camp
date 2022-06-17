@@ -11,7 +11,7 @@ const LearnMoreCard = () => {
                 sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqut enim ad minim</p>
             <img src={imgLearnMore} className={styles.learnMore__img} aria-label="Chef pointing to a plate and some ingredients are displayed on screen" />
-            <button></button>
+            <button className={styles.learnMore__button}>Learn More</button>
         </section>
     );
 }
