@@ -21,7 +21,7 @@ const SocialMediaPubli = () => {
         <ul className="socialMediaList">
 
             <li className="socialMediaItem">                     
-                <a href="https://www.instagram.com/p/CeycrxFLuCO/">
+                <a target="_blank" href="https://www.instagram.com/p/CeycrxFLuCO/">
                     <PubliCard
                     img={post1}
                     />
@@ -29,7 +29,7 @@ const SocialMediaPubli = () => {
             </li> 
 
             <li className="socialMediaItem">  
-                <a href="https://www.instagram.com/p/CeycXQirv-n/">
+                <a target="_blank" href="https://www.instagram.com/p/CeycXQirv-n/">
                     <PubliCard
                     img={post2}
                     />
@@ -37,7 +37,7 @@ const SocialMediaPubli = () => {
             </li>
 
             <li className="socialMediaItem"> 
-                <a href="https://www.instagram.com/p/CeycIpeLT9n/">
+                <a target="_blank" href="https://www.instagram.com/p/CeycIpeLT9n/">
                     <PubliCard
                     img={post3}
                     />
@@ -45,7 +45,7 @@ const SocialMediaPubli = () => {
             </li>
 
             <li className="socialMediaItem">
-                <a href="https://www.instagram.com/p/Ceyb0zMrZB9/">
+                <a target="_blank" href="https://www.instagram.com/p/Ceyb0zMrZB9/">
                     <PubliCard
                     img={post4}
                     />
@@ -54,7 +54,7 @@ const SocialMediaPubli = () => {
 
         </ul>
         
-        <a href="https://www.instagram.com/foodieland_te/">
+        <a target="_blank" href="https://www.instagram.com/foodieland_te/">
             <button className="socialMediaPubli__button"> Visit Our Instagram
                 <img src={instagramIcon} /> 
             </button>

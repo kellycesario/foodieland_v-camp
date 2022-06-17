@@ -1,0 +1,25 @@
+.categoriesSection {
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.categoriesSection__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoriesSection__title {
+    margin-left: 3rem;
+}
+
+// @media (min-width: 1024px) {
+//     .categoriesSection__header {
+//         justify-content: space-between;
+//     }
+// }
+
+// @media (min-width: 780px) {
+//     .categoriesSection__header {
+//         justify-content: space-between;
+//     }
+// }

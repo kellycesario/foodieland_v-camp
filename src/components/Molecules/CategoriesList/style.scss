@@ -1,0 +1,100 @@
+.slider {
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    align-items: flex-start;
+    margin-top: -50px;
+}
+
+.slider__categoriesList {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    overflow: hidden;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    align-items: center;
+}
+
+.slider__categoriesList::-webkit-scrollbar {
+    display: none;
+}
+
+.sliderLogic {
+    padding: 10%;
+    cursor: pointer;
+}
+
+.sliderLogic:hover {
+    font-size: larger;
+    transition: 0.5s;
+}
+
+.foodBackground {
+   width: 180%;
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%); 
+   border-radius: 16px;
+   &--green {background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)};
+   &--red {background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)};
+   &--yellow {background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)};
+   &--white {background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)}; 
+}
+
+.foodSymbol {
+    width: 80px;
+    height: 80px;
+    
+}
+
+.foodName {
+    padding-top: 20%;
+}
+
+.leftArrow {
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    position: absolute;
+    left: 2px;
+    z-index: 2;
+}
+
+.rightArrow {
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    z-index: 2;
+}
+
+@media (min-width: 1024px) {
+    .slider__categoriesList {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .sliderLogic {
+        display: inline-block;
+        width: 100%;
+        padding: 2%;
+    }
+
+    .leftArrow {
+        display: none;
+    }
+
+    .rightArrow {
+        display: none;
+    }
+}
+
+@media (min-width: 780px) {
+    .sliderLogic {
+        padding-right: 8%;
+    }
+}

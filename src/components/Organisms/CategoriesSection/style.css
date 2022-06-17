@@ -1,0 +1,18 @@
+.categoriesSection {
+  margin-top: 180px;
+  margin-bottom: 50px;
+}
+
+.categoriesSection__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.categoriesSection__title {
+  margin-left: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
