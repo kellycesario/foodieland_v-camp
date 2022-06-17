@@ -8,15 +8,18 @@
   height: 100%;
   background-color: #e7fafe;
   border-radius: 50px;
-  border: 1px rgba(0, 0, 0, 0.444) solid;
 }
 
 .featuredRecipeCard__leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   padding: 40px;
   width: 100%;
   height: 100%;
 }
 .featuredRecipeCard__categoriesStamp {
+
 }
 .featuredRecipeCard__title {
   font-weight: 600;
