@@ -67,6 +67,9 @@
     width: inherit;
     height: inherit;
   }
+  .featuredRecipeCard__rightContainer {
+    background-position: center;
+  }
 }
 
 @media (max-width: 942px) {
