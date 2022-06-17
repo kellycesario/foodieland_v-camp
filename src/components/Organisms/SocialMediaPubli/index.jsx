@@ -18,33 +18,41 @@ const SocialMediaPubli = () => {
             <p className="socialMediaPubli__text">Lorem ipsum dolor sit amet, consectetuipisicing elit, 
                 sed do eiusmod tempor incididunt ut labore et 
                 dolore magna aliqut enim ad minim </p>
-        <section className="socialMediaItems">
-                                   
-            <a href="https://www.instagram.com/p/CeycrxFLuCO/">
-                <PubliCard
-                img={post1}
-                />
-            </a>
+        <ul className="socialMediaList">
 
-            <a href="https://www.instagram.com/p/CeycXQirv-n/">
-                <PubliCard
-                img={post2}
-                />
-            </a>
+            <li className="socialMediaItem">                     
+                <a href="https://www.instagram.com/p/CeycrxFLuCO/">
+                    <PubliCard
+                    img={post1}
+                    />
+                </a>
+            </li> 
 
-            <a href="https://www.instagram.com/p/CeycIpeLT9n/">
-                <PubliCard
-                img={post3}
-                />
-            </a>
+            <li className="socialMediaItem">  
+                <a href="https://www.instagram.com/p/CeycXQirv-n/">
+                    <PubliCard
+                    img={post2}
+                    />
+                </a>
+            </li>
 
-            <a href="https://www.instagram.com/p/Ceyb0zMrZB9/">
-                <PubliCard
-                img={post4}
-                />
-            </a>
+            <li className="socialMediaItem"> 
+                <a href="https://www.instagram.com/p/CeycIpeLT9n/">
+                    <PubliCard
+                    img={post3}
+                    />
+                </a>
+            </li>
 
-        </section>
+            <li className="socialMediaItem">
+                <a href="https://www.instagram.com/p/Ceyb0zMrZB9/">
+                    <PubliCard
+                    img={post4}
+                    />
+                </a>
+            </li>
+
+        </ul>
         
         <a href="https://www.instagram.com/foodieland_te/">
             <button className="socialMediaPubli__button"> Visit Our Instagram

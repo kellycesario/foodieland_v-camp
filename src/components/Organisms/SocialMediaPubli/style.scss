@@ -32,7 +32,7 @@
     width: 100%;
 }
 
-.socialMediaItems {
+.socialMediaList {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -41,6 +41,12 @@
     margin-bottom: 80px;
     width: 100%;
     gap: 40px;
+}
+
+.socialMediaItem:hover {
+    transform: scale(1.05);
+    transition: 2s;
+
 }
 
 .socialMediaPubli__button {
@@ -81,7 +87,7 @@
         font-size: 16px;
     }
 
-    .socialMediaItems {
+    .socialMediaList {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -93,7 +99,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .socialMediaItems {
+    .socialMediaList {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
