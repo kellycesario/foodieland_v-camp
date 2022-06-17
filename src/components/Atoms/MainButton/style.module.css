@@ -8,6 +8,10 @@
   font-family: Inter, sans-serif;
   font-size: 1rem;
   cursor: pointer;
+  transition: transform 0.5s;
+}
+.btn:hover {
+  transform: scale(1.11);
 }
 .btn--large {
   width: 372px;

@@ -1,17 +1,20 @@
 .recipeTimeContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width: 139px;
-    height: 40px;
-    border-radius: 30px;
+  width: 139px;
+  height: 40px;
+  border-radius: 30px;
+  transition: transform 0.5s;
 
-    background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.05);
+  &:hover {
+    transform: scale(1.11);
+  }
 
-    &__img {
-    }
-    &__text {
-
-    }
+  &__img {
+  }
+  &__text {
+  }
 }

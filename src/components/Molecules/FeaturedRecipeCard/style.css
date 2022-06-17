@@ -19,6 +19,12 @@
   height: 100%;
 }
 .featuredRecipeCard__categoriesStamp {
+  transition: transform 0.5s;
+
+  
+}
+.featuredRecipeCard__categoriesStamp:hover {
+  transform: scale(1.05);
 }
 
 .featuredRecipeCard__cardInfo {
@@ -29,12 +35,20 @@
 .featuredRecipeCard__title {
   font-weight: 600;
   font-size: 64px;
+  transition: transform 0.5s;
+}
+.featuredRecipeCard__title:hover {
+  transform: scale(1.05);
 }
 
 .featuredRecipeCard__subTitle {
   color: rgba(0, 0, 0, 0.6);
   font-size: 16px;
   line-height: 28px;
+  transition: transform 0.5s;
+}
+.featuredRecipeCard__subTitle:hover {
+  transform: scale(1.05);
 }
 
 .featuredRecipeCard__recipeInfo {
@@ -51,6 +65,10 @@
   position: absolute;
   top: 50px;
   margin-left: 80px;
+  transition: transform 0.5s;
+}
+.featuredRecipeCard__badge:hover {
+  transform: scale(1.11);
 }
 .featuredRecipeCard__rightContainer {
   width: 50%;
