@@ -42,35 +42,5 @@ const CategoriesList = () => {
     )
 }
 
-            {/* <CategoriesCards
-                foodSymbol = {sushiRice}
-                foodBackground = {sushiRiceBackground}
-                title= "Breakfest"
-            />
-            <CategoriesCards
-                foodSymbol = {lettuce}
-                foodBackground = {lettuceBackground}
-                title= "Vegan"
-            />
-            <CategoriesCards
-                foodSymbol = {steakRaw}
-                foodBackground = {steakRawBackground}
-                title= "Meat"
-            />
-            <CategoriesCards
-                foodSymbol = {cakePiece}
-                foodBackground = {cakePieceBackground}
-                title= "Dessert"
-            />
-            <CategoriesCards
-                foodSymbol = {sanduich}
-                foodBackground = {sanduichBackground}
-                title= "Lunch"
-            />
-            <CategoriesCards
-                foodSymbol = {chocolateBar}
-                foodBackground = {chocolateBarBackground}
-                title= "Chocolate"
-            /> */}
    
 export default CategoriesList

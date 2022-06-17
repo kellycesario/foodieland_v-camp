@@ -1,8 +1,20 @@
+@media (max-width: 1092px) {
+  .moreRecipesTxt {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .moreRecipesTxt__title {
+    margin-bottom: 1.5rem;
+  }
+}
+
 .moreRecipesTxt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 85%;
+  width: clamp(290px, 85%, 100%);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -31,11 +43,11 @@
             flex-direction: column;
   }
   .moreRecipesTxt__title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 1.5rem;
   }
   .moreRecipesTxt__description {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
