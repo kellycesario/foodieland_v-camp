@@ -6,4 +6,8 @@
   height: 40px;
   border-radius: 30px;
   background-color: rgba(0, 0, 0, 0.05);
+  transition: transform 0.5s;
+}
+.recipeCategorieContainer:hover {
+  transform: scale(1.11);
 }/*# sourceMappingURL=style.module.css.map */

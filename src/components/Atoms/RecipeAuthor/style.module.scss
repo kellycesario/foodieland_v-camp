@@ -5,6 +5,12 @@
   width: 173px;
   height: 50px;
   gap: 16px;
+
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: scale(1.11);
+  }
   
   &__info {
     height: 100%;

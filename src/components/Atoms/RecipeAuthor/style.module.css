@@ -5,6 +5,10 @@
   width: 173px;
   height: 50px;
   gap: 16px;
+  transition: transform 0.5s;
+}
+.recipeAuthorContainer:hover {
+  transform: scale(1.11);
 }
 .recipeAuthorContainer__info {
   height: 100%;
