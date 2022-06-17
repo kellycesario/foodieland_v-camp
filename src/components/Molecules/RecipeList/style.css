@@ -1,15 +1,8 @@
 .moreRecipesImgList {
   max-width: 87%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -ms-grid;
+  align-items: center;
+  justify-content: center;
   display: grid;
-  -ms-grid-columns: (minmax(290px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   grid-column-gap: 2.5rem;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
