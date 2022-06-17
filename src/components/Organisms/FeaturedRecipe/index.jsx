@@ -10,13 +10,12 @@ export default function FeaturedRecipe() {
     <>
       <div className={styles.mainContainer}>
         <div className={styles.mainContainer__btnContainer}>
-          <p className={styles.btn}>teste</p>
-          {/* <MainButton
+          <MainButton
             Size={"tiny"}
             Color={"light"}
             Type={"rounded"}
             Content={"<"}
-          /> */}
+          />
         </div>
         <ul className={styles.mainContainer__list}>
           <li className={styles.mainContainer__item}>
