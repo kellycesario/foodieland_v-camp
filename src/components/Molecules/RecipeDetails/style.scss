@@ -1,0 +1,35 @@
+.recipeDetails {
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 77px;
+        letter-spacing: -0.04em;
+    }
+
+    &__infoItems {
+        display: flex;
+    }
+
+    &__share {
+
+    }
+
+    &__videoArea {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    &__video {
+        width: 840px;
+        height: 600px;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+}
+
+.nutriInformation {
+    grid-area: 1 / 2 / 2 / 3;
+}
