@@ -10,6 +10,8 @@ import BlogPage from "@pages/BlogPage";
 import MessageErrorFood from "@temp/MessageErrorFood";
 import Home from "@pages/Home";
 
+import Recipes from "@pages/Recipes";
+
 import "../public/styles/Global.css";
 
 function App() {
@@ -37,8 +39,9 @@ function App() {
       </Route>
 
       <Route path="/recipes">
-        <MessageErrorFood />
+        <Recipes />
       </Route>
+
       <Route path="/aboutUs">
         <MessageErrorFood />
       </Route>
