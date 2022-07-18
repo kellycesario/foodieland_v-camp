@@ -13,7 +13,6 @@
       * [Pré-Requisitos](#pre-requisitos)
    * [Tecnologias utilizadas](#tecnologias-utilizadas)
    * [Autoria](#autoria)
-
 <!--te-->
 
 ##### Status do Projeto
