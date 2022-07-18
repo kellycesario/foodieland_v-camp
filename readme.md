@@ -1,4 +1,0 @@
-### Dependencies
-
-- React
-- React Router
