@@ -1,0 +1,116 @@
+@mixin topLine {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+@mixin bottomLine {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.recipeInformation {
+    &__printAndShare {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-end;
+        padding-bottom: 18px;
+        height: 125px;
+    }
+
+    &__printerPicture, &__sharePicture {
+        padding: 0 10px 10px 0;
+    }
+
+    &__printer, &__share {
+        @include topLine;
+    }
+
+    &__container {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(11, auto);
+        grid-template-rows: repeat(2, 1fr);
+        width: 700px;
+        padding-bottom: 28px;
+    }
+
+    &__authorIcon { 
+        grid-area: 1 / 1 / 3 / 2; 
+    }
+
+    &__nameAuthor { 
+        grid-area: 1 / 2 / 2 / 3;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+    }
+
+    &__date { 
+        grid-area: 2 / 2 / 3 / 3;
+        @include bottomLine;
+    }
+
+    &__authorLine { 
+        grid-area: 1 / 3 / 3 / 4; 
+    }
+    
+    &__timerPrepPicture { 
+        grid-area: 1 / 4 / 3 / 5; 
+    }
+
+    &__prepTime { 
+        grid-area: 1 / 5 / 2 / 6;
+        @include topLine;
+    }
+
+    &__prepDuration { 
+        grid-area: 2 / 5 / 3 / 6;
+        @include bottomLine; 
+    }
+
+    &__prepLine { 
+        grid-area: 1 / 6 / 3 / 7; 
+    }
+    
+    &__timerCookPicture { 
+        grid-area: 1 / 7 / 3 / 8; 
+    }
+
+    &__cookTime { 
+        grid-area: 1 / 8 / 2 / 9; 
+        @include topLine;
+    }
+
+    &__cookDuration { 
+        grid-area: 2 / 8 / 3 / 9;
+        @include bottomLine; 
+    }
+
+    &__cookLine { 
+        grid-area: 1 / 9 / 3 / 10; 
+    }
+    
+    &__utensilsPicture { 
+        grid-area: 1 / 10 / 3 / 11; 
+    }
+
+    &__meatType { 
+        grid-area: 1 / 11 / 3 / 12; 
+        @include bottomLine;
+    }
+
+}
