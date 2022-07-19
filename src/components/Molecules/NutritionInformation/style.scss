@@ -1,10 +1,13 @@
-@mixin basicTextFormat() {
-    font-weight: 500;
+@mixin basicFormat() {
+    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
+    padding: 16px 0;
 }
 
 .nutriInformation {
+    display: flex;
+    flex-direction: column;
     width: 400px;
     height: 600px;
     background: #E7FAFE;
@@ -17,6 +20,7 @@
         font-size: 24px;
         line-height: 29px;
         letter-spacing: -0.04em;
+        margin-bottom: 24px;
     }
     
     &__text {
@@ -27,21 +31,26 @@
         color: rgba(0, 0, 0, 0.6);
         margin-top: 167px;
     }
-}
-
-.nutriInformation__contents {
 
     &__item {
-        @include basicTextFormat;
+        @include basicFormat;
         letter-spacing: -0.04em;
         color: rgba(0, 0, 0, 0.6);
     }
-
+    
     &__info {
-        @include basicTextFormat;
+        @include basicFormat;
         text-align: right;
         letter-spacing: -0.04em;
         color: #000000;   
     }
-    
+}
+
+.nutriInformation__contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    list-style: none;
 }
