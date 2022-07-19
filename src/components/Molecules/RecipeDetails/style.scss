@@ -1,24 +1,26 @@
 .recipeDetails {
-    padding: 80px;
+    padding: 30px;
 
     &__title {
         font-style: normal;
         font-weight: 600;
-        font-size: 64px;
-        line-height: 77px;
+        font-size: 24px;
+        line-height: 37px;
         letter-spacing: -0.04em;
         padding-bottom: 18px;
+        text-align: center;
     }
 
     &__visualArea {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 40px;
     }
 
     &__video {
-        width: 840px;
-        height: 600px;
+        width: 100%
     }
 
     &__endingText {
@@ -28,6 +30,61 @@
         line-height: 28px;
         text-align: justify;
         color: rgba(0, 0, 0, 0.6);
-        margin-top: 80px;
+        margin-top: 30px;
     }
+}
+
+@media screen and (min-width: 768px) {
+    .recipeDetails {  
+        &__title {
+            font-size: 34px;
+            line-height: 47px;
+        }
+
+        &__video {
+            width: 90%
+        }    
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .recipeDetails {
+            
+        &__title {
+            font-size: 44px;
+            line-height: 57px;
+        } 
+
+        &__visualArea {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+    
+        &__video {
+            width: 50%
+        }
+    } 
+}
+
+@media screen and (min-width: 1280px) {
+    .recipeDetails {
+            
+        &__title {
+            font-size: 64px;
+            line-height: 77px;
+        }
+
+        &__visualArea {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        } 
+
+        &__video {
+            width: 840px;
+        }
+    }  
 }
