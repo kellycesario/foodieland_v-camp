@@ -1,35 +1,33 @@
 .recipeDetails {
+    padding: 80px;
+
     &__title {
         font-style: normal;
         font-weight: 600;
         font-size: 64px;
         line-height: 77px;
         letter-spacing: -0.04em;
+        padding-bottom: 18px;
     }
 
-    &__infoItems {
+    &__visualArea {
         display: flex;
-    }
-
-    &__share {
-
-    }
-
-    &__videoArea {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        justify-content: center;
+        gap: 40px;
     }
 
     &__video {
         width: 840px;
         height: 600px;
-        grid-area: 1 / 1 / 2 / 2;
     }
-}
 
-.nutriInformation {
-    grid-area: 1 / 2 / 2 / 3;
+    &__endingText {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: justify;
+        color: rgba(0, 0, 0, 0.6);
+        margin-top: 80px;
+    }
 }
