@@ -1,0 +1,77 @@
+.recipeDirections {
+    padding: 30px;
+    max-width: 840px;
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.04em;
+        margin-bottom: 30px;
+    }
+
+    &__fieldset {
+        border: none;
+    }
+
+    &__label {
+        display: flex;
+        align-items: center;
+    }
+
+    &__checkbox {
+        width: 1.5em;
+        height: 1.5em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 2px solid #DBE2E5;
+        appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+        cursor: pointer;
+        &:checked {
+            background-color: #000000;
+        }
+
+        &:checked + span {
+            line-height: 28px;
+            text-decoration-line: line-through;
+            color: rgba(0, 0, 0, 0.6);
+            opacity: 0.2;
+        }
+
+    }
+
+    &__stepTitle {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29px;
+        letter-spacing: -0.02em;
+        padding-left: 20px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.6);
+        padding: 24px 0 48px 0;
+        text-align: justify;
+    }
+
+    &__image {
+        width: 100%;
+        max-width: 792px;
+        border-radius: 20px;
+        padding-bottom: 24px;
+    }
+
+    &__breakLine {
+        width: 100%;
+        padding-bottom: 48px;
+    }   
+}
