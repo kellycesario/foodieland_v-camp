@@ -1,6 +1,7 @@
 import NutriInformation from '@molecules/nutritioninformation'
 import RecipeDirections from '@molecules/RecipeDirections'
 import RecipeInformation from '@molecules/recipeinformation'
+import RecipeIngredients from '@molecules/RecipeIngredients'
 
 import RecipeVideo from '@img/recipeDetails-video.png'
 
@@ -31,6 +32,8 @@ const RecipeDetails = () => {
                 sunt in culpa qui officia deserunt mollit anim 
                 id est laborum.
             </p>
+
+            <RecipeIngredients />
 
             <RecipeDirections />
 
