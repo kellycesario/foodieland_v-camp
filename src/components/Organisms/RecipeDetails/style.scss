@@ -1,3 +1,7 @@
+.recipeList {
+    display: none;
+}
+
 .recipeDetails {
     padding: 30px;
 
@@ -48,6 +52,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .recipeList {
+        display: flex;
+    }    
+
     .recipeDetails {
             
         &__title {
@@ -65,6 +73,13 @@
     
         &__video {
             width: 50%
+        }
+
+        &__wrapperSection {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 30px;
         }
     } 
 }

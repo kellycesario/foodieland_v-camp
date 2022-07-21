@@ -6,7 +6,6 @@
     letter-spacing: -0.04em;
 }
 .recipeIngredients {
-    padding: 30px;
     max-width: 840px;
 
     &__title {
@@ -15,7 +14,7 @@
         font-size: 36px;
         line-height: 44px;
         letter-spacing: -0.04em;  
-        padding: 40px 0 48px;
+        padding-bottom: 48px;
     }
 
     &__mainDish, &__sauce {

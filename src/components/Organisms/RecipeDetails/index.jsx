@@ -3,6 +3,8 @@ import RecipeDirections from '@molecules/RecipeDirections'
 import RecipeInformation from '@molecules/recipeinformation'
 import RecipeIngredients from '@molecules/RecipeIngredients'
 
+import RecipeList from "@temp/RecipeList";
+
 import RecipeVideo from '@img/recipeDetails-video.png'
 
 import './style.scss'
@@ -33,7 +35,10 @@ const RecipeDetails = () => {
                 id est laborum.
             </p>
 
-            <RecipeIngredients />
+            <div className="recipeDetails__wrapperSection">
+                <RecipeIngredients />
+                <RecipeList />
+            </div>
 
             <RecipeDirections />
 
