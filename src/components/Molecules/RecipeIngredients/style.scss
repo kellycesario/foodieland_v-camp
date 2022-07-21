@@ -1,0 +1,71 @@
+@mixin platesTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+}
+.recipeIngredients {
+    padding: 30px;
+    max-width: 840px;
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.04em;  
+        padding: 40px 0 48px;
+    }
+
+    &__mainDish, &__sauce {
+        @include platesTitle;
+        padding-bottom: 32px;
+    }
+
+    &__fieldset {
+        border: none;
+    }
+
+    &__label {
+        display: flex;
+    }
+
+    &__checkbox {
+        width: 1.5em;
+        height: 1.5em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 2px solid #DBE2E5;
+        appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+        cursor: pointer;
+        &:checked {
+            background-color: #000000;
+        }
+
+        &:checked + span {
+            line-height: 28px;
+            text-decoration-line: line-through;
+            color: rgba(0, 0, 0, 0.6);
+            opacity: 0.2;
+        }
+    }
+
+    &__item {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;       
+        letter-spacing: -0.02em;
+        padding-left: 10px;
+        padding-bottom: 27px;
+    }
+
+    &__breakLine {
+        width: 100%;
+        padding-bottom: 48px;
+    }
+}
